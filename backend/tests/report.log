@@ -1,0 +1,127 @@
+F v2ex_api_test.py::TestV2exApi::test_node_1
+ self = <flasky.tests.v2ex_api_test.TestV2exApi object at 0x7fbacd8e58d0>
+ 
+     def test_node_1(self):
+         path = 'api/nodes/show.json?name=python'
+         url = self.domain + path
+         res = requests.get(url)
+         assert res.status_code == 200
+         ret = res.json()
+         assert ret['id'] == 90
+         assert ret['name'] == 'python'
+ >       assert 0
+ E       assert 0
+ 
+ v2ex_api_test.py:19: AssertionError
+F v2ex_api_test.py::TestV2exApi::test_node_2[python]
+ self = <flasky.tests.v2ex_api_test.TestV2exApi object at 0x7fbacd89e438>, lang = 'python'
+ 
+     def test_node_2(self, lang):
+         path = f'api/nodes/show.json?name={lang}'
+         url = self.domain + path
+         res = requests.get(url)
+         assert res.status_code == 200
+         ret = res.json()
+         assert ret['name'] == lang
+ >       assert 0
+ E       assert 0
+ 
+ v2ex_api_test.py:29: AssertionError
+F v2ex_api_test.py::TestV2exApi::test_node_2[java]
+ self = <flasky.tests.v2ex_api_test.TestV2exApi object at 0x7fbacd8c7550>, lang = 'java'
+ 
+     def test_node_2(self, lang):
+         path = f'api/nodes/show.json?name={lang}'
+         url = self.domain + path
+         res = requests.get(url)
+         assert res.status_code == 200
+         ret = res.json()
+         assert ret['name'] == lang
+ >       assert 0
+ E       assert 0
+ 
+ v2ex_api_test.py:29: AssertionError
+F v2ex_api_test.py::TestV2exApi::test_node_2[go]
+ self = <flasky.tests.v2ex_api_test.TestV2exApi object at 0x7fbacd8c73c8>, lang = 'go'
+ 
+     def test_node_2(self, lang):
+         path = f'api/nodes/show.json?name={lang}'
+         url = self.domain + path
+         res = requests.get(url)
+         assert res.status_code == 200
+         ret = res.json()
+         assert ret['name'] == lang
+ >       assert 0
+ E       assert 0
+ 
+ v2ex_api_test.py:29: AssertionError
+F v2ex_api_test.py::TestV2exApi::test_node_2[nodejs]
+ self = <flasky.tests.v2ex_api_test.TestV2exApi object at 0x7fbacd8e5c88>, lang = 'nodejs'
+ 
+     def test_node_2(self, lang):
+         path = f'api/nodes/show.json?name={lang}'
+         url = self.domain + path
+         res = requests.get(url)
+         assert res.status_code == 200
+         ret = res.json()
+         assert ret['name'] == lang
+ >       assert 0
+ E       assert 0
+ 
+ v2ex_api_test.py:29: AssertionError
+F v2ex_api_test.py::TestV2exApi::test_node_3[python-90]
+ self = <flasky.tests.v2ex_api_test.TestV2exApi object at 0x7fbacd45e780>, name = 'python', node_id = 90
+ 
+     @pytest.mark.parametrize('name,node_id', [('python', 90), ('java', 63), ('go', 375), ('nodejs', 436)])
+     def test_node_3(self, name, node_id):
+         path = 'api/nodes/show.json?name=%s' % (name)
+         url = self.domain + path
+         res = requests.get(url).json()
+         assert res['name'] == name
+         assert res['id'] == node_id
+ >       assert 0
+ E       assert 0
+ 
+ v2ex_api_test.py:38: AssertionError
+F v2ex_api_test.py::TestV2exApi::test_node_3[java-63]
+ self = <flasky.tests.v2ex_api_test.TestV2exApi object at 0x7fbacd89e780>, name = 'java', node_id = 63
+ 
+     @pytest.mark.parametrize('name,node_id', [('python', 90), ('java', 63), ('go', 375), ('nodejs', 436)])
+     def test_node_3(self, name, node_id):
+         path = 'api/nodes/show.json?name=%s' % (name)
+         url = self.domain + path
+         res = requests.get(url).json()
+         assert res['name'] == name
+         assert res['id'] == node_id
+ >       assert 0
+ E       assert 0
+ 
+ v2ex_api_test.py:38: AssertionError
+F v2ex_api_test.py::TestV2exApi::test_node_3[go-375]
+ self = <flasky.tests.v2ex_api_test.TestV2exApi object at 0x7fbacd45a860>, name = 'go', node_id = 375
+ 
+     @pytest.mark.parametrize('name,node_id', [('python', 90), ('java', 63), ('go', 375), ('nodejs', 436)])
+     def test_node_3(self, name, node_id):
+         path = 'api/nodes/show.json?name=%s' % (name)
+         url = self.domain + path
+         res = requests.get(url).json()
+         assert res['name'] == name
+         assert res['id'] == node_id
+ >       assert 0
+ E       assert 0
+ 
+ v2ex_api_test.py:38: AssertionError
+F v2ex_api_test.py::TestV2exApi::test_node_3[nodejs-436]
+ self = <flasky.tests.v2ex_api_test.TestV2exApi object at 0x7fbacd45a128>, name = 'nodejs', node_id = 436
+ 
+     @pytest.mark.parametrize('name,node_id', [('python', 90), ('java', 63), ('go', 375), ('nodejs', 436)])
+     def test_node_3(self, name, node_id):
+         path = 'api/nodes/show.json?name=%s' % (name)
+         url = self.domain + path
+         res = requests.get(url).json()
+         assert res['name'] == name
+         assert res['id'] == node_id
+ >       assert 0
+ E       assert 0
+ 
+ v2ex_api_test.py:38: AssertionError

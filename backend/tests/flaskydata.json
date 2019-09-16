@@ -1,0 +1,16 @@
+{"test_login":
+[
+  {"username":"jack","password":"Iloverose","remember_me": true},
+  {"name":"rose","password":"Ilovejack"},
+  {"name":"tom","password":"password123"},
+  {"name":"mike","password":"password"},
+  {"name":"james","password":"AGoodPasswordWordShouldBeLongEnough"}
+],
+"test_register":
+[
+  {"name":"jack","password":"Iloverose"},
+  {"name":"rose","password":"Ilovejack"},
+  {"name":"tom","password":"password123"},
+  {"name":"mike","password":"password"},
+  {"name":"james","password":"AGoodPasswordWordShouldBeLongEnough"}
+]}

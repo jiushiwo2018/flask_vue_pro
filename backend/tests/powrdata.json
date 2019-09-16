@@ -1,0 +1,685 @@
+  {"manifest_revision":
+[
+  {"rev": "feature/powrtest", "locator": "?locator=ingredient:EC", "ret_code": 0},
+  {"rev": "feature/powrtest", "locator": "", "ret_code": 0},
+  {"rev": "feature/powrtes", "locator": "?locator=ingredient:EC", "ret_code": 1},
+  {"rev": "feature/powrtest", "locator": "?locator", "ret_code": 8},
+  {"rev": "feature/powrtest", "locator": "?locator=ingredient", "ret_code": 8},
+  {"rev": "feature/powrtest", "locator": "?locator=ingredient::EC", "ret_code": 8},
+  {"rev": "feature/powrtest", "locator": "?locator=ingredient:Et", "ret_code": 2},
+  {"rev": "feature/powrtest", "locator": "?locator=ingredient:EC", "ret_code": 0}
+],
+  "get_project":
+[
+  {"rev": "feature/powrtest", "ingredient": "ADSP", "platform":"?platform=AML-WCOS", "ret_code": 0},
+  {"rev": "feature/powrtest", "ingredient": "ADSP", "platform":"", "ret_code": 0},
+  {"rev": "feature/powrtest", "ingredient": "ADSP", "platform":"?platform=AML-Y42-CONS", "ret_code": 0},
+  {"rev": "feature/powrte", "ingredient": "ADSP", "platform":"?platform=AML-WCOS", "ret_code": 1},
+  {"rev": "feature/powrtest", "ingredient": "AD", "platform":"?platform=AML-WCOS", "ret_code": 2},
+  {"rev": "feature/powrtest", "ingredient": "ADSP", "platform":"?platform", "ret_code": 8},
+  {"rev": "feature/powrtest", "ingredient": "ADSP", "platform":"?platform=AML", "ret_code": 4},
+  {"rev": "feature/powrtest", "ingredient": "Audio", "platform":"?platform=AML-WCOS", "ret_code": 3}
+],
+  "get_ingredient_supported_platforms":
+[
+  {"rev": "feature/powrtest", "ingredient": "ADSP", "ret_code": 0},
+  {"rev": "feature/powrte", "ingredient": "ADSP", "ret_code": 1},
+  {"rev": "feature/powrtest", "ingredient": "ADS", "ret_code": 2},
+  {"rev": "feature/powrte", "ingredient": "ADS", "ret_code": 1}
+],
+  "get_platforms":
+[
+  {"rev": "feature/powrtest", "ret_code": 0},
+  {"rev": "feature/powrtes", "ret_code": 1}
+],
+  "get_platform":
+[
+  {"rev": "feature/powrtest","platform":"APL-IOTG-RS1-CORE-x64", "ret_code": 0},
+  {"rev": "feature/powrte","platform":"APL-IOTG-RS1-CORE-x64", "ret_code": 1},
+  {"rev": "feature/powrtest","platform":"APL-IOTG-RS1-CORE-", "ret_code": 4},
+  {"rev": "feature/powrtes","platform":"APL-IOTG-RS1-CORE-", "ret_code": 1}
+],
+  "patch_ingredients":
+[
+  {
+    "ret_code": 0,
+    "rev": "feature/powrtest",
+    "headers":{"Content-Type":"application/json"},
+    "request_body":{
+      "ingredients": [
+        {
+          "name": "avscommon",
+          "platforms": [
+            "BXTM-RSP-Win10-DT",
+            "BXTM-P-RSP-Win10-DT"
+            ],
+          "version": "09.22.00.445-RLTK-7829_cert-APL-v2"
+        },
+        {
+          "name": "Battery",
+          "platforms": [
+            "BXTM-RSP-Win10-DT",
+            "CHT-T3-RS3-Cons"
+          ],
+          "version": "604.10154.2855.51507"
+        }
+      ],
+      "sliced": true
+    }
+  },
+  {
+    "ret_code": 0,
+    "rev": "feature/powrtest",
+    "headers":{"Content-Type":"application/json"},
+    "request_body":{
+      "ingredients": [
+        {
+          "name": "avscommon",
+          "platforms": [
+            "BXTM-RSP-Win10-DT",
+            "BXTM-P-RSP-Win10-DT"
+            ],
+          "version": "09.22.00.445-RLTK-7829_cert-APL-v2"
+        },
+        {
+          "name": "Battery",
+          "platforms": [
+            "BXTM-RSP-Win10-DT",
+            "CHT-T3-RS3-Cons"
+          ],
+          "version": "604.10154.2855.51507"
+        }
+      ],
+      "sliced": false
+    }
+  },
+  {
+    "ret_code": 0,
+    "rev": "feature/powrtest",
+    "headers":{"Content-Type":"application/json"},
+    "request_body":{
+      "ingredients": [
+        {
+          "name": "avscommon",
+          "platforms": [
+            "BXTM-RSP-Win10-DT",
+            "BXTM-P-RSP-Win10-DT"
+            ],
+          "version": "09.22.00.445-RLTK-7829_cert-APL-v2"
+        },
+        {
+          "name": "Battery",
+          "platforms": [
+            "BXTM-RSP-Win10-DT",
+            "CHT-T3-RS3-Cons"
+          ],
+          "version": "604.10154.2855.51507"
+        }
+      ]
+    }
+  },
+  {
+    "ret_code": 1,
+    "rev": "feature/powrte",
+    "headers":{"Content-Type":"application/json"},
+    "request_body":{
+      "ingredients": [
+        {
+          "name": "avscommon",
+          "platforms": [
+            "BXTM-RSP-Win10-DT",
+            "BXTM-P-RSP-Win10-DT"
+            ],
+          "version": "09.22.00.445-RLTK-7829_cert-APL-v2"
+        },
+        {
+          "name": "Battery",
+          "platforms": [
+            "BXTM-RSP-Win10-DT",
+            "CHT-T3-RS3-Cons"
+          ],
+          "version": "604.10154.2855.51507"
+        }
+      ],
+      "sliced": true
+    }
+  },
+  {
+    "ret_code": 8,
+    "rev": "feature/powrtest",
+    "headers":{"Content-Type":"application/json"},
+    "request_body":{
+      "ingredient": [
+        {
+          "name": "avscommon",
+          "platforms": [
+            "BXTM-RSP-Win10-DT",
+            "BXTM-P-RSP-Win10-DT"
+            ],
+          "version": "09.22.00.445-RLTK-7829_cert-APL-v2"
+        },
+        {
+          "name": "Battery",
+          "platforms": [
+            "BXTM-RSP-Win10-DT",
+            "CHT-T3-RS3-Cons"
+          ],
+          "version": "604.10154.2855.51507"
+        }
+      ],
+      "sliced": true
+    }
+  },
+  {
+    "ret_code": 8,
+    "rev": "feature/powrtest",
+    "headers":{"Content-Type":"application/json"},
+    "request_body":{
+      "ingredients": [
+        {
+          "name": "avscommon",
+          "platforms": [
+            "BXTM-RSP-Win10-DT",
+            "BXTM-P-RSP-Win10-DT"
+            ],
+          "version": "09.22.00.445-RLTK-7829_cert-APL-v2"
+        },
+        {
+          "nam": "Battery",
+          "platforms": [
+            "BXTM-RSP-Win10-DT",
+            "CHT-T3-RS3-Cons"
+          ],
+          "version": "604.10154.2855.51507"
+        }
+      ],
+      "sliced": true
+    }
+  },
+  {
+    "ret_code": 8,
+    "rev": "feature/powrtest",
+    "headers":{"Content-Type":"application/json"},
+    "request_body":{
+      "ingredients": [
+        {
+          "name": "avscommon",
+          "platforms": [
+            "BXTM-RSP-Win10-DT",
+            "BXTM-P-RSP-Win10-DT"
+            ],
+          "version": "09.22.00.445-RLTK-7829_cert-APL-v2"
+        },
+        {
+          "name": "Battery",
+          "platforms": [
+            "BXTM-RSP-Win10-DT",
+            "CHT-T3-RS3-Cons"
+          ],
+          "versi": "604.10154.2855.51507"
+        }
+      ],
+      "sliced": true
+    }
+  },
+  {
+    "ret_code": 0,
+    "rev": "feature/powrtest",
+    "headers":{"Content-Type":"application/json"},
+    "request_body":{
+      "ingredients": [
+        {
+          "name": "avscommon",
+          "platforms": [
+            "BXTM-RSP-Win10-DT",
+            "BXTM-P-RSP-Win10-DT"
+            ],
+          "version": "09.22.00.445-RLTK-7829_cert-APL-v2"
+        },
+        {
+          "name": "Battery",
+          "platforms": [
+          ],
+          "version": "604.10154.2855.51507"
+        }
+      ],
+      "sliced": true
+    }
+  },
+  {
+    "ret_code": 4,
+    "rev": "feature/powrtest",
+    "headers":{"Content-Type":"application/json"},
+    "request_body":{
+      "ingredients": [
+        {
+          "name": "avscommon",
+          "platforms": [
+            "BXTM-RSP-Win10-DT",
+            "BXTM-P-RSP-Win10-DT"
+            ],
+          "version": "09.22.00.445-RLTK-7829_cert-APL-v2"
+        },
+        {
+          "name": "Battery",
+          "platforms": [
+            "BXTM-RSP-Win1",
+            "CHT-T3-RS3-Cons"
+          ],
+          "version": "604.10154.2855.51507"
+        }
+      ],
+      "sliced": true
+    }
+  },
+  {
+    "ret_code": 3,
+    "rev": "feature/powrtest",
+    "headers":{"Content-Type":"application/json"},
+    "request_body":{
+      "ingredients": [
+        {
+          "name": "avscommon",
+          "platforms": [
+            "BXTM-RSP-Win10-DT",
+            "BXTM-P-RSP-Win10-DT"
+            ],
+          "version": "09.22.00.445-RLTK-7829_cert-APL-v2"
+        },
+        {
+          "name": "Battery",
+          "platforms": [
+            "BXTM-RSP-Win10-DT",
+            "AML-WCOS"
+          ],
+          "version": "604.10154.2855.51507"
+        }
+      ],
+      "sliced": true
+    }
+  },
+  {
+    "ret_code": 5,
+    "rev": "feature/powrtest",
+    "headers":{"Content-Type":"application/json"},
+    "request_body":{
+      "ingredients": [
+        {
+          "name": "avscommon",
+          "platforms": [
+            "BXTM-RSP-Win10-DT",
+            "BXTM-P-RSP-Win10-DT"
+            ],
+          "version": "09.22.00.445-RLTK-7829_cert-APL-v2"
+        },
+        {
+          "name": "ADSP",
+          "platforms": [
+            "AML-WCOS"
+          ],
+          "version": "604.10154.2855.51507"
+        }
+      ],
+      "sliced": true
+    }
+  },
+  {
+    "ret_code": 6,
+    "rev": "feature/powrtest",
+    "headers":{"Content-Type":"application/json"},
+    "request_body":{
+      "ingredients": [
+        {
+          "name": "Battery",
+          "platforms": [
+            "BXTM-RSP-Win10-DT",
+            "BXTM-P-RSP-Win10-DT"
+            ],
+          "version": "aaaaaaaaaaaaaaaaaaaaaaaaaa"
+        }
+      ],
+      "sliced": true
+    }
+  }
+],
+
+  "patch_ingredient_supported_platforms":
+[
+  {
+    "ret_code": 0,
+    "rev": "feature/powrtest",
+    "ingredient": "CSE",
+    "platform": "APL-IOTG-RS1-CORE-x64",
+    "headers": {"Content-Type": "application/json"},
+    "request_body": {
+      "version": "4.0.0.1143"
+    }
+  },
+    {
+    "ret_code": 1,
+    "rev": "feature/powrte",
+    "ingredient": "CSE",
+    "platform": "APL-IOTG-RS1-CORE-x64",
+    "headers": {"Content-Type": "application/json"},
+    "request_body": {
+      "version": "4.0.0.1143"
+    }
+  },
+    {
+    "ret_code": 2,
+    "rev": "feature/powrtest",
+    "ingredient": "CSEaaaaaaaaaaa",
+    "platform": "APL-IOTG-RS1-CORE-x64",
+    "headers": {"Content-Type": "application/json"},
+    "request_body": {
+      "version": "4.0.0.1143"
+    }
+  },
+    {
+    "ret_code": 4,
+    "rev": "feature/powrtest",
+    "ingredient": "CSE",
+    "platform": "APL-IOTG-RS1-CORE-x64aaaaaaaaaaaaaaaa",
+    "headers": {"Content-Type": "application/json"},
+    "request_body": {
+      "version": "4.0.0.1143"
+    }
+  },
+  {
+    "ret_code": 8,
+    "rev": "feature/powrtest",
+    "ingredient": "CSE",
+    "platform": "APL-IOTG-RS1-CORE-x64",
+    "headers": {"Content-Type": "application/json"},
+    "request_body": {
+      "versionaaaaaa": "4.0.0.1143"
+    }
+  },
+  {
+    "ret_code": 3,
+    "rev": "feature/powrtest",
+    "ingredient": "Audio",
+    "platform": "APL-IOTG-RS1-CORE-x64",
+    "headers": {"Content-Type": "application/json"},
+    "request_body": {
+      "version": "4.0.0.1143"
+    }
+  },
+  {
+    "ret_code": 6,
+    "rev": "feature/powrtest",
+    "ingredient": "CSE",
+    "platform": "APL-IOTG-RS1-CORE-x64",
+    "headers": {"Content-Type": "application/json"},
+    "request_body": {
+      "version": "aaaaaaaaaaaa"
+    }
+  },
+  {
+    "ret_code": 7,
+    "rev": "feature/powrtest",
+    "ingredient": "CSE",
+    "platform": "APL-IOTG-RS1-CORE-x64",
+    "headers": {"Content-Type": "application/json"},
+    "request_body": {
+      "version": "3.0.0.1115_x64"
+    }
+  }
+],
+  "patch_platform_images":
+[
+  {
+    "ret_code": 0,
+    "rev": "feature/powrtest",
+    "platform": "APL-IOTG-RS1-CORE-x64",
+    "headers": {"Content-Type": "application/json"},
+    "request_body": {
+      "images": [
+        {
+          "FFURS1": {
+            "BaseOS": "111",
+            "ImageTag": "222",
+            "ImageType": "333"
+          },
+          "FFUR1": {
+            "BaseOS": "111",
+            "ImageTag": "222",
+            "ImageType": "333"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "ret_code": 1,
+    "rev": "feature/powrte",
+    "platform": "APL-IOTG-RS1-CORE-x64",
+    "headers": {"Content-Type": "application/json"},
+    "request_body": {
+      "images": [
+        {
+          "FFURS1": {
+            "BaseOS": "111",
+            "ImageTag": "222",
+            "ImageType": "333"
+          },
+          "FFUR1": {
+            "BaseOS": "111",
+            "ImageTag": "222",
+            "ImageType": "333"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "ret_code": 4,
+    "rev": "feature/powrtest",
+    "platform": "APL-IOTG-RS1-CORE-x64aaaaaaaaaaaaaaaaaaaaaa",
+    "headers": {"Content-Type": "application/json"},
+    "request_body": {
+      "images": [
+        {
+          "FFURS1": {
+            "BaseOS": "111",
+            "ImageTag": "222",
+            "ImageType": "333"
+          },
+          "FFUR1": {
+            "BaseOS": "111",
+            "ImageTag": "222",
+            "ImageType": "333"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "ret_code": 8,
+    "rev": "feature/powrtest",
+    "platform": "APL-IOTG-RS1-CORE-x64",
+    "headers": {"Content-Type": "application/json"},
+    "request_body": {
+      "imagesaaaaaaaaaaaaaa": [
+        {
+          "FFURS1": {
+            "BaseOS": "111",
+            "ImageTag": "222",
+            "ImageType": "333"
+          },
+          "FFUR1": {
+            "BaseOS": "111",
+            "ImageTag": "222",
+            "ImageType": "333"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "ret_code": 8,
+    "rev": "feature/powrtest",
+    "platform": "APL-IOTG-RS1-CORE-x64",
+    "headers": {"Content-Type": "application/json"},
+    "request_body": {
+      "images": [
+        {
+          "FFURS1aaaaaaaaaaaaa": {
+            "BaseOS": "111",
+            "ImageTag": "222",
+            "ImageType": "333"
+          },
+          "FFUR1": {
+            "BaseOS": "111",
+            "ImageTag": "222",
+            "ImageType": "333"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "ret_code": 8,
+    "rev": "feature/powrtest",
+    "platform": "APL-IOTG-RS1-CORE-x64",
+    "headers": {"Content-Type": "application/json"},
+    "request_body": {
+      "images": [
+        {
+          "FFURS1": {
+            "BaseOSaaaaaaaaaaaaa": "111",
+            "ImageTag": "222",
+            "ImageType": "333"
+          },
+          "FFUR1": {
+            "BaseOS": "111",
+            "ImageTag": "222",
+            "ImageType": "333"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "ret_code": 7,
+    "rev": "feature/powrtest",
+    "platform": "APL-IOTG-RS1-CORE-x64",
+    "headers": {"Content-Type": "application/json"},
+    "request_body": {
+      "images": [
+        {
+          "FFU-RS1": {
+            "BaseOS": "OSPackagesIOT",
+            "OSType": "IOT",
+            "ImageType": "ffu",
+            "BuildType": "fre",
+            "ReleaseType": "Test",
+            "Product": "Windows 10 IoT Core",
+            "FMFiles": "FMFiles\\amd64\\IoTUAPNonProductionPartnerShareFM.xml",
+            "DefaultFMFiles": "Platforms\\Common\\IoTUAPNonProductionPartnerShareFM.xml"
+          },
+          "FFUR1": {
+            "BaseOS": "111",
+            "ImageTag": "222",
+            "ImageType": "333"
+          }
+        }
+      ]
+    }
+  }
+
+],
+  "patch_platform_ingredient":
+[
+  {
+    "ret_code": 0,
+    "rev": "feature/powrtest",
+    "platform": "APL-IOTG-RS1-CORE-x64",
+    "headers": {"Content-Type": "application/json"},
+    "request_body": {
+      "ingredients": [
+        {
+          "CopyToIamge": "567",
+          "name": "GFX"
+        },
+        {
+          "Bu": "uyt",
+          "name": "CSE"
+        }
+      ]
+    }
+  },
+  {
+    "ret_code": 1,
+    "rev": "feature/powr",
+    "platform": "APL-IOTG-RS1-CORE-x64",
+    "headers": {"Content-Type": "application/json"},
+    "request_body": {
+      "ingredients": [
+        {
+          "CopyToIamge": "567",
+          "name": "GFX"
+        },
+        {
+          "Bu": "uyt",
+          "name": "CSE"
+        }
+      ]
+    }
+  },
+  {
+    "ret_code": 8,
+    "rev": "feature/powrtest",
+    "platform": "APL-IOTG-RS1-CORE-x64",
+    "headers": {"Content-Type": "application/json"},
+    "request_body": {
+      "ingredientsaaaaaaaaaaa": [
+        {
+          "CopyToIamge": "567",
+          "name": "GFX"
+        },
+        {
+          "Bu": "uyt",
+          "name": "CSE"
+        }
+      ]
+    }
+  },
+  {
+    "ret_code": 4,
+    "rev": "feature/powrtest",
+    "platform": "APL-IOTG-RS1-CORE-x64aaaaaaaaaaaaaaa",
+    "headers": {"Content-Type": "application/json"},
+    "request_body": {
+      "ingredients": [
+        {
+          "CopyToIamge": "567",
+          "name": "GFX"
+        },
+        {
+          "Bu": "uyt",
+          "name": "CSE"
+        }
+      ]
+    }
+  },
+  {
+    "ret_code": 3,
+    "rev": "feature/powrtest",
+    "platform": "APL-IOTG-RS1-CORE-x64",
+    "headers": {"Content-Type": "application/json"},
+    "request_body": {
+      "ingredients": [
+        {
+          "CopyToIamge": "567",
+          "name": "GFXaaaaaaaaaaaaa"
+        },
+        {
+          "Bu": "uyt",
+          "name": "CSE"
+        }
+      ]
+    }
+  }
+]
+}
