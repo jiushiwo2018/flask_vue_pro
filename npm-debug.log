@@ -1,0 +1,2702 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'webpack',
+1 verbose cli   '-g' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.30
+4 verbose cache add [ 'webpack', null ]
+5 verbose cache add name=undefined spec="webpack" args=["webpack",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'webpack',
+6 verbose parsed url   path: 'webpack',
+6 verbose parsed url   href: 'webpack' }
+7 silly lockFile 057b6197-webpack webpack
+8 verbose lock webpack /root/.npm/057b6197-webpack.lock
+9 silly lockFile 057b6197-webpack webpack
+10 silly lockFile 057b6197-webpack webpack
+11 verbose addNamed [ 'webpack', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 9c8dd08b-webpack webpack@
+14 verbose lock webpack@ /root/.npm/9c8dd08b-webpack.lock
+15 silly addNameRange { name: 'webpack', range: '*', hasData: false }
+16 verbose request where is /webpack
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 2a890070e25aaca1
+19 verbose url raw /webpack
+20 verbose url resolving [ 'https://registry.npmjs.org/', './webpack' ]
+21 verbose url resolved https://registry.npmjs.org/webpack
+22 verbose request where is https://registry.npmjs.org/webpack
+23 info trying registry request attempt 1 at 15:57:17
+24 verbose etag W/"5cc8b4c518884362f3bdfa2d7392446a"
+25 http GET https://registry.npmjs.org/webpack
+26 http 200 https://registry.npmjs.org/webpack
+27 silly registry.get cb [ 200,
+27 silly registry.get   { date: 'Mon, 16 Sep 2019 07:56:54 GMT',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'transfer-encoding': 'chunked',
+27 silly registry.get     connection: 'keep-alive',
+27 silly registry.get     'set-cookie': [ '__cfduid=d34eee6f905ab2e60dd165e56fdeede101568620614; expires=Tue, 15-Sep-20 07:56:54 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+27 silly registry.get     'cf-cache-status': 'HIT',
+27 silly registry.get     'cache-control': 'max-age=300',
+27 silly registry.get     'cf-ray': '517149579f5c1ec9-SJC',
+27 silly registry.get     age: '3387',
+27 silly registry.get     etag: 'W/"dd798e4d7db2b40ac7ec6c02becc25a6"',
+27 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+27 silly registry.get     'last-modified': 'Fri, 13 Sep 2019 14:30:16 GMT',
+27 silly registry.get     vary: 'accept-encoding, accept',
+27 silly registry.get     'x-amz-meta-rev': '1617-0df58714493f8532fdff1fedd38f068a',
+27 silly registry.get     server: 'cloudflare',
+27 silly registry.get     'content-encoding': 'gzip' } ]
+28 silly addNameRange number 2 { name: 'webpack', range: '*', hasData: true }
+29 silly addNameRange versions [ 'webpack',
+29 silly addNameRange   [ '0.1.0',
+29 silly addNameRange     '0.1.1',
+29 silly addNameRange     '0.1.2',
+29 silly addNameRange     '0.1.3',
+29 silly addNameRange     '0.1.4',
+29 silly addNameRange     '0.1.5',
+29 silly addNameRange     '0.1.6',
+29 silly addNameRange     '0.2.0',
+29 silly addNameRange     '0.2.1',
+29 silly addNameRange     '0.2.2',
+29 silly addNameRange     '0.2.3',
+29 silly addNameRange     '0.2.4',
+29 silly addNameRange     '0.2.6',
+29 silly addNameRange     '0.2.7',
+29 silly addNameRange     '0.2.8',
+29 silly addNameRange     '0.3.0',
+29 silly addNameRange     '0.3.1',
+29 silly addNameRange     '0.3.2',
+29 silly addNameRange     '0.3.3',
+29 silly addNameRange     '0.3.4',
+29 silly addNameRange     '0.3.6',
+29 silly addNameRange     '0.3.7',
+29 silly addNameRange     '0.3.8',
+29 silly addNameRange     '0.3.9',
+29 silly addNameRange     '0.3.10',
+29 silly addNameRange     '0.3.11',
+29 silly addNameRange     '0.3.12',
+29 silly addNameRange     '0.3.13',
+29 silly addNameRange     '0.3.14',
+29 silly addNameRange     '0.3.15',
+29 silly addNameRange     '0.3.16',
+29 silly addNameRange     '0.3.17',
+29 silly addNameRange     '0.3.18',
+29 silly addNameRange     '0.3.19',
+29 silly addNameRange     '0.3.20',
+29 silly addNameRange     '0.4.0',
+29 silly addNameRange     '0.4.1',
+29 silly addNameRange     '0.4.2',
+29 silly addNameRange     '0.4.3',
+29 silly addNameRange     '0.4.4',
+29 silly addNameRange     '0.4.5',
+29 silly addNameRange     '0.4.6',
+29 silly addNameRange     '0.4.7',
+29 silly addNameRange     '0.4.8',
+29 silly addNameRange     '0.4.9',
+29 silly addNameRange     '0.4.10',
+29 silly addNameRange     '0.4.11',
+29 silly addNameRange     '0.4.12',
+29 silly addNameRange     '0.4.13',
+29 silly addNameRange     '0.4.14',
+29 silly addNameRange     '0.4.15',
+29 silly addNameRange     '0.4.16',
+29 silly addNameRange     '0.4.17',
+29 silly addNameRange     '0.4.18',
+29 silly addNameRange     '0.4.19',
+29 silly addNameRange     '0.4.20',
+29 silly addNameRange     '0.4.21',
+29 silly addNameRange     '0.4.23',
+29 silly addNameRange     '0.4.24',
+29 silly addNameRange     '0.4.25',
+29 silly addNameRange     '0.5.0',
+29 silly addNameRange     '0.5.1',
+29 silly addNameRange     '0.5.2',
+29 silly addNameRange     '0.5.3',
+29 silly addNameRange     '0.5.4',
+29 silly addNameRange     '0.5.5',
+29 silly addNameRange     '0.5.6',
+29 silly addNameRange     '0.5.7',
+29 silly addNameRange     '0.5.8',
+29 silly addNameRange     '0.5.10',
+29 silly addNameRange     '0.6.0',
+29 silly addNameRange     '0.6.1',
+29 silly addNameRange     '0.6.2',
+29 silly addNameRange     '0.7.0-beta',
+29 silly addNameRange     '0.7.0-beta2',
+29 silly addNameRange     '0.7.0-beta3',
+29 silly addNameRange     '0.7.0-beta4',
+29 silly addNameRange     '0.7.0-beta5',
+29 silly addNameRange     '0.7.0-beta6',
+29 silly addNameRange     '0.7.0-beta7',
+29 silly addNameRange     '0.7.0-beta8',
+29 silly addNameRange     '0.7.0',
+29 silly addNameRange     '0.7.1',
+29 silly addNameRange     '0.7.2',
+29 silly addNameRange     '0.7.3',
+29 silly addNameRange     '0.7.4',
+29 silly addNameRange     '0.7.5',
+29 silly addNameRange     '0.7.6',
+29 silly addNameRange     '0.7.7',
+29 silly addNameRange     '0.7.8',
+29 silly addNameRange     '0.7.9',
+29 silly addNameRange     '0.7.11',
+29 silly addNameRange     '0.7.12',
+29 silly addNameRange     '0.7.13',
+29 silly addNameRange     '0.7.14',
+29 silly addNameRange     '0.7.15',
+29 silly addNameRange     '0.7.16',
+29 silly addNameRange     '0.7.17',
+29 silly addNameRange     '0.8.0-beta1',
+29 silly addNameRange     '0.8.0-beta2',
+29 silly addNameRange     '0.8.0-beta3',
+29 silly addNameRange     '0.8.0-beta4',
+29 silly addNameRange     '0.8.0',
+29 silly addNameRange     '0.8.2',
+29 silly addNameRange     '0.8.3',
+29 silly addNameRange     '0.9.0-beta1',
+29 silly addNameRange     '0.9.0-beta2',
+29 silly addNameRange     '0.9.0-beta4',
+29 silly addNameRange     '0.9.0-beta5',
+29 silly addNameRange     '0.9.0-beta6',
+29 silly addNameRange     '0.9.0-beta7',
+29 silly addNameRange     '0.9.0-beta8',
+29 silly addNameRange     '0.9.0-beta9',
+29 silly addNameRange     '0.9.0-beta10',
+29 silly addNameRange     '0.9.0-beta11',
+29 silly addNameRange     '0.9.0-beta12',
+29 silly addNameRange     '0.9.0-beta13',
+29 silly addNameRange     '0.9.0-beta14',
+29 silly addNameRange     '0.9.0-beta15',
+29 silly addNameRange     '0.9.0-beta16',
+29 silly addNameRange     '0.9.0-beta17',
+29 silly addNameRange     '0.9.0-beta18',
+29 silly addNameRange     '0.9.0-beta19',
+29 silly addNameRange     '0.9.0-beta20',
+29 silly addNameRange     '0.9.0-beta21',
+29 silly addNameRange     '0.9.0-beta22',
+29 silly addNameRange     '0.9.0-beta23',
+29 silly addNameRange     '0.9.0-beta24',
+29 silly addNameRange     '0.9.0-beta25',
+29 silly addNameRange     '0.9.0-beta26',
+29 silly addNameRange     '0.9.0-beta27',
+29 silly addNameRange     '0.9.0-beta28',
+29 silly addNameRange     '0.9.0-beta29',
+29 silly addNameRange     '0.9.0-beta30',
+29 silly addNameRange     '0.9.0-beta31',
+29 silly addNameRange     '0.9.0-beta32',
+29 silly addNameRange     '0.9.0-beta33',
+29 silly addNameRange     '0.9.0-beta34',
+29 silly addNameRange     '0.9.0-beta35',
+29 silly addNameRange     '0.9.0-beta36',
+29 silly addNameRange     '0.9.0-beta37',
+29 silly addNameRange     '0.9.0-beta38',
+29 silly addNameRange     '0.9.0',
+29 silly addNameRange     '0.9.1',
+29 silly addNameRange     '0.9.2',
+29 silly addNameRange     '0.9.3',
+29 silly addNameRange     '0.10.0-beta2',
+29 silly addNameRange     '0.10.0-beta3',
+29 silly addNameRange     '0.10.0-beta5',
+29 silly addNameRange     '0.10.0-beta6',
+29 silly addNameRange     '0.10.0-beta7',
+29 silly addNameRange     '0.10.0-beta8',
+29 silly addNameRange     '0.10.0-beta9',
+29 silly addNameRange     '0.10.0-beta10',
+29 silly addNameRange     '0.10.0-beta11',
+29 silly addNameRange     '0.10.0-beta12',
+29 silly addNameRange     '0.10.0-beta13',
+29 silly addNameRange     '0.10.0-beta14',
+29 silly addNameRange     '0.10.0-beta15',
+29 silly addNameRange     '0.10.0-beta16',
+29 silly addNameRange     '0.10.0-beta17',
+29 silly addNameRange     '0.10.0-beta18',
+29 silly addNameRange     '0.10.0-beta19',
+29 silly addNameRange     '0.10.0-beta20',
+29 silly addNameRange     '0.10.0-beta21',
+29 silly addNameRange     '0.10.0-beta22',
+29 silly addNameRange     '0.10.0-beta23',
+29 silly addNameRange     '0.10.0-beta24',
+29 silly addNameRange     '0.10.0-beta25',
+29 silly addNameRange     '0.10.0',
+29 silly addNameRange     '0.11.0-beta1',
+29 silly addNameRange     '0.11.0-beta2',
+29 silly addNameRange     '0.11.0-beta3',
+29 silly addNameRange     '0.11.0-beta4',
+29 silly addNameRange     '0.11.0-beta5',
+29 silly addNameRange     '0.11.0-beta6',
+29 silly addNameRange     '0.11.0-beta7',
+29 silly addNameRange     '0.11.0-beta8',
+29 silly addNameRange     '0.11.0-beta9',
+29 silly addNameRange     '0.11.0-beta10',
+29 silly addNameRange     '0.11.0-beta11',
+29 silly addNameRange     '0.11.0-beta12',
+29 silly addNameRange     '0.11.0-beta13',
+29 silly addNameRange     '0.11.0-beta14',
+29 silly addNameRange     '0.11.0-beta15',
+29 silly addNameRange     '0.11.0-beta16',
+29 silly addNameRange     '0.11.0-beta17',
+29 silly addNameRange     '0.11.0-beta18',
+29 silly addNameRange     '0.11.0-beta19',
+29 silly addNameRange     '0.11.0-beta20',
+29 silly addNameRange     '0.11.0-beta21',
+29 silly addNameRange     '0.11.0-beta22',
+29 silly addNameRange     '0.11.0-beta23',
+29 silly addNameRange     '0.11.0-beta24',
+29 silly addNameRange     '0.11.0-beta25',
+29 silly addNameRange     '0.11.0-beta26',
+29 silly addNameRange     '0.11.0-beta27',
+29 silly addNameRange     '0.11.0-beta28',
+29 silly addNameRange     '0.11.0-beta29',
+29 silly addNameRange     '0.11.0',
+29 silly addNameRange     '0.11.1',
+29 silly addNameRange     '0.11.2',
+29 silly addNameRange     '0.11.3',
+29 silly addNameRange     '0.11.4',
+29 silly addNameRange     '0.11.5',
+29 silly addNameRange     '0.11.6',
+29 silly addNameRange     '0.11.7',
+29 silly addNameRange     '0.11.8',
+29 silly addNameRange     '0.11.9',
+29 silly addNameRange     '0.11.10',
+29 silly addNameRange     '0.11.11',
+29 silly addNameRange     '0.11.12',
+29 silly addNameRange     '0.11.13',
+29 silly addNameRange     '0.11.14',
+29 silly addNameRange     '0.11.15',
+29 silly addNameRange     '1.0.0-beta1',
+29 silly addNameRange     '1.0.0-beta2',
+29 silly addNameRange     '1.0.0-beta3',
+29 silly addNameRange     '1.0.0-beta4',
+29 silly addNameRange     '0.11.16',
+29 silly addNameRange     '0.11.17',
+29 silly addNameRange     '0.11.18',
+29 silly addNameRange     '1.0.0-beta5',
+29 silly addNameRange     '1.0.0-beta6',
+29 silly addNameRange     '1.0.0-beta7',
+29 silly addNameRange     '1.0.0-beta8',
+29 silly addNameRange     '1.0.0-beta9',
+29 silly addNameRange     '1.0.0-rc1',
+29 silly addNameRange     '1.0.0-rc2',
+29 silly addNameRange     '1.0.0-rc3',
+29 silly addNameRange     '1.0.0-rc4',
+29 silly addNameRange     '1.0.0-rc5',
+29 silly addNameRange     '1.0.0-rc7',
+29 silly addNameRange     '1.0.0-rc8',
+29 silly addNameRange     '1.0.0-rc9',
+29 silly addNameRange     '1.0.0-rc11',
+29 silly addNameRange     '1.0.0-rc12',
+29 silly addNameRange     '1.0.0',
+29 silly addNameRange     '1.0.1',
+29 silly addNameRange     '1.0.3',
+29 silly addNameRange     '1.0.4',
+29 silly addNameRange     '1.0.5',
+29 silly addNameRange     '1.1.0-beta1',
+29 silly addNameRange     '1.1.0-beta2',
+29 silly addNameRange     '1.1.0-beta3',
+29 silly addNameRange     '1.1.0-beta4',
+29 silly addNameRange     '1.1.0-beta5',
+29 silly addNameRange     '1.1.0-beta6',
+29 silly addNameRange     '1.1.0-beta7',
+29 silly addNameRange     '1.1.0-beta8',
+29 silly addNameRange     '1.1.0-beta9',
+29 silly addNameRange     '1.1.0-beta10',
+29 silly addNameRange     '1.1.0-beta12',
+29 silly addNameRange     '1.1.0',
+29 silly addNameRange     '1.1.1',
+29 silly addNameRange     '1.1.2',
+29 silly addNameRange     '1.1.3',
+29 silly addNameRange     '1.1.4',
+29 silly addNameRange     '1.1.5',
+29 silly addNameRange     '1.1.6',
+29 silly addNameRange     '1.1.7',
+29 silly addNameRange     '1.1.8',
+29 silly addNameRange     '1.1.9',
+29 silly addNameRange     '1.1.10',
+29 silly addNameRange     '1.1.11',
+29 silly addNameRange     '1.2.0-beta1',
+29 silly addNameRange     '1.2.0-beta2',
+29 silly addNameRange     '1.2.0-beta4',
+29 silly addNameRange     '1.2.0-beta5',
+29 silly addNameRange     '1.2.0-beta6',
+29 silly addNameRange     '1.3.0-beta1',
+29 silly addNameRange     '1.3.0-beta2',
+29 silly addNameRange     '1.3.0-beta3',
+29 silly addNameRange     '1.3.0-beta4',
+29 silly addNameRange     '1.3.0-beta5',
+29 silly addNameRange     '1.3.0-beta6',
+29 silly addNameRange     '1.3.0-beta7',
+29 silly addNameRange     '1.3.0-beta8',
+29 silly addNameRange     '1.3.0-beta9',
+29 silly addNameRange     '1.3.1-beta1',
+29 silly addNameRange     '1.3.1-beta2',
+29 silly addNameRange     '1.3.1-beta3',
+29 silly addNameRange     '1.3.1-beta4',
+29 silly addNameRange     '1.3.1-beta5',
+29 silly addNameRange     '1.3.1-beta6',
+29 silly addNameRange     '1.3.1-beta7',
+29 silly addNameRange     '1.3.1-beta8',
+29 silly addNameRange     '1.3.1-beta9',
+29 silly addNameRange     '1.3.2-beta1',
+29 silly addNameRange     '1.3.2-beta2',
+29 silly addNameRange     '1.3.2-beta3',
+29 silly addNameRange     '1.3.2-beta4',
+29 silly addNameRange     '1.3.2-beta5',
+29 silly addNameRange     '1.3.2-beta6',
+29 silly addNameRange     '1.3.2-beta7',
+29 silly addNameRange     '1.3.2-beta8',
+29 silly addNameRange     '1.3.2-beta9',
+29 silly addNameRange     '1.3.3-beta1',
+29 silly addNameRange     '1.3.3-beta2',
+29 silly addNameRange     '1.3.4',
+29 silly addNameRange     '1.3.5',
+29 silly addNameRange     '1.3.6',
+29 silly addNameRange     '1.3.7',
+29 silly addNameRange     '1.4.0-beta1',
+29 silly addNameRange     '1.4.0-beta2',
+29 silly addNameRange     '1.4.0-beta3',
+29 silly addNameRange     '1.4.0-beta4',
+29 silly addNameRange     '1.4.0-beta5',
+29 silly addNameRange     '1.4.0-beta6',
+29 silly addNameRange     '1.4.0-beta7',
+29 silly addNameRange     '1.4.0-beta8',
+29 silly addNameRange     '1.4.0-beta9',
+29 silly addNameRange     '1.4.0-beta10',
+29 silly addNameRange     '1.4.1-beta1',
+29 silly addNameRange     '1.4.2',
+29 silly addNameRange     '1.4.3',
+29 silly addNameRange     '1.4.4',
+29 silly addNameRange     '1.4.5',
+29 silly addNameRange     '1.4.6',
+29 silly addNameRange     '1.4.7',
+29 silly addNameRange     '1.4.8',
+29 silly addNameRange     '1.4.9',
+29 silly addNameRange     '1.4.10',
+29 silly addNameRange     '1.4.11',
+29 silly addNameRange     '1.4.12',
+29 silly addNameRange     '1.4.13',
+29 silly addNameRange     '1.4.14',
+29 silly addNameRange     '1.4.15',
+29 silly addNameRange     '1.5.0',
+29 silly addNameRange     '1.5.1',
+29 silly addNameRange     '1.5.2',
+29 silly addNameRange     '1.5.3',
+29 silly addNameRange     '1.6.0',
+29 silly addNameRange     '1.7.0',
+29 silly addNameRange     '1.7.1',
+29 silly addNameRange     '1.7.2',
+29 silly addNameRange     '1.7.3',
+29 silly addNameRange     '1.8.0',
+29 silly addNameRange     '1.8.1',
+29 silly addNameRange     '1.8.2',
+29 silly addNameRange     '1.8.3',
+29 silly addNameRange     '1.8.4',
+29 silly addNameRange     '1.8.5',
+29 silly addNameRange     '1.8.6',
+29 silly addNameRange     '1.8.7',
+29 silly addNameRange     '1.8.8',
+29 silly addNameRange     '1.8.9',
+29 silly addNameRange     '1.8.10',
+29 silly addNameRange     '1.8.11',
+29 silly addNameRange     '1.9.0',
+29 silly addNameRange     '1.9.1',
+29 silly addNameRange     '1.9.2',
+29 silly addNameRange     '1.9.3',
+29 silly addNameRange     '1.9.4',
+29 silly addNameRange     '1.9.5',
+29 silly addNameRange     '1.9.6',
+29 silly addNameRange     '1.9.7',
+29 silly addNameRange     '1.9.8',
+29 silly addNameRange     '1.9.9',
+29 silly addNameRange     '1.9.10',
+29 silly addNameRange     '1.9.11',
+29 silly addNameRange     '1.9.12',
+29 silly addNameRange     '1.9.13',
+29 silly addNameRange     '1.10.0',
+29 silly addNameRange     '1.10.1',
+29 silly addNameRange     '1.10.2',
+29 silly addNameRange     '1.10.3',
+29 silly addNameRange     '1.10.4',
+29 silly addNameRange     '1.10.5',
+29 silly addNameRange     '1.11.0',
+29 silly addNameRange     '1.12.0',
+29 silly addNameRange     '1.12.1',
+29 silly addNameRange     '1.12.2',
+29 silly addNameRange     '2.0.0-beta',
+29 silly addNameRange     '1.12.3',
+29 silly addNameRange     '1.12.4',
+29 silly addNameRange     '1.12.5',
+29 silly addNameRange     '1.12.6',
+29 silly addNameRange     '1.12.7',
+29 silly addNameRange     '1.12.8',
+29 silly addNameRange     '1.12.9',
+29 silly addNameRange     '2.0.1-beta',
+29 silly addNameRange     '2.0.2-beta',
+29 silly addNameRange     '1.12.10',
+29 silly addNameRange     '1.12.11',
+29 silly addNameRange     '2.0.4-beta',
+29 silly addNameRange     '1.12.12',
+29 silly addNameRange     '2.0.5-beta',
+29 silly addNameRange     '2.0.6-beta',
+29 silly addNameRange     '2.0.7-beta',
+29 silly addNameRange     '1.12.13',
+29 silly addNameRange     '2.1.0-beta.0',
+29 silly addNameRange     '2.1.0-beta.1',
+29 silly addNameRange     '2.1.0-beta.2',
+29 silly addNameRange     '1.12.14',
+29 silly addNameRange     '2.1.0-beta.3',
+29 silly addNameRange     '2.1.0-beta.4',
+29 silly addNameRange     '2.1.0-beta.5',
+29 silly addNameRange     '1.12.15',
+29 silly addNameRange     '1.13.0',
+29 silly addNameRange     '2.1.0-beta.6',
+29 silly addNameRange     '2.1.0-beta.7',
+29 silly addNameRange     '1.13.1',
+29 silly addNameRange     '2.1.0-beta.8',
+29 silly addNameRange     '2.1.0-beta.9',
+29 silly addNameRange     '2.1.0-beta.10',
+29 silly addNameRange     '2.1.0-beta.11',
+29 silly addNameRange     '2.1.0-beta.12',
+29 silly addNameRange     '2.1.0-beta.13',
+29 silly addNameRange     '2.1.0-beta.14',
+29 silly addNameRange     '2.1.0-beta.15',
+29 silly addNameRange     '2.1.0-beta.16',
+29 silly addNameRange     '2.1.0-beta.17',
+29 silly addNameRange     '2.1.0-beta.18',
+29 silly addNameRange     '2.1.0-beta.19',
+29 silly addNameRange     '2.1.0-beta.20',
+29 silly addNameRange     '2.1.0-beta.21',
+29 silly addNameRange     '1.13.2',
+29 silly addNameRange     '2.1.0-beta.22',
+29 silly addNameRange     '2.1.0-beta.23',
+29 silly addNameRange     '2.1.0-beta.24',
+29 silly addNameRange     '2.1.0-beta.25',
+29 silly addNameRange     '1.13.3',
+29 silly addNameRange     '2.1.0-beta.26',
+29 silly addNameRange     '2.1.0-beta.27',
+29 silly addNameRange     '1.14.0',
+29 silly addNameRange     '2.1.0-beta.28',
+29 silly addNameRange     '2.2.0-rc.0',
+29 silly addNameRange     '2.2.0-rc.1',
+29 silly addNameRange     '2.2.0-rc.2',
+29 silly addNameRange     '2.2.0-rc.3',
+29 silly addNameRange     '2.2.0-rc.4',
+29 silly addNameRange     '2.2.0-rc.5',
+29 silly addNameRange     '2.2.0-rc.6',
+29 silly addNameRange     '2.2.0-rc.7',
+29 silly addNameRange     '2.2.0-rc.8',
+29 silly addNameRange     '2.2.0',
+29 silly addNameRange     '2.2.1',
+29 silly addNameRange     '2.3.0',
+29 silly addNameRange     '2.3.1',
+29 silly addNameRange     '2.3.2',
+29 silly addNameRange     '2.3.3',
+29 silly addNameRange     '1.15.0',
+29 silly addNameRange     '2.4.0',
+29 silly addNameRange     '2.4.1',
+29 silly addNameRange     '2.5.0',
+29 silly addNameRange     '2.5.1',
+29 silly addNameRange     '2.6.0',
+29 silly addNameRange     '2.6.1',
+29 silly addNameRange     '3.0.0-rc.0',
+29 silly addNameRange     '3.0.0-rc.1',
+29 silly addNameRange     '3.0.0-rc.2',
+29 silly addNameRange     '3.0.0',
+29 silly addNameRange     '3.1.0',
+29 silly addNameRange     '3.2.0',
+29 silly addNameRange     '2.7.0',
+29 silly addNameRange     '3.3.0',
+29 silly addNameRange     '3.4.0',
+29 silly addNameRange     '3.4.1',
+29 silly addNameRange     '3.5.0',
+29 silly addNameRange     '3.5.1',
+29 silly addNameRange     '3.5.2',
+29 silly addNameRange     '3.5.3',
+29 silly addNameRange     '3.5.4',
+29 silly addNameRange     '3.5.5',
+29 silly addNameRange     '3.5.6',
+29 silly addNameRange     '3.6.0',
+29 silly addNameRange     '3.7.0',
+29 silly addNameRange     '3.7.1',
+29 silly addNameRange     '3.8.0',
+29 silly addNameRange     '3.8.1',
+29 silly addNameRange     '3.9.0',
+29 silly addNameRange     '3.9.1',
+29 silly addNameRange     '3.10.0',
+29 silly addNameRange     '4.0.0-alpha.0',
+29 silly addNameRange     '4.0.0-alpha.1',
+29 silly addNameRange     '4.0.0-alpha.2',
+29 silly addNameRange     '4.0.0-alpha.3',
+29 silly addNameRange     '4.0.0-alpha.4',
+29 silly addNameRange     '4.0.0-alpha.5',
+29 silly addNameRange     '4.0.0-beta.0',
+29 silly addNameRange     '4.0.0-beta.1',
+29 silly addNameRange     '3.11.0',
+29 silly addNameRange     '4.0.0-beta.2',
+29 silly addNameRange     '4.0.0-beta.3',
+29 silly addNameRange     '4.0.0',
+29 silly addNameRange     '4.0.1',
+29 silly addNameRange     '4.1.0',
+29 silly addNameRange     '4.1.1',
+29 silly addNameRange     '4.2.0',
+29 silly addNameRange     '4.3.0',
+29 silly addNameRange     '4.4.0',
+29 silly addNameRange     '4.4.1',
+29 silly addNameRange     '4.5.0',
+29 silly addNameRange     '4.6.0',
+29 silly addNameRange     '4.7.0',
+29 silly addNameRange     '4.8.0',
+29 silly addNameRange     '4.8.1',
+29 silly addNameRange     '3.12.0',
+29 silly addNameRange     '4.8.2',
+29 silly addNameRange     '4.8.3',
+29 silly addNameRange     '4.9.0',
+29 silly addNameRange     '4.9.1',
+29 silly addNameRange     '4.9.2',
+29 silly addNameRange     '4.10.0',
+29 silly addNameRange     '4.10.1',
+29 silly addNameRange     '4.10.2',
+29 silly addNameRange     '4.11.0',
+29 silly addNameRange     '4.11.1',
+29 silly addNameRange     '4.12.0',
+29 silly addNameRange     '4.12.1',
+29 silly addNameRange     '4.12.2',
+29 silly addNameRange     '4.13.0',
+29 silly addNameRange     '4.14.0',
+29 silly addNameRange     '4.15.0',
+29 silly addNameRange     '4.15.1',
+29 silly addNameRange     '4.16.0',
+29 silly addNameRange     '4.16.1',
+29 silly addNameRange     '4.16.2',
+29 silly addNameRange     '4.16.3',
+29 silly addNameRange     '4.16.4',
+29 silly addNameRange     '4.16.5',
+29 silly addNameRange     '4.17.0',
+29 silly addNameRange     '4.17.1',
+29 silly addNameRange     '4.17.2',
+29 silly addNameRange     '4.17.3',
+29 silly addNameRange     '4.18.0',
+29 silly addNameRange     '4.18.1',
+29 silly addNameRange     '4.19.0',
+29 silly addNameRange     '4.19.1',
+29 silly addNameRange     '4.20.0',
+29 silly addNameRange     '4.20.1',
+29 silly addNameRange     '4.20.2',
+29 silly addNameRange     '4.21.0',
+29 silly addNameRange     '4.22.0',
+29 silly addNameRange     '4.23.0',
+29 silly addNameRange     '4.23.1',
+29 silly addNameRange     '4.24.0',
+29 silly addNameRange     '4.25.0',
+29 silly addNameRange     '4.25.1',
+29 silly addNameRange     '4.26.0',
+29 silly addNameRange     '4.26.1',
+29 silly addNameRange     '4.27.0',
+29 silly addNameRange     '4.27.1',
+29 silly addNameRange     '4.28.0',
+29 silly addNameRange     '4.28.1',
+29 silly addNameRange     '5.0.0-alpha.0',
+29 silly addNameRange     '4.28.2',
+29 silly addNameRange     '5.0.0-alpha.1',
+29 silly addNameRange     '5.0.0-alpha.2',
+29 silly addNameRange     '4.28.3',
+29 silly addNameRange     '5.0.0-alpha.3',
+29 silly addNameRange     '5.0.0-alpha.4',
+29 silly addNameRange     '5.0.0-alpha.5',
+29 silly addNameRange     '4.28.4',
+29 silly addNameRange     '5.0.0-alpha.6',
+29 silly addNameRange     '5.0.0-alpha.7',
+29 silly addNameRange     '5.0.0-alpha.8',
+29 silly addNameRange     '4.29.0',
+29 silly addNameRange     '5.0.0-alpha.9',
+29 silly addNameRange     '4.29.1',
+29 silly addNameRange     '4.29.2',
+29 silly addNameRange     '4.29.3',
+29 silly addNameRange     '5.0.0-alpha.10',
+29 silly addNameRange     '4.29.4',
+29 silly addNameRange     '4.29.5',
+29 silly addNameRange     '5.0.0-alpha.11',
+29 silly addNameRange     '4.29.6',
+29 silly addNameRange     '4.30.0',
+29 silly addNameRange     '4.31.0',
+29 silly addNameRange     '5.0.0-alpha.12',
+29 silly addNameRange     '4.32.0',
+29 silly addNameRange     '5.0.0-alpha.13',
+29 silly addNameRange     '4.32.1',
+29 silly addNameRange     '4.32.2',
+29 silly addNameRange     '5.0.0-alpha.14',
+29 silly addNameRange     '4.33.0',
+29 silly addNameRange     '5.0.0-alpha.15',
+29 silly addNameRange     '4.34.0',
+29 silly addNameRange     '5.0.0-alpha.16',
+29 silly addNameRange     '4.35.0',
+29 silly addNameRange     '4.35.1',
+29 silly addNameRange     '4.35.2',
+29 silly addNameRange     '5.0.0-alpha.17',
+29 silly addNameRange     '4.35.3',
+29 silly addNameRange     '5.0.0-alpha.18',
+29 silly addNameRange     '4.36.0',
+29 silly addNameRange     '4.36.1',
+29 silly addNameRange     '4.37.0',
+29 silly addNameRange     '4.38.0',
+29 silly addNameRange     '4.39.0',
+29 silly addNameRange     '4.39.1',
+29 silly addNameRange     '5.0.0-alpha.19',
+29 silly addNameRange     '4.39.2',
+29 silly addNameRange     '5.0.0-alpha.20',
+29 silly addNameRange     '5.0.0-alpha.21',
+29 silly addNameRange     '5.0.0-alpha.22',
+29 silly addNameRange     '4.39.3',
+29 silly addNameRange     '5.0.0-alpha.23',
+29 silly addNameRange     '5.0.0-alpha.24',
+29 silly addNameRange     '5.0.0-alpha.25',
+29 silly addNameRange     '5.0.0-alpha.26',
+29 silly addNameRange     '4.40.0',
+29 silly addNameRange     '4.40.1',
+29 silly addNameRange     '4.40.2' ] ]
+30 verbose addNamed [ 'webpack', '4.40.2' ]
+31 verbose addNamed [ '4.40.2', '4.40.2' ]
+32 silly lockFile b0b82ae7-webpack-4-40-2 webpack@4.40.2
+33 verbose lock webpack@4.40.2 /root/.npm/b0b82ae7-webpack-4-40-2.lock
+34 silly lockFile cb0b4fbf-s-org-webpack-webpack-4-40-2-tgz https://registry.npmjs.org/webpack/-/webpack-4.40.2.tgz
+35 verbose lock https://registry.npmjs.org/webpack/-/webpack-4.40.2.tgz /root/.npm/cb0b4fbf-s-org-webpack-webpack-4-40-2-tgz.lock
+36 verbose addRemoteTarball [ 'https://registry.npmjs.org/webpack/-/webpack-4.40.2.tgz',
+36 verbose addRemoteTarball   'd21433d250f900bf0facbabe8f50d585b2dc30a7' ]
+37 info retry fetch attempt 1 at 15:57:19
+38 verbose fetch to= /tmp/npm-3892-wSoYxUr9/registry.npmjs.org/webpack/-/webpack-4.40.2.tgz
+39 http GET https://registry.npmjs.org/webpack/-/webpack-4.40.2.tgz
+40 http 200 https://registry.npmjs.org/webpack/-/webpack-4.40.2.tgz
+41 silly lockFile cb0b4fbf-s-org-webpack-webpack-4-40-2-tgz https://registry.npmjs.org/webpack/-/webpack-4.40.2.tgz
+42 silly lockFile cb0b4fbf-s-org-webpack-webpack-4-40-2-tgz https://registry.npmjs.org/webpack/-/webpack-4.40.2.tgz
+43 silly lockFile b0b82ae7-webpack-4-40-2 webpack@4.40.2
+44 silly lockFile b0b82ae7-webpack-4-40-2 webpack@4.40.2
+45 silly lockFile 9c8dd08b-webpack webpack@
+46 silly lockFile 9c8dd08b-webpack webpack@
+47 silly resolved [ { name: 'webpack',
+47 silly resolved     version: '4.40.2',
+47 silly resolved     author: { name: 'Tobias Koppers @sokra' },
+47 silly resolved     description: 'Packs CommonJs/AMD modules for the browser. Allows to split your codebase into multiple bundles, which can be loaded on demand. Support loaders to preprocess files, i.e. json, jsx, es7, css, less, ... and your custom stuff.',
+47 silly resolved     license: 'MIT',
+47 silly resolved     dependencies:
+47 silly resolved      { '@webassemblyjs/ast': '1.8.5',
+47 silly resolved        '@webassemblyjs/helper-module-context': '1.8.5',
+47 silly resolved        '@webassemblyjs/wasm-edit': '1.8.5',
+47 silly resolved        '@webassemblyjs/wasm-parser': '1.8.5',
+47 silly resolved        acorn: '^6.2.1',
+47 silly resolved        ajv: '^6.10.2',
+47 silly resolved        'ajv-keywords': '^3.4.1',
+47 silly resolved        'chrome-trace-event': '^1.0.2',
+47 silly resolved        'enhanced-resolve': '^4.1.0',
+47 silly resolved        'eslint-scope': '^4.0.3',
+47 silly resolved        'json-parse-better-errors': '^1.0.2',
+47 silly resolved        'loader-runner': '^2.4.0',
+47 silly resolved        'loader-utils': '^1.2.3',
+47 silly resolved        'memory-fs': '^0.4.1',
+47 silly resolved        micromatch: '^3.1.10',
+47 silly resolved        mkdirp: '^0.5.1',
+47 silly resolved        'neo-async': '^2.6.1',
+47 silly resolved        'node-libs-browser': '^2.2.1',
+47 silly resolved        'schema-utils': '^1.0.0',
+47 silly resolved        tapable: '^1.1.3',
+47 silly resolved        'terser-webpack-plugin': '^1.4.1',
+47 silly resolved        watchpack: '^1.6.0',
+47 silly resolved        'webpack-sources': '^1.4.1' },
+47 silly resolved     devDependencies:
+47 silly resolved      { '@types/node': '^10.12.21',
+47 silly resolved        '@types/tapable': '^1.0.1',
+47 silly resolved        '@types/webpack-sources': '^0.1.4',
+47 silly resolved        '@yarnpkg/lockfile': '^1.1.0',
+47 silly resolved        benchmark: '^2.1.1',
+47 silly resolved        'bundle-loader': '~0.5.0',
+47 silly resolved        'coffee-loader': '^0.9.0',
+47 silly resolved        coffeescript: '^2.3.2',
+47 silly resolved        coveralls: '^3.0.2',
+47 silly resolved        'css-loader': '^2.1.0',
+47 silly resolved        'es6-promise-polyfill': '^1.1.1',
+47 silly resolved        eslint: '^5.8.0',
+47 silly resolved        'eslint-config-prettier': '^4.0.0',
+47 silly resolved        'eslint-plugin-jest': '^22.2.2',
+47 silly resolved        'eslint-plugin-jsdoc': '^15.3.2',
+47 silly resolved        'eslint-plugin-node': '^8.0.0',
+47 silly resolved        'eslint-plugin-prettier': '^3.0.0',
+47 silly resolved        express: '~4.16.4',
+47 silly resolved        'file-loader': '^3.0.1',
+47 silly resolved        glob: '^7.1.3',
+47 silly resolved        husky: '^1.1.3',
+47 silly resolved        'i18n-webpack-plugin': '^1.0.0',
+47 silly resolved        istanbul: '^0.4.5',
+47 silly resolved        jest: '^24.9.0',
+47 silly resolved        'jest-junit': '^8.0.0',
+47 silly resolved        'json-loader': '^0.5.7',
+47 silly resolved        'json-schema-to-typescript': '^6.0.1',
+47 silly resolved        less: '^3.9.0',
+47 silly resolved        'less-loader': '^4.0.3',
+47 silly resolved        'lint-staged': '^8.0.4',
+47 silly resolved        lodash: '^4.17.4',
+47 silly resolved        prettier: '^1.14.3',
+47 silly resolved        pug: '^2.0.4',
+47 silly resolved        'pug-loader': '^2.4.0',
+47 silly resolved        'raw-loader': '^1.0.0',
+47 silly resolved        react: '^16.8.0',
+47 silly resolved        'react-dom': '^16.8.0',
+47 silly resolved        rimraf: '^2.6.2',
+47 silly resolved        'script-loader': '~0.7.0',
+47 silly resolved        'simple-git': '^1.65.0',
+47 silly resolved        'strip-ansi': '^5.2.0',
+47 silly resolved        'style-loader': '^0.23.1',
+47 silly resolved        typescript: '^3.0.0-rc',
+47 silly resolved        'url-loader': '^1.1.2',
+47 silly resolved        'val-loader': '^1.0.2',
+47 silly resolved        'vm-browserify': '~1.1.0',
+47 silly resolved        'wast-loader': '^1.5.5',
+47 silly resolved        'webpack-dev-middleware': '^3.5.1',
+47 silly resolved        'worker-loader': '^2.0.0',
+47 silly resolved        xxhashjs: '^0.2.1' },
+47 silly resolved     engines: { node: '>=6.11.5' },
+47 silly resolved     repository:
+47 silly resolved      { type: 'git',
+47 silly resolved        url: 'git+https://github.com/webpack/webpack.git' },
+47 silly resolved     homepage: 'https://github.com/webpack/webpack',
+47 silly resolved     main: 'lib/webpack.js',
+47 silly resolved     web: 'lib/webpack.web.js',
+47 silly resolved     bin: { webpack: './bin/webpack.js' },
+47 silly resolved     scripts:
+47 silly resolved      { setup: 'node ./setup/setup.js',
+47 silly resolved        test: 'node --max-old-space-size=4096 --trace-deprecation node_modules/jest-cli/bin/jest',
+47 silly resolved        'test:update-snapshots': 'yarn jest -u',
+47 silly resolved        'test:integration': 'node --max-old-space-size=4096 --trace-deprecation node_modules/jest-cli/bin/jest --testMatch "<rootDir>/test/*.test.js"',
+47 silly resolved        'test:basic': 'node --max-old-space-size=4096 --trace-deprecation node_modules/jest-cli/bin/jest --testMatch "<rootDir>/te{st/TestCasesNormal,st/StatsTestCases,st/ConfigTestCases}.test.js"',
+47 silly resolved        'test:unit': 'node --max-old-space-size=4096 --trace-deprecation node_modules/jest-cli/bin/jest --testMatch "<rootDir>/test/*.unittest.js"',
+47 silly resolved        'travis:integration': 'yarn cover:integration --ci $JEST',
+47 silly resolved        'travis:basic': 'yarn cover:basic --ci $JEST',
+47 silly resolved        'travis:lintunit': 'yarn lint && yarn cover:unit --ci $JEST',
+47 silly resolved        'travis:benchmark': 'yarn benchmark --ci',
+47 silly resolved        'appveyor:integration': 'yarn cover:integration --ci %JEST%',
+47 silly resolved        'appveyor:unit': 'yarn cover:unit --ci %JEST%',
+47 silly resolved        'appveyor:benchmark': 'yarn benchmark --ci',
+47 silly resolved        'build:examples': 'cd examples && node buildAll.js',
+47 silly resolved        pretest: 'yarn lint',
+47 silly resolved        prelint: 'yarn setup',
+47 silly resolved        lint: 'yarn code-lint && yarn jest-lint && yarn type-lint && yarn special-lint',
+47 silly resolved        'code-lint': 'eslint . --ext \'.js\' --cache',
+47 silly resolved        'type-lint': 'tsc --pretty',
+47 silly resolved        'special-lint': 'node tooling/inherit-types && node tooling/format-schemas && node tooling/compile-to-definitions',
+47 silly resolved        'special-lint-fix': 'node tooling/inherit-types --write --override && node tooling/format-schemas --write && node tooling/compile-to-definitions --write',
+47 silly resolved        fix: 'yarn code-lint --fix && yarn special-lint-fix',
+47 silly resolved        pretty: 'prettier --loglevel warn --write "*.{ts,js,json,yml,yaml}" "{setup,lib,bin,hot,buildin,benchmark,tooling,schemas}/**/*.{js,json}" "test/*.js" "test/helpers/*.js" "test/{configCases,watchCases,statsCases,hotCases}/**/webpack.config.js" "examples/**/webpack.config.js"',
+47 silly resolved        'jest-lint': 'node --max-old-space-size=4096 node_modules/jest-cli/bin/jest --testMatch "<rootDir>/test/*.lint.js" --no-verbose',
+47 silly resolved        benchmark: 'node --max-old-space-size=4096 --trace-deprecation node_modules/jest-cli/bin/jest --testMatch "<rootDir>/test/*.benchmark.js" --runInBand',
+47 silly resolved        cover: 'yarn cover:all && yarn cover:report',
+47 silly resolved        'cover:all': 'node --max-old-space-size=4096 node_modules/jest-cli/bin/jest --coverage',
+47 silly resolved        'cover:basic': 'node --max-old-space-size=4096 node_modules/jest-cli/bin/jest --testMatch "<rootDir>/te{st/TestCasesNormal,st/StatsTestCases,st/ConfigTestCases}.test.js" --coverage',
+47 silly resolved        'cover:integration': 'node --max-old-space-size=4096 node_modules/jest-cli/bin/jest --testMatch "<rootDir>/test/*.test.js" --coverage',
+47 silly resolved        'cover:unit': 'node --max-old-space-size=4096 node_modules/jest-cli/bin/jest --testMatch "<rootDir>/test/*.unittest.js" --coverage',
+47 silly resolved        'cover:report': 'istanbul report' },
+47 silly resolved     husky: { hooks: [Object] },
+47 silly resolved     'lint-staged': { '*.js|{lib,setup,bin,hot,buildin,tooling,schemas}/**/*.js|test/*.js|{test,examples}/**/webpack.config.js}': [Object] },
+47 silly resolved     jest:
+47 silly resolved      { forceExit: true,
+47 silly resolved        setupFilesAfterEnv: [Object],
+47 silly resolved        testMatch: [Object],
+47 silly resolved        watchPathIgnorePatterns: [Object],
+47 silly resolved        modulePathIgnorePatterns: [Object],
+47 silly resolved        transformIgnorePatterns: [Object],
+47 silly resolved        coverageDirectory: '<rootDir>/coverage',
+47 silly resolved        coveragePathIgnorePatterns: [Object],
+47 silly resolved        testEnvironment: 'node',
+47 silly resolved        coverageReporters: [Object] },
+47 silly resolved     gitHead: 'd1fffd8bbeb024d1452a7f7a33a4c0c87604d8ec',
+47 silly resolved     bugs: { url: 'https://github.com/webpack/webpack/issues' },
+47 silly resolved     _id: 'webpack@4.40.2',
+47 silly resolved     _nodeVersion: '12.8.0',
+47 silly resolved     _npmVersion: '6.10.2',
+47 silly resolved     dist:
+47 silly resolved      { integrity: 'sha512-5nIvteTDCUws2DVvP9Qe+JPla7kWPPIDFZv55To7IycHWZ+Z5qBdaBYPyuXWdhggTufZkQwfIK+5rKQTVovm2A==',
+47 silly resolved        shasum: 'd21433d250f900bf0facbabe8f50d585b2dc30a7',
+47 silly resolved        tarball: 'https://registry.npmjs.org/webpack/-/webpack-4.40.2.tgz',
+47 silly resolved        fileCount: 356,
+47 silly resolved        unpackedSize: 1449364,
+47 silly resolved        'npm-signature': '-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJde6fzCRA9TVsSAnZWagAAIicP/iS7yrAEQxJMeoXH15Py\nCcjqSSZZ0FMpo2yJJZvol7Rdp+Wf6WjBSsktbUou+sWkSAGE5THZGmKUBiZx\nWFxNZzLZcFZOjVJcYY+s+7SaVeoCvJNBac3XK4KxKNcy1AABnk3IcQ4YYurI\njDP5Bq7nH6zZMVOf3e5wHZr0lCyTIKbE3bclfV9q7QhunYXAux7y5Ht6Ir/8\nkMSuHE4twu/pWuYmUQxeAz8ENfp17bAYwP1Q6zdKTsEJ5fznTgd1/3xS3yK4\nLjved6LKqSrzAi0a92pKh3SFGiyXstFenkahKsVUeDqZYZrsVVLkDA6nYHKD\n9X+UzAPj/wCMA41CmCy1mT60eZh5UdiEdpM8+I2LPd/Livt+1g0r4vrLsSfK\n1SjM2tCR/QT2VL3+e7PaP0A5MPYp/6PZZdvYKqQowAYccg7zWZAKcEUGQoXZ\narqHeFUNQqtKkLJ7hHzZm/NvURr5efjcgYIPtOpJkuZkitihcslNfH6Rx82x\nD128Ky/QIuz0IlkglhNG5aqCApo+gB/j+Ux1B0ELmP4LKjnbZ+Ck1rV3EM9c\nOqZji7VUPtZFBOWRb84lLMEHmutIFds1JC3VUoI0BQQdWTBEvrs/7ukEuRiI\n9T8gRFo3Ggv0GuWBbUWx+5Slku5N+RF6L+4U4AiOuwsit2FPu4bD5dMYckM8\nb29Z\r\n=ISdd\r\n-----END PGP SIGNATURE-----\r\n' },
+47 silly resolved     maintainers: [ [Object], [Object], [Object] ],
+47 silly resolved     _npmUser: { name: 'sokra', email: 'tobias.koppers@googlemail.com' },
+47 silly resolved     directories: {},
+47 silly resolved     _npmOperationalInternal:
+47 silly resolved      { host: 's3://npm-registry-packages',
+47 silly resolved        tmp: 'tmp/webpack_4.40.2_1568385010112_0.8754221510988767' },
+47 silly resolved     _hasShrinkwrap: false,
+47 silly resolved     _shasum: 'd21433d250f900bf0facbabe8f50d585b2dc30a7',
+47 silly resolved     _from: 'webpack@',
+47 silly resolved     _resolved: 'https://registry.npmjs.org/webpack/-/webpack-4.40.2.tgz' } ]
+48 info install webpack@4.40.2 into /usr/local/lib
+49 info installOne webpack@4.40.2
+50 warn engine webpack@4.40.2: wanted: {"node":">=6.11.5"} (current: {"node":"0.10.30","npm":"1.4.21"})
+51 verbose lib/node_modules/webpack unbuild
+52 verbose tar unpack /root/.npm/webpack/4.40.2/package.tgz
+53 silly lockFile dd1c7ecc-r-local-lib-node-modules-webpack tar:///usr/local/lib/node_modules/webpack
+54 verbose lock tar:///usr/local/lib/node_modules/webpack /root/.npm/dd1c7ecc-r-local-lib-node-modules-webpack.lock
+55 silly lockFile d4b760ab-t-npm-webpack-4-40-2-package-tgz tar:///root/.npm/webpack/4.40.2/package.tgz
+56 verbose lock tar:///root/.npm/webpack/4.40.2/package.tgz /root/.npm/d4b760ab-t-npm-webpack-4-40-2-package-tgz.lock
+57 silly gunzTarPerm modes [ '755', '644' ]
+58 silly gunzTarPerm extractEntry LICENSE
+59 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+60 silly gunzTarPerm extractEntry lib/AbstractMethodError.js
+61 silly gunzTarPerm modified mode [ 'lib/AbstractMethodError.js', 438, 420 ]
+62 silly gunzTarPerm extractEntry lib/optimize/AggressiveMergingPlugin.js
+63 silly gunzTarPerm modified mode [ 'lib/optimize/AggressiveMergingPlugin.js', 438, 420 ]
+64 silly gunzTarPerm extractEntry lib/optimize/AggressiveSplittingPlugin.js
+65 silly gunzTarPerm modified mode [ 'lib/optimize/AggressiveSplittingPlugin.js', 438, 420 ]
+66 silly gunzTarPerm extractEntry schemas/ajv.absolutePath.js
+67 silly gunzTarPerm modified mode [ 'schemas/ajv.absolutePath.js', 438, 420 ]
+68 silly gunzTarPerm extractEntry buildin/amd-define.js
+69 silly gunzTarPerm modified mode [ 'buildin/amd-define.js', 438, 420 ]
+70 silly gunzTarPerm extractEntry buildin/amd-options.js
+71 silly gunzTarPerm modified mode [ 'buildin/amd-options.js', 438, 420 ]
+72 silly gunzTarPerm extractEntry lib/dependencies/AMDDefineDependency.js
+73 silly gunzTarPerm modified mode [ 'lib/dependencies/AMDDefineDependency.js', 438, 420 ]
+74 silly gunzTarPerm extractEntry lib/dependencies/AMDDefineDependencyParserPlugin.js
+75 silly gunzTarPerm modified mode [ 'lib/dependencies/AMDDefineDependencyParserPlugin.js',
+75 silly gunzTarPerm   438,
+75 silly gunzTarPerm   420 ]
+76 silly gunzTarPerm extractEntry lib/AmdMainTemplatePlugin.js
+77 silly gunzTarPerm modified mode [ 'lib/AmdMainTemplatePlugin.js', 438, 420 ]
+78 silly gunzTarPerm extractEntry lib/dependencies/AMDPlugin.js
+79 silly gunzTarPerm modified mode [ 'lib/dependencies/AMDPlugin.js', 438, 420 ]
+80 silly gunzTarPerm extractEntry lib/dependencies/AMDRequireArrayDependency.js
+81 silly gunzTarPerm modified mode [ 'lib/dependencies/AMDRequireArrayDependency.js', 438, 420 ]
+82 silly gunzTarPerm extractEntry lib/dependencies/AMDRequireContextDependency.js
+83 silly gunzTarPerm modified mode [ 'lib/dependencies/AMDRequireContextDependency.js', 438, 420 ]
+84 silly gunzTarPerm extractEntry lib/dependencies/AMDRequireDependenciesBlock.js
+85 silly gunzTarPerm modified mode [ 'lib/dependencies/AMDRequireDependenciesBlock.js', 438, 420 ]
+86 silly gunzTarPerm extractEntry lib/dependencies/AMDRequireDependenciesBlockParserPlugin.js
+87 silly gunzTarPerm modified mode [ 'lib/dependencies/AMDRequireDependenciesBlockParserPlugin.js',
+87 silly gunzTarPerm   438,
+87 silly gunzTarPerm   420 ]
+88 silly gunzTarPerm extractEntry lib/dependencies/AMDRequireDependency.js
+89 silly gunzTarPerm modified mode [ 'lib/dependencies/AMDRequireDependency.js', 438, 420 ]
+90 silly gunzTarPerm extractEntry lib/dependencies/AMDRequireItemDependency.js
+91 silly gunzTarPerm modified mode [ 'lib/dependencies/AMDRequireItemDependency.js', 438, 420 ]
+92 silly gunzTarPerm extractEntry lib/APIPlugin.js
+93 silly gunzTarPerm modified mode [ 'lib/APIPlugin.js', 438, 420 ]
+94 silly gunzTarPerm extractEntry lib/performance/AssetsOverSizeLimitWarning.js
+95 silly gunzTarPerm modified mode [ 'lib/performance/AssetsOverSizeLimitWarning.js', 438, 420 ]
+96 silly gunzTarPerm extractEntry lib/AsyncDependenciesBlock.js
+97 silly gunzTarPerm modified mode [ 'lib/AsyncDependenciesBlock.js', 438, 420 ]
+98 silly gunzTarPerm extractEntry lib/AsyncDependencyToInitialChunkError.js
+99 silly gunzTarPerm modified mode [ 'lib/AsyncDependencyToInitialChunkError.js', 438, 420 ]
+100 silly gunzTarPerm extractEntry lib/AutomaticPrefetchPlugin.js
+101 silly gunzTarPerm modified mode [ 'lib/AutomaticPrefetchPlugin.js', 438, 420 ]
+102 silly gunzTarPerm extractEntry lib/BannerPlugin.js
+103 silly gunzTarPerm modified mode [ 'lib/BannerPlugin.js', 438, 420 ]
+104 silly gunzTarPerm extractEntry lib/BasicEvaluatedExpression.js
+105 silly gunzTarPerm modified mode [ 'lib/BasicEvaluatedExpression.js', 438, 420 ]
+106 silly gunzTarPerm extractEntry lib/buildChunkGraph.js
+107 silly gunzTarPerm modified mode [ 'lib/buildChunkGraph.js', 438, 420 ]
+108 silly gunzTarPerm extractEntry lib/util/cachedMerge.js
+109 silly gunzTarPerm modified mode [ 'lib/util/cachedMerge.js', 438, 420 ]
+110 silly gunzTarPerm extractEntry lib/CachePlugin.js
+111 silly gunzTarPerm modified mode [ 'lib/CachePlugin.js', 438, 420 ]
+112 silly gunzTarPerm extractEntry lib/CaseSensitiveModulesWarning.js
+113 silly gunzTarPerm modified mode [ 'lib/CaseSensitiveModulesWarning.js', 438, 420 ]
+114 silly gunzTarPerm extractEntry lib/Chunk.js
+115 silly gunzTarPerm modified mode [ 'lib/Chunk.js', 438, 420 ]
+116 silly gunzTarPerm extractEntry lib/ChunkGroup.js
+117 silly gunzTarPerm modified mode [ 'lib/ChunkGroup.js', 438, 420 ]
+118 silly gunzTarPerm extractEntry lib/optimize/ChunkModuleIdRangePlugin.js
+119 silly gunzTarPerm modified mode [ 'lib/optimize/ChunkModuleIdRangePlugin.js', 438, 420 ]
+120 silly gunzTarPerm extractEntry lib/ChunkRenderError.js
+121 silly gunzTarPerm modified mode [ 'lib/ChunkRenderError.js', 438, 420 ]
+122 silly gunzTarPerm extractEntry lib/ChunkTemplate.js
+123 silly gunzTarPerm modified mode [ 'lib/ChunkTemplate.js', 438, 420 ]
+124 silly gunzTarPerm extractEntry lib/util/cleverMerge.js
+125 silly gunzTarPerm modified mode [ 'lib/util/cleverMerge.js', 438, 420 ]
+126 silly gunzTarPerm extractEntry lib/CommentCompilationWarning.js
+127 silly gunzTarPerm modified mode [ 'lib/CommentCompilationWarning.js', 438, 420 ]
+128 silly gunzTarPerm extractEntry lib/dependencies/CommonJsPlugin.js
+129 silly gunzTarPerm modified mode [ 'lib/dependencies/CommonJsPlugin.js', 438, 420 ]
+130 silly gunzTarPerm extractEntry lib/dependencies/CommonJsRequireContextDependency.js
+131 silly gunzTarPerm modified mode [ 'lib/dependencies/CommonJsRequireContextDependency.js',
+131 silly gunzTarPerm   438,
+131 silly gunzTarPerm   420 ]
+132 silly gunzTarPerm extractEntry lib/dependencies/CommonJsRequireDependency.js
+133 silly gunzTarPerm modified mode [ 'lib/dependencies/CommonJsRequireDependency.js', 438, 420 ]
+134 silly gunzTarPerm extractEntry lib/dependencies/CommonJsRequireDependencyParserPlugin.js
+135 silly gunzTarPerm modified mode [ 'lib/dependencies/CommonJsRequireDependencyParserPlugin.js',
+135 silly gunzTarPerm   438,
+135 silly gunzTarPerm   420 ]
+136 silly gunzTarPerm extractEntry lib/CommonJsStuffPlugin.js
+137 silly gunzTarPerm modified mode [ 'lib/CommonJsStuffPlugin.js', 438, 420 ]
+138 silly gunzTarPerm extractEntry lib/compareLocations.js
+139 silly gunzTarPerm modified mode [ 'lib/compareLocations.js', 438, 420 ]
+140 silly gunzTarPerm extractEntry lib/CompatibilityPlugin.js
+141 silly gunzTarPerm modified mode [ 'lib/CompatibilityPlugin.js', 438, 420 ]
+142 silly gunzTarPerm extractEntry lib/Compilation.js
+143 silly gunzTarPerm modified mode [ 'lib/Compilation.js', 438, 420 ]
+144 silly gunzTarPerm extractEntry lib/Compiler.js
+145 silly gunzTarPerm modified mode [ 'lib/Compiler.js', 438, 420 ]
+146 silly gunzTarPerm extractEntry lib/optimize/ConcatenatedModule.js
+147 silly gunzTarPerm modified mode [ 'lib/optimize/ConcatenatedModule.js', 438, 420 ]
+148 silly gunzTarPerm extractEntry lib/ConcurrentCompilationError.js
+149 silly gunzTarPerm modified mode [ 'lib/ConcurrentCompilationError.js', 438, 420 ]
+150 silly gunzTarPerm extractEntry lib/dependencies/ConstDependency.js
+151 silly gunzTarPerm modified mode [ 'lib/dependencies/ConstDependency.js', 438, 420 ]
+152 silly gunzTarPerm extractEntry lib/ConstPlugin.js
+153 silly gunzTarPerm modified mode [ 'lib/ConstPlugin.js', 438, 420 ]
+154 silly gunzTarPerm extractEntry lib/dependencies/ContextDependency.js
+155 silly gunzTarPerm modified mode [ 'lib/dependencies/ContextDependency.js', 438, 420 ]
+156 silly gunzTarPerm extractEntry lib/dependencies/ContextDependencyHelpers.js
+157 silly gunzTarPerm modified mode [ 'lib/dependencies/ContextDependencyHelpers.js', 438, 420 ]
+158 silly gunzTarPerm extractEntry lib/dependencies/ContextDependencyTemplateAsId.js
+159 silly gunzTarPerm modified mode [ 'lib/dependencies/ContextDependencyTemplateAsId.js', 438, 420 ]
+160 silly gunzTarPerm extractEntry lib/dependencies/ContextDependencyTemplateAsRequireCall.js
+161 silly gunzTarPerm modified mode [ 'lib/dependencies/ContextDependencyTemplateAsRequireCall.js',
+161 silly gunzTarPerm   438,
+161 silly gunzTarPerm   420 ]
+162 silly gunzTarPerm extractEntry lib/dependencies/ContextElementDependency.js
+163 silly gunzTarPerm modified mode [ 'lib/dependencies/ContextElementDependency.js', 438, 420 ]
+164 silly gunzTarPerm extractEntry lib/ContextExclusionPlugin.js
+165 silly gunzTarPerm modified mode [ 'lib/ContextExclusionPlugin.js', 438, 420 ]
+166 silly gunzTarPerm extractEntry lib/ContextModule.js
+167 silly gunzTarPerm modified mode [ 'lib/ContextModule.js', 438, 420 ]
+168 silly gunzTarPerm extractEntry lib/ContextModuleFactory.js
+169 silly gunzTarPerm modified mode [ 'lib/ContextModuleFactory.js', 438, 420 ]
+170 silly gunzTarPerm extractEntry lib/ContextReplacementPlugin.js
+171 silly gunzTarPerm modified mode [ 'lib/ContextReplacementPlugin.js', 438, 420 ]
+172 silly gunzTarPerm extractEntry lib/logging/createConsoleLogger.js
+173 silly gunzTarPerm modified mode [ 'lib/logging/createConsoleLogger.js', 438, 420 ]
+174 silly gunzTarPerm extractEntry lib/util/createHash.js
+175 silly gunzTarPerm modified mode [ 'lib/util/createHash.js', 438, 420 ]
+176 silly gunzTarPerm extractEntry lib/dependencies/CriticalDependencyWarning.js
+177 silly gunzTarPerm modified mode [ 'lib/dependencies/CriticalDependencyWarning.js', 438, 420 ]
+178 silly gunzTarPerm extractEntry lib/DefinePlugin.js
+179 silly gunzTarPerm modified mode [ 'lib/DefinePlugin.js', 438, 420 ]
+180 silly gunzTarPerm extractEntry lib/dependencies/DelegatedExportsDependency.js
+181 silly gunzTarPerm modified mode [ 'lib/dependencies/DelegatedExportsDependency.js', 438, 420 ]
+182 silly gunzTarPerm extractEntry lib/DelegatedModule.js
+183 silly gunzTarPerm modified mode [ 'lib/DelegatedModule.js', 438, 420 ]
+184 silly gunzTarPerm extractEntry lib/DelegatedModuleFactoryPlugin.js
+185 silly gunzTarPerm modified mode [ 'lib/DelegatedModuleFactoryPlugin.js', 438, 420 ]
+186 silly gunzTarPerm extractEntry lib/DelegatedPlugin.js
+187 silly gunzTarPerm modified mode [ 'lib/DelegatedPlugin.js', 438, 420 ]
+188 silly gunzTarPerm extractEntry lib/dependencies/DelegatedSourceDependency.js
+189 silly gunzTarPerm modified mode [ 'lib/dependencies/DelegatedSourceDependency.js', 438, 420 ]
+190 silly gunzTarPerm extractEntry lib/DependenciesBlock.js
+191 silly gunzTarPerm modified mode [ 'lib/DependenciesBlock.js', 438, 420 ]
+192 silly gunzTarPerm extractEntry lib/DependenciesBlockVariable.js
+193 silly gunzTarPerm modified mode [ 'lib/DependenciesBlockVariable.js', 438, 420 ]
+194 silly gunzTarPerm extractEntry lib/Dependency.js
+195 silly gunzTarPerm modified mode [ 'lib/Dependency.js', 438, 420 ]
+196 silly gunzTarPerm extractEntry lib/dependencies/DependencyReference.js
+197 silly gunzTarPerm modified mode [ 'lib/dependencies/DependencyReference.js', 438, 420 ]
+198 silly gunzTarPerm extractEntry lib/util/deterministicGrouping.js
+199 silly gunzTarPerm modified mode [ 'lib/util/deterministicGrouping.js', 438, 420 ]
+200 silly gunzTarPerm extractEntry hot/dev-server.js
+201 silly gunzTarPerm modified mode [ 'hot/dev-server.js', 438, 420 ]
+202 silly gunzTarPerm extractEntry lib/dependencies/DllEntryDependency.js
+203 silly gunzTarPerm modified mode [ 'lib/dependencies/DllEntryDependency.js', 438, 420 ]
+204 silly gunzTarPerm extractEntry lib/DllEntryPlugin.js
+205 silly gunzTarPerm modified mode [ 'lib/DllEntryPlugin.js', 438, 420 ]
+206 silly gunzTarPerm extractEntry lib/DllModule.js
+207 silly gunzTarPerm modified mode [ 'lib/DllModule.js', 438, 420 ]
+208 silly gunzTarPerm extractEntry lib/DllModuleFactory.js
+209 silly gunzTarPerm modified mode [ 'lib/DllModuleFactory.js', 438, 420 ]
+210 silly gunzTarPerm extractEntry lib/DllPlugin.js
+211 silly gunzTarPerm modified mode [ 'lib/DllPlugin.js', 438, 420 ]
+212 silly gunzTarPerm extractEntry lib/DllReferencePlugin.js
+213 silly gunzTarPerm modified mode [ 'lib/DllReferencePlugin.js', 438, 420 ]
+214 silly gunzTarPerm extractEntry lib/DynamicEntryPlugin.js
+215 silly gunzTarPerm modified mode [ 'lib/DynamicEntryPlugin.js', 438, 420 ]
+216 silly gunzTarPerm extractEntry hot/emitter.js
+217 silly gunzTarPerm modified mode [ 'hot/emitter.js', 438, 420 ]
+218 silly gunzTarPerm extractEntry lib/optimize/EnsureChunkConditionsPlugin.js
+219 silly gunzTarPerm modified mode [ 'lib/optimize/EnsureChunkConditionsPlugin.js', 438, 420 ]
+220 silly gunzTarPerm extractEntry lib/EntryModuleNotFoundError.js
+221 silly gunzTarPerm modified mode [ 'lib/EntryModuleNotFoundError.js', 438, 420 ]
+222 silly gunzTarPerm extractEntry lib/EntryOptionPlugin.js
+223 silly gunzTarPerm modified mode [ 'lib/EntryOptionPlugin.js', 438, 420 ]
+224 silly gunzTarPerm extractEntry lib/Entrypoint.js
+225 silly gunzTarPerm modified mode [ 'lib/Entrypoint.js', 438, 420 ]
+226 silly gunzTarPerm extractEntry lib/performance/EntrypointsOverSizeLimitWarning.js
+227 silly gunzTarPerm modified mode [ 'lib/performance/EntrypointsOverSizeLimitWarning.js',
+227 silly gunzTarPerm   438,
+227 silly gunzTarPerm   420 ]
+228 silly gunzTarPerm extractEntry lib/EnvironmentPlugin.js
+229 silly gunzTarPerm modified mode [ 'lib/EnvironmentPlugin.js', 438, 420 ]
+230 silly gunzTarPerm extractEntry lib/ErrorHelpers.js
+231 silly gunzTarPerm modified mode [ 'lib/ErrorHelpers.js', 438, 420 ]
+232 silly gunzTarPerm extractEntry lib/EvalDevToolModulePlugin.js
+233 silly gunzTarPerm modified mode [ 'lib/EvalDevToolModulePlugin.js', 438, 420 ]
+234 silly gunzTarPerm extractEntry lib/EvalDevToolModuleTemplatePlugin.js
+235 silly gunzTarPerm modified mode [ 'lib/EvalDevToolModuleTemplatePlugin.js', 438, 420 ]
+236 silly gunzTarPerm extractEntry lib/EvalSourceMapDevToolModuleTemplatePlugin.js
+237 silly gunzTarPerm modified mode [ 'lib/EvalSourceMapDevToolModuleTemplatePlugin.js', 438, 420 ]
+238 silly gunzTarPerm extractEntry lib/EvalSourceMapDevToolPlugin.js
+239 silly gunzTarPerm modified mode [ 'lib/EvalSourceMapDevToolPlugin.js', 438, 420 ]
+240 silly gunzTarPerm extractEntry lib/ExportPropertyMainTemplatePlugin.js
+241 silly gunzTarPerm modified mode [ 'lib/ExportPropertyMainTemplatePlugin.js', 438, 420 ]
+242 silly gunzTarPerm extractEntry lib/ExtendedAPIPlugin.js
+243 silly gunzTarPerm modified mode [ 'lib/ExtendedAPIPlugin.js', 438, 420 ]
+244 silly gunzTarPerm extractEntry lib/ExternalModule.js
+245 silly gunzTarPerm modified mode [ 'lib/ExternalModule.js', 438, 420 ]
+246 silly gunzTarPerm extractEntry lib/ExternalModuleFactoryPlugin.js
+247 silly gunzTarPerm modified mode [ 'lib/ExternalModuleFactoryPlugin.js', 438, 420 ]
+248 silly gunzTarPerm extractEntry lib/ExternalsPlugin.js
+249 silly gunzTarPerm modified mode [ 'lib/ExternalsPlugin.js', 438, 420 ]
+250 silly gunzTarPerm extractEntry lib/web/FetchCompileWasmTemplatePlugin.js
+251 silly gunzTarPerm modified mode [ 'lib/web/FetchCompileWasmTemplatePlugin.js', 438, 420 ]
+252 silly gunzTarPerm extractEntry lib/FlagDependencyExportsPlugin.js
+253 silly gunzTarPerm modified mode [ 'lib/FlagDependencyExportsPlugin.js', 438, 420 ]
+254 silly gunzTarPerm extractEntry lib/FlagDependencyUsagePlugin.js
+255 silly gunzTarPerm modified mode [ 'lib/FlagDependencyUsagePlugin.js', 438, 420 ]
+256 silly gunzTarPerm extractEntry lib/optimize/FlagIncludedChunksPlugin.js
+257 silly gunzTarPerm modified mode [ 'lib/optimize/FlagIncludedChunksPlugin.js', 438, 420 ]
+258 silly gunzTarPerm extractEntry lib/FlagInitialModulesAsUsedPlugin.js
+259 silly gunzTarPerm modified mode [ 'lib/FlagInitialModulesAsUsedPlugin.js', 438, 420 ]
+260 silly gunzTarPerm extractEntry lib/formatLocation.js
+261 silly gunzTarPerm modified mode [ 'lib/formatLocation.js', 438, 420 ]
+262 silly gunzTarPerm extractEntry lib/FunctionModulePlugin.js
+263 silly gunzTarPerm modified mode [ 'lib/FunctionModulePlugin.js', 438, 420 ]
+264 silly gunzTarPerm extractEntry lib/FunctionModuleTemplatePlugin.js
+265 silly gunzTarPerm modified mode [ 'lib/FunctionModuleTemplatePlugin.js', 438, 420 ]
+266 silly gunzTarPerm extractEntry lib/Generator.js
+267 silly gunzTarPerm modified mode [ 'lib/Generator.js', 438, 420 ]
+268 silly gunzTarPerm extractEntry lib/dependencies/getFunctionExpression.js
+269 silly gunzTarPerm modified mode [ 'lib/dependencies/getFunctionExpression.js', 438, 420 ]
+270 silly gunzTarPerm extractEntry buildin/global.js
+271 silly gunzTarPerm modified mode [ 'buildin/global.js', 438, 420 ]
+272 silly gunzTarPerm extractEntry lib/GraphHelpers.js
+273 silly gunzTarPerm modified mode [ 'lib/GraphHelpers.js', 438, 420 ]
+274 silly gunzTarPerm extractEntry buildin/harmony-module.js
+275 silly gunzTarPerm modified mode [ 'buildin/harmony-module.js', 438, 420 ]
+276 silly gunzTarPerm extractEntry lib/dependencies/HarmonyAcceptDependency.js
+277 silly gunzTarPerm modified mode [ 'lib/dependencies/HarmonyAcceptDependency.js', 438, 420 ]
+278 silly gunzTarPerm extractEntry lib/dependencies/HarmonyAcceptImportDependency.js
+279 silly gunzTarPerm modified mode [ 'lib/dependencies/HarmonyAcceptImportDependency.js', 438, 420 ]
+280 silly gunzTarPerm extractEntry lib/dependencies/HarmonyCompatibilityDependency.js
+281 silly gunzTarPerm modified mode [ 'lib/dependencies/HarmonyCompatibilityDependency.js',
+281 silly gunzTarPerm   438,
+281 silly gunzTarPerm   420 ]
+282 silly gunzTarPerm extractEntry lib/dependencies/HarmonyDetectionParserPlugin.js
+283 silly gunzTarPerm modified mode [ 'lib/dependencies/HarmonyDetectionParserPlugin.js', 438, 420 ]
+284 silly gunzTarPerm extractEntry lib/dependencies/HarmonyExportDependencyParserPlugin.js
+285 silly gunzTarPerm modified mode [ 'lib/dependencies/HarmonyExportDependencyParserPlugin.js',
+285 silly gunzTarPerm   438,
+285 silly gunzTarPerm   420 ]
+286 silly gunzTarPerm extractEntry lib/dependencies/HarmonyExportExpressionDependency.js
+287 silly gunzTarPerm modified mode [ 'lib/dependencies/HarmonyExportExpressionDependency.js',
+287 silly gunzTarPerm   438,
+287 silly gunzTarPerm   420 ]
+288 silly gunzTarPerm extractEntry lib/dependencies/HarmonyExportHeaderDependency.js
+289 silly gunzTarPerm modified mode [ 'lib/dependencies/HarmonyExportHeaderDependency.js', 438, 420 ]
+290 silly gunzTarPerm extractEntry lib/dependencies/HarmonyExportImportedSpecifierDependency.js
+291 silly gunzTarPerm modified mode [ 'lib/dependencies/HarmonyExportImportedSpecifierDependency.js',
+291 silly gunzTarPerm   438,
+291 silly gunzTarPerm   420 ]
+292 silly gunzTarPerm extractEntry lib/dependencies/HarmonyExportSpecifierDependency.js
+293 silly gunzTarPerm modified mode [ 'lib/dependencies/HarmonyExportSpecifierDependency.js',
+293 silly gunzTarPerm   438,
+293 silly gunzTarPerm   420 ]
+294 silly gunzTarPerm extractEntry lib/dependencies/HarmonyImportDependency.js
+295 silly gunzTarPerm modified mode [ 'lib/dependencies/HarmonyImportDependency.js', 438, 420 ]
+296 silly gunzTarPerm extractEntry lib/dependencies/HarmonyImportDependencyParserPlugin.js
+297 silly gunzTarPerm modified mode [ 'lib/dependencies/HarmonyImportDependencyParserPlugin.js',
+297 silly gunzTarPerm   438,
+297 silly gunzTarPerm   420 ]
+298 silly gunzTarPerm extractEntry lib/dependencies/HarmonyImportSideEffectDependency.js
+299 silly gunzTarPerm modified mode [ 'lib/dependencies/HarmonyImportSideEffectDependency.js',
+299 silly gunzTarPerm   438,
+299 silly gunzTarPerm   420 ]
+300 silly gunzTarPerm extractEntry lib/dependencies/HarmonyImportSpecifierDependency.js
+301 silly gunzTarPerm modified mode [ 'lib/dependencies/HarmonyImportSpecifierDependency.js',
+301 silly gunzTarPerm   438,
+301 silly gunzTarPerm   420 ]
+302 silly gunzTarPerm extractEntry lib/dependencies/HarmonyInitDependency.js
+303 silly gunzTarPerm modified mode [ 'lib/dependencies/HarmonyInitDependency.js', 438, 420 ]
+304 silly gunzTarPerm extractEntry lib/HarmonyLinkingError.js
+305 silly gunzTarPerm modified mode [ 'lib/HarmonyLinkingError.js', 438, 420 ]
+306 silly gunzTarPerm extractEntry lib/dependencies/HarmonyModulesPlugin.js
+307 silly gunzTarPerm modified mode [ 'lib/dependencies/HarmonyModulesPlugin.js', 438, 420 ]
+308 silly gunzTarPerm extractEntry lib/dependencies/HarmonyTopLevelThisParserPlugin.js
+309 silly gunzTarPerm modified mode [ 'lib/dependencies/HarmonyTopLevelThisParserPlugin.js',
+309 silly gunzTarPerm   438,
+309 silly gunzTarPerm   420 ]
+310 silly gunzTarPerm extractEntry lib/HashedModuleIdsPlugin.js
+311 silly gunzTarPerm modified mode [ 'lib/HashedModuleIdsPlugin.js', 438, 420 ]
+312 silly gunzTarPerm extractEntry lib/HotModuleReplacement.runtime.js
+313 silly gunzTarPerm modified mode [ 'lib/HotModuleReplacement.runtime.js', 438, 420 ]
+314 silly gunzTarPerm extractEntry lib/HotModuleReplacementPlugin.js
+315 silly gunzTarPerm modified mode [ 'lib/HotModuleReplacementPlugin.js', 438, 420 ]
+316 silly gunzTarPerm extractEntry lib/HotUpdateChunk.js
+317 silly gunzTarPerm modified mode [ 'lib/HotUpdateChunk.js', 438, 420 ]
+318 silly gunzTarPerm extractEntry lib/HotUpdateChunkTemplate.js
+319 silly gunzTarPerm modified mode [ 'lib/HotUpdateChunkTemplate.js', 438, 420 ]
+320 silly gunzTarPerm extractEntry lib/util/identifier.js
+321 silly gunzTarPerm modified mode [ 'lib/util/identifier.js', 438, 420 ]
+322 silly gunzTarPerm extractEntry lib/IgnorePlugin.js
+323 silly gunzTarPerm modified mode [ 'lib/IgnorePlugin.js', 438, 420 ]
+324 silly gunzTarPerm extractEntry lib/dependencies/ImportContextDependency.js
+325 silly gunzTarPerm modified mode [ 'lib/dependencies/ImportContextDependency.js', 438, 420 ]
+326 silly gunzTarPerm extractEntry lib/dependencies/ImportDependenciesBlock.js
+327 silly gunzTarPerm modified mode [ 'lib/dependencies/ImportDependenciesBlock.js', 438, 420 ]
+328 silly gunzTarPerm extractEntry lib/dependencies/ImportDependency.js
+329 silly gunzTarPerm modified mode [ 'lib/dependencies/ImportDependency.js', 438, 420 ]
+330 silly gunzTarPerm extractEntry lib/dependencies/ImportEagerDependency.js
+331 silly gunzTarPerm modified mode [ 'lib/dependencies/ImportEagerDependency.js', 438, 420 ]
+332 silly gunzTarPerm extractEntry lib/dependencies/ImportParserPlugin.js
+333 silly gunzTarPerm modified mode [ 'lib/dependencies/ImportParserPlugin.js', 438, 420 ]
+334 silly gunzTarPerm extractEntry lib/dependencies/ImportPlugin.js
+335 silly gunzTarPerm modified mode [ 'lib/dependencies/ImportPlugin.js', 438, 420 ]
+336 silly gunzTarPerm extractEntry lib/dependencies/ImportWeakDependency.js
+337 silly gunzTarPerm modified mode [ 'lib/dependencies/ImportWeakDependency.js', 438, 420 ]
+338 silly gunzTarPerm extractEntry lib/JavascriptGenerator.js
+339 silly gunzTarPerm modified mode [ 'lib/JavascriptGenerator.js', 438, 420 ]
+340 silly gunzTarPerm extractEntry lib/JavascriptModulesPlugin.js
+341 silly gunzTarPerm modified mode [ 'lib/JavascriptModulesPlugin.js', 438, 420 ]
+342 silly gunzTarPerm extractEntry lib/dependencies/JsonExportsDependency.js
+343 silly gunzTarPerm modified mode [ 'lib/dependencies/JsonExportsDependency.js', 438, 420 ]
+344 silly gunzTarPerm extractEntry lib/JsonGenerator.js
+345 silly gunzTarPerm modified mode [ 'lib/JsonGenerator.js', 438, 420 ]
+346 silly gunzTarPerm extractEntry lib/JsonModulesPlugin.js
+347 silly gunzTarPerm modified mode [ 'lib/JsonModulesPlugin.js', 438, 420 ]
+348 silly gunzTarPerm extractEntry lib/JsonParser.js
+349 silly gunzTarPerm modified mode [ 'lib/JsonParser.js', 438, 420 ]
+350 silly gunzTarPerm extractEntry lib/web/JsonpChunkTemplatePlugin.js
+351 silly gunzTarPerm modified mode [ 'lib/web/JsonpChunkTemplatePlugin.js', 438, 420 ]
+352 silly gunzTarPerm extractEntry lib/web/JsonpExportMainTemplatePlugin.js
+353 silly gunzTarPerm modified mode [ 'lib/web/JsonpExportMainTemplatePlugin.js', 438, 420 ]
+354 silly gunzTarPerm extractEntry lib/web/JsonpHotUpdateChunkTemplatePlugin.js
+355 silly gunzTarPerm modified mode [ 'lib/web/JsonpHotUpdateChunkTemplatePlugin.js', 438, 420 ]
+356 silly gunzTarPerm extractEntry lib/web/JsonpMainTemplate.runtime.js
+357 silly gunzTarPerm modified mode [ 'lib/web/JsonpMainTemplate.runtime.js', 438, 420 ]
+358 silly gunzTarPerm extractEntry lib/web/JsonpMainTemplatePlugin.js
+359 silly gunzTarPerm modified mode [ 'lib/web/JsonpMainTemplatePlugin.js', 438, 420 ]
+360 silly gunzTarPerm extractEntry lib/web/JsonpTemplatePlugin.js
+361 silly gunzTarPerm modified mode [ 'lib/web/JsonpTemplatePlugin.js', 438, 420 ]
+362 silly gunzTarPerm extractEntry lib/LibManifestPlugin.js
+363 silly gunzTarPerm modified mode [ 'lib/LibManifestPlugin.js', 438, 420 ]
+364 silly gunzTarPerm extractEntry lib/LibraryTemplatePlugin.js
+365 silly gunzTarPerm modified mode [ 'lib/LibraryTemplatePlugin.js', 438, 420 ]
+366 silly gunzTarPerm extractEntry lib/optimize/LimitChunkCountPlugin.js
+367 silly gunzTarPerm modified mode [ 'lib/optimize/LimitChunkCountPlugin.js', 438, 420 ]
+368 silly gunzTarPerm extractEntry lib/dependencies/LoaderDependency.js
+369 silly gunzTarPerm modified mode [ 'lib/dependencies/LoaderDependency.js', 438, 420 ]
+370 silly gunzTarPerm extractEntry lib/LoaderOptionsPlugin.js
+371 silly gunzTarPerm modified mode [ 'lib/LoaderOptionsPlugin.js', 438, 420 ]
+372 silly gunzTarPerm extractEntry lib/dependencies/LoaderPlugin.js
+373 silly gunzTarPerm modified mode [ 'lib/dependencies/LoaderPlugin.js', 438, 420 ]
+374 silly gunzTarPerm extractEntry lib/LoaderTargetPlugin.js
+375 silly gunzTarPerm modified mode [ 'lib/LoaderTargetPlugin.js', 438, 420 ]
+376 silly gunzTarPerm extractEntry lib/dependencies/LocalModule.js
+377 silly gunzTarPerm modified mode [ 'lib/dependencies/LocalModule.js', 438, 420 ]
+378 silly gunzTarPerm extractEntry lib/dependencies/LocalModuleDependency.js
+379 silly gunzTarPerm modified mode [ 'lib/dependencies/LocalModuleDependency.js', 438, 420 ]
+380 silly gunzTarPerm extractEntry lib/dependencies/LocalModulesHelpers.js
+381 silly gunzTarPerm modified mode [ 'lib/dependencies/LocalModulesHelpers.js', 438, 420 ]
+382 silly gunzTarPerm extractEntry hot/log-apply-result.js
+383 silly gunzTarPerm modified mode [ 'hot/log-apply-result.js', 438, 420 ]
+384 silly gunzTarPerm extractEntry hot/log.js
+385 silly gunzTarPerm modified mode [ 'hot/log.js', 438, 420 ]
+386 silly gunzTarPerm extractEntry lib/logging/Logger.js
+387 silly gunzTarPerm modified mode [ 'lib/logging/Logger.js', 438, 420 ]
+388 silly gunzTarPerm extractEntry lib/MainTemplate.js
+389 silly gunzTarPerm modified mode [ 'lib/MainTemplate.js', 438, 420 ]
+390 silly gunzTarPerm extractEntry lib/MemoryOutputFileSystem.js
+391 silly gunzTarPerm modified mode [ 'lib/MemoryOutputFileSystem.js', 438, 420 ]
+392 silly gunzTarPerm extractEntry lib/optimize/MergeDuplicateChunksPlugin.js
+393 silly gunzTarPerm modified mode [ 'lib/optimize/MergeDuplicateChunksPlugin.js', 438, 420 ]
+394 silly gunzTarPerm extractEntry lib/optimize/MinChunkSizePlugin.js
+395 silly gunzTarPerm modified mode [ 'lib/optimize/MinChunkSizePlugin.js', 438, 420 ]
+396 silly gunzTarPerm extractEntry lib/optimize/MinMaxSizeWarning.js
+397 silly gunzTarPerm modified mode [ 'lib/optimize/MinMaxSizeWarning.js', 438, 420 ]
+398 silly gunzTarPerm extractEntry buildin/module.js
+399 silly gunzTarPerm modified mode [ 'buildin/module.js', 438, 420 ]
+400 silly gunzTarPerm extractEntry lib/Module.js
+401 silly gunzTarPerm modified mode [ 'lib/Module.js', 438, 420 ]
+402 silly gunzTarPerm extractEntry lib/ModuleBuildError.js
+403 silly gunzTarPerm modified mode [ 'lib/ModuleBuildError.js', 438, 420 ]
+404 silly gunzTarPerm extractEntry lib/optimize/ModuleConcatenationPlugin.js
+405 silly gunzTarPerm modified mode [ 'lib/optimize/ModuleConcatenationPlugin.js', 438, 420 ]
+406 silly gunzTarPerm extractEntry lib/dependencies/ModuleDependency.js
+407 silly gunzTarPerm modified mode [ 'lib/dependencies/ModuleDependency.js', 438, 420 ]
+408 silly gunzTarPerm extractEntry lib/ModuleDependencyError.js
+409 silly gunzTarPerm modified mode [ 'lib/ModuleDependencyError.js', 438, 420 ]
+410 silly gunzTarPerm extractEntry lib/dependencies/ModuleDependencyTemplateAsId.js
+411 silly gunzTarPerm modified mode [ 'lib/dependencies/ModuleDependencyTemplateAsId.js', 438, 420 ]
+412 silly gunzTarPerm extractEntry lib/dependencies/ModuleDependencyTemplateAsRequireId.js
+413 silly gunzTarPerm modified mode [ 'lib/dependencies/ModuleDependencyTemplateAsRequireId.js',
+413 silly gunzTarPerm   438,
+413 silly gunzTarPerm   420 ]
+414 silly gunzTarPerm extractEntry lib/ModuleDependencyWarning.js
+415 silly gunzTarPerm modified mode [ 'lib/ModuleDependencyWarning.js', 438, 420 ]
+416 silly gunzTarPerm extractEntry lib/ModuleError.js
+417 silly gunzTarPerm modified mode [ 'lib/ModuleError.js', 438, 420 ]
+418 silly gunzTarPerm extractEntry lib/ModuleFilenameHelpers.js
+419 silly gunzTarPerm modified mode [ 'lib/ModuleFilenameHelpers.js', 438, 420 ]
+420 silly gunzTarPerm extractEntry lib/dependencies/ModuleHotAcceptDependency.js
+421 silly gunzTarPerm modified mode [ 'lib/dependencies/ModuleHotAcceptDependency.js', 438, 420 ]
+422 silly gunzTarPerm extractEntry lib/dependencies/ModuleHotDeclineDependency.js
+423 silly gunzTarPerm modified mode [ 'lib/dependencies/ModuleHotDeclineDependency.js', 438, 420 ]
+424 silly gunzTarPerm extractEntry lib/ModuleNotFoundError.js
+425 silly gunzTarPerm modified mode [ 'lib/ModuleNotFoundError.js', 438, 420 ]
+426 silly gunzTarPerm extractEntry lib/ModuleParseError.js
+427 silly gunzTarPerm modified mode [ 'lib/ModuleParseError.js', 438, 420 ]
+428 silly gunzTarPerm extractEntry lib/ModuleReason.js
+429 silly gunzTarPerm modified mode [ 'lib/ModuleReason.js', 438, 420 ]
+430 silly gunzTarPerm extractEntry lib/ModuleTemplate.js
+431 silly gunzTarPerm modified mode [ 'lib/ModuleTemplate.js', 438, 420 ]
+432 silly gunzTarPerm extractEntry lib/ModuleWarning.js
+433 silly gunzTarPerm modified mode [ 'lib/ModuleWarning.js', 438, 420 ]
+434 silly gunzTarPerm extractEntry lib/MultiCompiler.js
+435 silly gunzTarPerm modified mode [ 'lib/MultiCompiler.js', 438, 420 ]
+436 silly gunzTarPerm extractEntry lib/dependencies/MultiEntryDependency.js
+437 silly gunzTarPerm modified mode [ 'lib/dependencies/MultiEntryDependency.js', 438, 420 ]
+438 silly gunzTarPerm extractEntry lib/MultiEntryPlugin.js
+439 silly gunzTarPerm modified mode [ 'lib/MultiEntryPlugin.js', 438, 420 ]
+440 silly gunzTarPerm extractEntry lib/MultiModule.js
+441 silly gunzTarPerm modified mode [ 'lib/MultiModule.js', 438, 420 ]
+442 silly gunzTarPerm extractEntry lib/MultiModuleFactory.js
+443 silly gunzTarPerm modified mode [ 'lib/MultiModuleFactory.js', 438, 420 ]
+444 silly gunzTarPerm extractEntry lib/MultiStats.js
+445 silly gunzTarPerm modified mode [ 'lib/MultiStats.js', 438, 420 ]
+446 silly gunzTarPerm extractEntry lib/MultiWatching.js
+447 silly gunzTarPerm modified mode [ 'lib/MultiWatching.js', 438, 420 ]
+448 silly gunzTarPerm extractEntry lib/NamedChunksPlugin.js
+449 silly gunzTarPerm modified mode [ 'lib/NamedChunksPlugin.js', 438, 420 ]
+450 silly gunzTarPerm extractEntry lib/NamedModulesPlugin.js
+451 silly gunzTarPerm modified mode [ 'lib/NamedModulesPlugin.js', 438, 420 ]
+452 silly gunzTarPerm extractEntry lib/optimize/NaturalChunkOrderPlugin.js
+453 silly gunzTarPerm modified mode [ 'lib/optimize/NaturalChunkOrderPlugin.js', 438, 420 ]
+454 silly gunzTarPerm extractEntry lib/performance/NoAsyncChunksWarning.js
+455 silly gunzTarPerm modified mode [ 'lib/performance/NoAsyncChunksWarning.js', 438, 420 ]
+456 silly gunzTarPerm extractEntry web_modules/node-libs-browser.js
+457 silly gunzTarPerm modified mode [ 'web_modules/node-libs-browser.js', 438, 420 ]
+458 silly gunzTarPerm extractEntry lib/node/NodeChunkTemplatePlugin.js
+459 silly gunzTarPerm modified mode [ 'lib/node/NodeChunkTemplatePlugin.js', 438, 420 ]
+460 silly gunzTarPerm extractEntry lib/node/nodeConsole.js
+461 silly gunzTarPerm modified mode [ 'lib/node/nodeConsole.js', 438, 420 ]
+462 silly gunzTarPerm extractEntry lib/node/NodeEnvironmentPlugin.js
+463 silly gunzTarPerm modified mode [ 'lib/node/NodeEnvironmentPlugin.js', 438, 420 ]
+464 silly gunzTarPerm extractEntry lib/node/NodeHotUpdateChunkTemplatePlugin.js
+465 silly gunzTarPerm modified mode [ 'lib/node/NodeHotUpdateChunkTemplatePlugin.js', 438, 420 ]
+466 silly gunzTarPerm extractEntry lib/node/NodeMainTemplate.runtime.js
+467 silly gunzTarPerm modified mode [ 'lib/node/NodeMainTemplate.runtime.js', 438, 420 ]
+468 silly gunzTarPerm extractEntry lib/node/NodeMainTemplateAsync.runtime.js
+469 silly gunzTarPerm modified mode [ 'lib/node/NodeMainTemplateAsync.runtime.js', 438, 420 ]
+470 silly gunzTarPerm extractEntry lib/node/NodeMainTemplatePlugin.js
+471 silly gunzTarPerm modified mode [ 'lib/node/NodeMainTemplatePlugin.js', 438, 420 ]
+472 silly gunzTarPerm extractEntry lib/node/NodeOutputFileSystem.js
+473 silly gunzTarPerm modified mode [ 'lib/node/NodeOutputFileSystem.js', 438, 420 ]
+474 silly gunzTarPerm extractEntry lib/node/NodeSourcePlugin.js
+475 silly gunzTarPerm modified mode [ 'lib/node/NodeSourcePlugin.js', 438, 420 ]
+476 silly gunzTarPerm extractEntry lib/NodeStuffPlugin.js
+477 silly gunzTarPerm modified mode [ 'lib/NodeStuffPlugin.js', 438, 420 ]
+478 silly gunzTarPerm extractEntry lib/node/NodeTargetPlugin.js
+479 silly gunzTarPerm modified mode [ 'lib/node/NodeTargetPlugin.js', 438, 420 ]
+480 silly gunzTarPerm extractEntry lib/node/NodeTemplatePlugin.js
+481 silly gunzTarPerm modified mode [ 'lib/node/NodeTemplatePlugin.js', 438, 420 ]
+482 silly gunzTarPerm extractEntry lib/node/NodeWatchFileSystem.js
+483 silly gunzTarPerm modified mode [ 'lib/node/NodeWatchFileSystem.js', 438, 420 ]
+484 silly gunzTarPerm extractEntry lib/NoEmitOnErrorsPlugin.js
+485 silly gunzTarPerm modified mode [ 'lib/NoEmitOnErrorsPlugin.js', 438, 420 ]
+486 silly gunzTarPerm extractEntry lib/NoModeWarning.js
+487 silly gunzTarPerm modified mode [ 'lib/NoModeWarning.js', 438, 420 ]
+488 silly gunzTarPerm extractEntry lib/NormalModule.js
+489 silly gunzTarPerm modified mode [ 'lib/NormalModule.js', 438, 420 ]
+490 silly gunzTarPerm extractEntry lib/NormalModuleFactory.js
+491 silly gunzTarPerm modified mode [ 'lib/NormalModuleFactory.js', 438, 420 ]
+492 silly gunzTarPerm extractEntry lib/NormalModuleReplacementPlugin.js
+493 silly gunzTarPerm modified mode [ 'lib/NormalModuleReplacementPlugin.js', 438, 420 ]
+494 silly gunzTarPerm extractEntry lib/dependencies/NullDependency.js
+495 silly gunzTarPerm modified mode [ 'lib/dependencies/NullDependency.js', 438, 420 ]
+496 silly gunzTarPerm extractEntry lib/NullFactory.js
+497 silly gunzTarPerm modified mode [ 'lib/NullFactory.js', 438, 420 ]
+498 silly gunzTarPerm extractEntry lib/util/objectToMap.js
+499 silly gunzTarPerm modified mode [ 'lib/util/objectToMap.js', 438, 420 ]
+500 silly gunzTarPerm extractEntry lib/optimize/OccurrenceChunkOrderPlugin.js
+501 silly gunzTarPerm modified mode [ 'lib/optimize/OccurrenceChunkOrderPlugin.js', 438, 420 ]
+502 silly gunzTarPerm extractEntry lib/optimize/OccurrenceModuleOrderPlugin.js
+503 silly gunzTarPerm modified mode [ 'lib/optimize/OccurrenceModuleOrderPlugin.js', 438, 420 ]
+504 silly gunzTarPerm extractEntry lib/optimize/OccurrenceOrderPlugin.js
+505 silly gunzTarPerm modified mode [ 'lib/optimize/OccurrenceOrderPlugin.js', 438, 420 ]
+506 silly gunzTarPerm extractEntry hot/only-dev-server.js
+507 silly gunzTarPerm modified mode [ 'hot/only-dev-server.js', 438, 420 ]
+508 silly gunzTarPerm extractEntry lib/OptionsApply.js
+509 silly gunzTarPerm modified mode [ 'lib/OptionsApply.js', 438, 420 ]
+510 silly gunzTarPerm extractEntry lib/OptionsDefaulter.js
+511 silly gunzTarPerm modified mode [ 'lib/OptionsDefaulter.js', 438, 420 ]
+512 silly gunzTarPerm extractEntry lib/Parser.js
+513 silly gunzTarPerm modified mode [ 'lib/Parser.js', 438, 420 ]
+514 silly gunzTarPerm extractEntry lib/ParserHelpers.js
+515 silly gunzTarPerm modified mode [ 'lib/ParserHelpers.js', 438, 420 ]
+516 silly gunzTarPerm extractEntry hot/poll.js
+517 silly gunzTarPerm modified mode [ 'hot/poll.js', 438, 420 ]
+518 silly gunzTarPerm extractEntry lib/dependencies/PrefetchDependency.js
+519 silly gunzTarPerm modified mode [ 'lib/dependencies/PrefetchDependency.js', 438, 420 ]
+520 silly gunzTarPerm extractEntry lib/PrefetchPlugin.js
+521 silly gunzTarPerm modified mode [ 'lib/PrefetchPlugin.js', 438, 420 ]
+522 silly gunzTarPerm extractEntry lib/debug/ProfilingPlugin.js
+523 silly gunzTarPerm modified mode [ 'lib/debug/ProfilingPlugin.js', 438, 420 ]
+524 silly gunzTarPerm extractEntry lib/ProgressPlugin.js
+525 silly gunzTarPerm modified mode [ 'lib/ProgressPlugin.js', 438, 420 ]
+526 silly gunzTarPerm extractEntry lib/ProvidePlugin.js
+527 silly gunzTarPerm modified mode [ 'lib/ProvidePlugin.js', 438, 420 ]
+528 silly gunzTarPerm extractEntry lib/util/Queue.js
+529 silly gunzTarPerm modified mode [ 'lib/util/Queue.js', 438, 420 ]
+530 silly gunzTarPerm extractEntry lib/RawModule.js
+531 silly gunzTarPerm modified mode [ 'lib/RawModule.js', 438, 420 ]
+532 silly gunzTarPerm extractEntry lib/node/ReadFileCompileWasmTemplatePlugin.js
+533 silly gunzTarPerm modified mode [ 'lib/node/ReadFileCompileWasmTemplatePlugin.js', 438, 420 ]
+534 silly gunzTarPerm extractEntry lib/RecordIdsPlugin.js
+535 silly gunzTarPerm modified mode [ 'lib/RecordIdsPlugin.js', 438, 420 ]
+536 silly gunzTarPerm extractEntry lib/RemovedPluginError.js
+537 silly gunzTarPerm modified mode [ 'lib/RemovedPluginError.js', 438, 420 ]
+538 silly gunzTarPerm extractEntry lib/optimize/RemoveEmptyChunksPlugin.js
+539 silly gunzTarPerm modified mode [ 'lib/optimize/RemoveEmptyChunksPlugin.js', 438, 420 ]
+540 silly gunzTarPerm extractEntry lib/optimize/RemoveParentModulesPlugin.js
+541 silly gunzTarPerm modified mode [ 'lib/optimize/RemoveParentModulesPlugin.js', 438, 420 ]
+542 silly gunzTarPerm extractEntry lib/RequestShortener.js
+543 silly gunzTarPerm modified mode [ 'lib/RequestShortener.js', 438, 420 ]
+544 silly gunzTarPerm extractEntry lib/dependencies/RequireContextDependency.js
+545 silly gunzTarPerm modified mode [ 'lib/dependencies/RequireContextDependency.js', 438, 420 ]
+546 silly gunzTarPerm extractEntry lib/dependencies/RequireContextDependencyParserPlugin.js
+547 silly gunzTarPerm modified mode [ 'lib/dependencies/RequireContextDependencyParserPlugin.js',
+547 silly gunzTarPerm   438,
+547 silly gunzTarPerm   420 ]
+548 silly gunzTarPerm extractEntry lib/dependencies/RequireContextPlugin.js
+549 silly gunzTarPerm modified mode [ 'lib/dependencies/RequireContextPlugin.js', 438, 420 ]
+550 silly gunzTarPerm extractEntry lib/dependencies/RequireEnsureDependenciesBlock.js
+551 silly gunzTarPerm modified mode [ 'lib/dependencies/RequireEnsureDependenciesBlock.js',
+551 silly gunzTarPerm   438,
+551 silly gunzTarPerm   420 ]
+552 silly gunzTarPerm extractEntry lib/dependencies/RequireEnsureDependenciesBlockParserPlugin.js
+553 silly gunzTarPerm modified mode [ 'lib/dependencies/RequireEnsureDependenciesBlockParserPlugin.js',
+553 silly gunzTarPerm   438,
+553 silly gunzTarPerm   420 ]
+554 silly gunzTarPerm extractEntry lib/dependencies/RequireEnsureDependency.js
+555 silly gunzTarPerm modified mode [ 'lib/dependencies/RequireEnsureDependency.js', 438, 420 ]
+556 silly gunzTarPerm extractEntry lib/dependencies/RequireEnsureItemDependency.js
+557 silly gunzTarPerm modified mode [ 'lib/dependencies/RequireEnsureItemDependency.js', 438, 420 ]
+558 silly gunzTarPerm extractEntry lib/dependencies/RequireEnsurePlugin.js
+559 silly gunzTarPerm modified mode [ 'lib/dependencies/RequireEnsurePlugin.js', 438, 420 ]
+560 silly gunzTarPerm extractEntry lib/dependencies/RequireHeaderDependency.js
+561 silly gunzTarPerm modified mode [ 'lib/dependencies/RequireHeaderDependency.js', 438, 420 ]
+562 silly gunzTarPerm extractEntry lib/dependencies/RequireIncludeDependency.js
+563 silly gunzTarPerm modified mode [ 'lib/dependencies/RequireIncludeDependency.js', 438, 420 ]
+564 silly gunzTarPerm extractEntry lib/dependencies/RequireIncludeDependencyParserPlugin.js
+565 silly gunzTarPerm modified mode [ 'lib/dependencies/RequireIncludeDependencyParserPlugin.js',
+565 silly gunzTarPerm   438,
+565 silly gunzTarPerm   420 ]
+566 silly gunzTarPerm extractEntry lib/dependencies/RequireIncludePlugin.js
+567 silly gunzTarPerm modified mode [ 'lib/dependencies/RequireIncludePlugin.js', 438, 420 ]
+568 silly gunzTarPerm extractEntry lib/RequireJsStuffPlugin.js
+569 silly gunzTarPerm modified mode [ 'lib/RequireJsStuffPlugin.js', 438, 420 ]
+570 silly gunzTarPerm extractEntry lib/dependencies/RequireResolveContextDependency.js
+571 silly gunzTarPerm modified mode [ 'lib/dependencies/RequireResolveContextDependency.js',
+571 silly gunzTarPerm   438,
+571 silly gunzTarPerm   420 ]
+572 silly gunzTarPerm extractEntry lib/dependencies/RequireResolveDependency.js
+573 silly gunzTarPerm modified mode [ 'lib/dependencies/RequireResolveDependency.js', 438, 420 ]
+574 silly gunzTarPerm extractEntry lib/dependencies/RequireResolveDependencyParserPlugin.js
+575 silly gunzTarPerm modified mode [ 'lib/dependencies/RequireResolveDependencyParserPlugin.js',
+575 silly gunzTarPerm   438,
+575 silly gunzTarPerm   420 ]
+576 silly gunzTarPerm extractEntry lib/dependencies/RequireResolveHeaderDependency.js
+577 silly gunzTarPerm modified mode [ 'lib/dependencies/RequireResolveHeaderDependency.js',
+577 silly gunzTarPerm   438,
+577 silly gunzTarPerm   420 ]
+578 silly gunzTarPerm extractEntry lib/ResolverFactory.js
+579 silly gunzTarPerm modified mode [ 'lib/ResolverFactory.js', 438, 420 ]
+580 silly gunzTarPerm extractEntry lib/RuleSet.js
+581 silly gunzTarPerm modified mode [ 'lib/RuleSet.js', 438, 420 ]
+582 silly gunzTarPerm extractEntry lib/logging/runtime.js
+583 silly gunzTarPerm modified mode [ 'lib/logging/runtime.js', 438, 420 ]
+584 silly gunzTarPerm extractEntry lib/optimize/RuntimeChunkPlugin.js
+585 silly gunzTarPerm modified mode [ 'lib/optimize/RuntimeChunkPlugin.js', 438, 420 ]
+586 silly gunzTarPerm extractEntry lib/RuntimeTemplate.js
+587 silly gunzTarPerm modified mode [ 'lib/RuntimeTemplate.js', 438, 420 ]
+588 silly gunzTarPerm extractEntry lib/util/Semaphore.js
+589 silly gunzTarPerm modified mode [ 'lib/util/Semaphore.js', 438, 420 ]
+590 silly gunzTarPerm extractEntry lib/util/SetHelpers.js
+591 silly gunzTarPerm modified mode [ 'lib/util/SetHelpers.js', 438, 420 ]
+592 silly gunzTarPerm extractEntry lib/SetVarMainTemplatePlugin.js
+593 silly gunzTarPerm modified mode [ 'lib/SetVarMainTemplatePlugin.js', 438, 420 ]
+594 silly gunzTarPerm extractEntry lib/optimize/SideEffectsFlagPlugin.js
+595 silly gunzTarPerm modified mode [ 'lib/optimize/SideEffectsFlagPlugin.js', 438, 420 ]
+596 silly gunzTarPerm extractEntry hot/signal.js
+597 silly gunzTarPerm modified mode [ 'hot/signal.js', 438, 420 ]
+598 silly gunzTarPerm extractEntry lib/dependencies/SingleEntryDependency.js
+599 silly gunzTarPerm modified mode [ 'lib/dependencies/SingleEntryDependency.js', 438, 420 ]
+600 silly gunzTarPerm extractEntry lib/SingleEntryPlugin.js
+601 silly gunzTarPerm modified mode [ 'lib/SingleEntryPlugin.js', 438, 420 ]
+602 silly gunzTarPerm extractEntry lib/SizeFormatHelpers.js
+603 silly gunzTarPerm modified mode [ 'lib/SizeFormatHelpers.js', 438, 420 ]
+604 silly gunzTarPerm extractEntry lib/performance/SizeLimitsPlugin.js
+605 silly gunzTarPerm modified mode [ 'lib/performance/SizeLimitsPlugin.js', 438, 420 ]
+606 silly gunzTarPerm extractEntry lib/util/SortableSet.js
+607 silly gunzTarPerm modified mode [ 'lib/util/SortableSet.js', 438, 420 ]
+608 silly gunzTarPerm extractEntry lib/SourceMapDevToolModuleOptionsPlugin.js
+609 silly gunzTarPerm modified mode [ 'lib/SourceMapDevToolModuleOptionsPlugin.js', 438, 420 ]
+610 silly gunzTarPerm extractEntry lib/SourceMapDevToolPlugin.js
+611 silly gunzTarPerm modified mode [ 'lib/SourceMapDevToolPlugin.js', 438, 420 ]
+612 silly gunzTarPerm extractEntry lib/optimize/SplitChunksPlugin.js
+613 silly gunzTarPerm modified mode [ 'lib/optimize/SplitChunksPlugin.js', 438, 420 ]
+614 silly gunzTarPerm extractEntry lib/util/StackedSetMap.js
+615 silly gunzTarPerm modified mode [ 'lib/util/StackedSetMap.js', 438, 420 ]
+616 silly gunzTarPerm extractEntry lib/Stats.js
+617 silly gunzTarPerm modified mode [ 'lib/Stats.js', 438, 420 ]
+618 silly gunzTarPerm extractEntry buildin/system.js
+619 silly gunzTarPerm modified mode [ 'buildin/system.js', 438, 420 ]
+620 silly gunzTarPerm extractEntry lib/SystemMainTemplatePlugin.js
+621 silly gunzTarPerm modified mode [ 'lib/SystemMainTemplatePlugin.js', 438, 420 ]
+622 silly gunzTarPerm extractEntry lib/dependencies/SystemPlugin.js
+623 silly gunzTarPerm modified mode [ 'lib/dependencies/SystemPlugin.js', 438, 420 ]
+624 silly gunzTarPerm extractEntry lib/Template.js
+625 silly gunzTarPerm modified mode [ 'lib/Template.js', 438, 420 ]
+626 silly gunzTarPerm extractEntry lib/TemplatedPathPlugin.js
+627 silly gunzTarPerm modified mode [ 'lib/TemplatedPathPlugin.js', 438, 420 ]
+628 silly gunzTarPerm extractEntry lib/util/TrackingSet.js
+629 silly gunzTarPerm modified mode [ 'lib/util/TrackingSet.js', 438, 420 ]
+630 silly gunzTarPerm extractEntry lib/logging/truncateArgs.js
+631 silly gunzTarPerm modified mode [ 'lib/logging/truncateArgs.js', 438, 420 ]
+632 silly gunzTarPerm extractEntry lib/UmdMainTemplatePlugin.js
+633 silly gunzTarPerm modified mode [ 'lib/UmdMainTemplatePlugin.js', 438, 420 ]
+634 silly gunzTarPerm extractEntry lib/dependencies/UnsupportedDependency.js
+635 silly gunzTarPerm modified mode [ 'lib/dependencies/UnsupportedDependency.js', 438, 420 ]
+636 silly gunzTarPerm extractEntry lib/UnsupportedFeatureWarning.js
+637 silly gunzTarPerm modified mode [ 'lib/UnsupportedFeatureWarning.js', 438, 420 ]
+638 silly gunzTarPerm extractEntry lib/wasm/UnsupportedWebAssemblyFeatureError.js
+639 silly gunzTarPerm modified mode [ 'lib/wasm/UnsupportedWebAssemblyFeatureError.js', 438, 420 ]
+640 silly gunzTarPerm extractEntry lib/UseStrictPlugin.js
+641 silly gunzTarPerm modified mode [ 'lib/UseStrictPlugin.js', 438, 420 ]
+642 silly gunzTarPerm extractEntry lib/validateSchema.js
+643 silly gunzTarPerm modified mode [ 'lib/validateSchema.js', 438, 420 ]
+644 silly gunzTarPerm extractEntry lib/WarnCaseSensitiveModulesPlugin.js
+645 silly gunzTarPerm modified mode [ 'lib/WarnCaseSensitiveModulesPlugin.js', 438, 420 ]
+646 silly gunzTarPerm extractEntry lib/WarnNoModeSetPlugin.js
+647 silly gunzTarPerm modified mode [ 'lib/WarnNoModeSetPlugin.js', 438, 420 ]
+648 silly gunzTarPerm extractEntry lib/wasm/WasmFinalizeExportsPlugin.js
+649 silly gunzTarPerm modified mode [ 'lib/wasm/WasmFinalizeExportsPlugin.js', 438, 420 ]
+650 silly gunzTarPerm extractEntry lib/wasm/WasmMainTemplatePlugin.js
+651 silly gunzTarPerm modified mode [ 'lib/wasm/WasmMainTemplatePlugin.js', 438, 420 ]
+652 silly gunzTarPerm extractEntry lib/WatchIgnorePlugin.js
+653 silly gunzTarPerm modified mode [ 'lib/WatchIgnorePlugin.js', 438, 420 ]
+654 silly gunzTarPerm extractEntry lib/Watching.js
+655 silly gunzTarPerm modified mode [ 'lib/Watching.js', 438, 420 ]
+656 silly gunzTarPerm extractEntry lib/dependencies/WebAssemblyExportImportedDependency.js
+657 silly gunzTarPerm modified mode [ 'lib/dependencies/WebAssemblyExportImportedDependency.js',
+657 silly gunzTarPerm   438,
+657 silly gunzTarPerm   420 ]
+658 silly gunzTarPerm extractEntry lib/wasm/WebAssemblyGenerator.js
+659 silly gunzTarPerm modified mode [ 'lib/wasm/WebAssemblyGenerator.js', 438, 420 ]
+660 silly gunzTarPerm extractEntry lib/dependencies/WebAssemblyImportDependency.js
+661 silly gunzTarPerm modified mode [ 'lib/dependencies/WebAssemblyImportDependency.js', 438, 420 ]
+662 silly gunzTarPerm extractEntry lib/wasm/WebAssemblyInInitialChunkError.js
+663 silly gunzTarPerm modified mode [ 'lib/wasm/WebAssemblyInInitialChunkError.js', 438, 420 ]
+664 silly gunzTarPerm extractEntry lib/wasm/WebAssemblyJavascriptGenerator.js
+665 silly gunzTarPerm modified mode [ 'lib/wasm/WebAssemblyJavascriptGenerator.js', 438, 420 ]
+666 silly gunzTarPerm extractEntry lib/wasm/WebAssemblyModulesPlugin.js
+667 silly gunzTarPerm modified mode [ 'lib/wasm/WebAssemblyModulesPlugin.js', 438, 420 ]
+668 silly gunzTarPerm extractEntry lib/wasm/WebAssemblyParser.js
+669 silly gunzTarPerm modified mode [ 'lib/wasm/WebAssemblyParser.js', 438, 420 ]
+670 silly gunzTarPerm extractEntry lib/wasm/WebAssemblyUtils.js
+671 silly gunzTarPerm modified mode [ 'lib/wasm/WebAssemblyUtils.js', 438, 420 ]
+672 silly gunzTarPerm extractEntry lib/web/WebEnvironmentPlugin.js
+673 silly gunzTarPerm modified mode [ 'lib/web/WebEnvironmentPlugin.js', 438, 420 ]
+674 silly gunzTarPerm extractEntry bin/webpack.js
+675 silly gunzTarPerm modified mode [ 'bin/webpack.js', 438, 420 ]
+676 silly gunzTarPerm extractEntry lib/webpack.js
+677 silly gunzTarPerm modified mode [ 'lib/webpack.js', 438, 420 ]
+678 silly gunzTarPerm extractEntry lib/webpack.web.js
+679 silly gunzTarPerm modified mode [ 'lib/webpack.web.js', 438, 420 ]
+680 silly gunzTarPerm extractEntry lib/WebpackError.js
+681 silly gunzTarPerm modified mode [ 'lib/WebpackError.js', 438, 420 ]
+682 silly gunzTarPerm extractEntry lib/dependencies/WebpackMissingModule.js
+683 silly gunzTarPerm modified mode [ 'lib/dependencies/WebpackMissingModule.js', 438, 420 ]
+684 silly gunzTarPerm extractEntry lib/WebpackOptionsApply.js
+685 silly gunzTarPerm modified mode [ 'lib/WebpackOptionsApply.js', 438, 420 ]
+686 silly gunzTarPerm extractEntry lib/WebpackOptionsDefaulter.js
+687 silly gunzTarPerm modified mode [ 'lib/WebpackOptionsDefaulter.js', 438, 420 ]
+688 silly gunzTarPerm extractEntry lib/WebpackOptionsValidationError.js
+689 silly gunzTarPerm modified mode [ 'lib/WebpackOptionsValidationError.js', 438, 420 ]
+690 silly gunzTarPerm extractEntry lib/webworker/WebWorkerChunkTemplatePlugin.js
+691 silly gunzTarPerm modified mode [ 'lib/webworker/WebWorkerChunkTemplatePlugin.js', 438, 420 ]
+692 silly gunzTarPerm extractEntry lib/webworker/WebWorkerHotUpdateChunkTemplatePlugin.js
+693 silly gunzTarPerm modified mode [ 'lib/webworker/WebWorkerHotUpdateChunkTemplatePlugin.js',
+693 silly gunzTarPerm   438,
+693 silly gunzTarPerm   420 ]
+694 silly gunzTarPerm extractEntry lib/webworker/WebWorkerMainTemplate.runtime.js
+695 silly gunzTarPerm modified mode [ 'lib/webworker/WebWorkerMainTemplate.runtime.js', 438, 420 ]
+696 silly gunzTarPerm extractEntry lib/webworker/WebWorkerMainTemplatePlugin.js
+697 silly gunzTarPerm modified mode [ 'lib/webworker/WebWorkerMainTemplatePlugin.js', 438, 420 ]
+698 silly gunzTarPerm extractEntry lib/webworker/WebWorkerTemplatePlugin.js
+699 silly gunzTarPerm modified mode [ 'lib/webworker/WebWorkerTemplatePlugin.js', 438, 420 ]
+700 silly gunzTarPerm extractEntry schemas/plugins/optimize/AggressiveSplittingPlugin.json
+701 silly gunzTarPerm modified mode [ 'schemas/plugins/optimize/AggressiveSplittingPlugin.json',
+701 silly gunzTarPerm   438,
+701 silly gunzTarPerm   420 ]
+702 silly gunzTarPerm extractEntry schemas/plugins/BannerPlugin.json
+703 silly gunzTarPerm modified mode [ 'schemas/plugins/BannerPlugin.json', 438, 420 ]
+704 silly gunzTarPerm extractEntry schemas/plugins/DllPlugin.json
+705 silly gunzTarPerm modified mode [ 'schemas/plugins/DllPlugin.json', 438, 420 ]
+706 silly gunzTarPerm extractEntry schemas/plugins/DllReferencePlugin.json
+707 silly gunzTarPerm modified mode [ 'schemas/plugins/DllReferencePlugin.json', 438, 420 ]
+708 silly gunzTarPerm extractEntry schemas/plugins/HashedModuleIdsPlugin.json
+709 silly gunzTarPerm modified mode [ 'schemas/plugins/HashedModuleIdsPlugin.json', 438, 420 ]
+710 silly gunzTarPerm extractEntry schemas/plugins/IgnorePlugin.json
+711 silly gunzTarPerm modified mode [ 'schemas/plugins/IgnorePlugin.json', 438, 420 ]
+712 silly gunzTarPerm extractEntry schemas/plugins/optimize/LimitChunkCountPlugin.json
+713 silly gunzTarPerm modified mode [ 'schemas/plugins/optimize/LimitChunkCountPlugin.json',
+713 silly gunzTarPerm   438,
+713 silly gunzTarPerm   420 ]
+714 silly gunzTarPerm extractEntry schemas/plugins/LoaderOptionsPlugin.json
+715 silly gunzTarPerm modified mode [ 'schemas/plugins/LoaderOptionsPlugin.json', 438, 420 ]
+716 silly gunzTarPerm extractEntry schemas/plugins/optimize/MinChunkSizePlugin.json
+717 silly gunzTarPerm modified mode [ 'schemas/plugins/optimize/MinChunkSizePlugin.json', 438, 420 ]
+718 silly gunzTarPerm extractEntry schemas/plugins/optimize/OccurrenceOrderChunkIdsPlugin.json
+719 silly gunzTarPerm modified mode [ 'schemas/plugins/optimize/OccurrenceOrderChunkIdsPlugin.json',
+719 silly gunzTarPerm   438,
+719 silly gunzTarPerm   420 ]
+720 silly gunzTarPerm extractEntry schemas/plugins/optimize/OccurrenceOrderModuleIdsPlugin.json
+721 silly gunzTarPerm modified mode [ 'schemas/plugins/optimize/OccurrenceOrderModuleIdsPlugin.json',
+721 silly gunzTarPerm   438,
+721 silly gunzTarPerm   420 ]
+722 silly gunzTarPerm extractEntry package.json
+723 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+724 silly gunzTarPerm extractEntry schemas/plugins/debug/ProfilingPlugin.json
+725 silly gunzTarPerm modified mode [ 'schemas/plugins/debug/ProfilingPlugin.json', 438, 420 ]
+726 silly gunzTarPerm extractEntry schemas/plugins/ProgressPlugin.json
+727 silly gunzTarPerm modified mode [ 'schemas/plugins/ProgressPlugin.json', 438, 420 ]
+728 silly gunzTarPerm extractEntry schemas/plugins/SourceMapDevToolPlugin.json
+729 silly gunzTarPerm modified mode [ 'schemas/plugins/SourceMapDevToolPlugin.json', 438, 420 ]
+730 silly gunzTarPerm extractEntry schemas/plugins/WatchIgnorePlugin.json
+731 silly gunzTarPerm modified mode [ 'schemas/plugins/WatchIgnorePlugin.json', 438, 420 ]
+732 silly gunzTarPerm extractEntry schemas/WebpackOptions.json
+733 silly gunzTarPerm modified mode [ 'schemas/WebpackOptions.json', 438, 420 ]
+734 silly gunzTarPerm extractEntry README.md
+735 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+736 silly gunzTarPerm extractEntry SECURITY.md
+737 silly gunzTarPerm modified mode [ 'SECURITY.md', 438, 420 ]
+738 silly gunzTarPerm extractEntry declarations/plugins/optimize/AggressiveSplittingPlugin.d.ts
+739 silly gunzTarPerm modified mode [ 'declarations/plugins/optimize/AggressiveSplittingPlugin.d.ts',
+739 silly gunzTarPerm   438,
+739 silly gunzTarPerm   420 ]
+740 silly gunzTarPerm extractEntry declarations/plugins/BannerPlugin.d.ts
+741 silly gunzTarPerm modified mode [ 'declarations/plugins/BannerPlugin.d.ts', 438, 420 ]
+742 silly gunzTarPerm extractEntry declarations/plugins/DllPlugin.d.ts
+743 silly gunzTarPerm modified mode [ 'declarations/plugins/DllPlugin.d.ts', 438, 420 ]
+744 silly gunzTarPerm extractEntry declarations/plugins/DllReferencePlugin.d.ts
+745 silly gunzTarPerm modified mode [ 'declarations/plugins/DllReferencePlugin.d.ts', 438, 420 ]
+746 silly gunzTarPerm extractEntry declarations/plugins/HashedModuleIdsPlugin.d.ts
+747 silly gunzTarPerm modified mode [ 'declarations/plugins/HashedModuleIdsPlugin.d.ts', 438, 420 ]
+748 silly gunzTarPerm extractEntry declarations/plugins/IgnorePlugin.d.ts
+749 silly gunzTarPerm modified mode [ 'declarations/plugins/IgnorePlugin.d.ts', 438, 420 ]
+750 silly gunzTarPerm extractEntry declarations/plugins/optimize/LimitChunkCountPlugin.d.ts
+751 silly gunzTarPerm modified mode [ 'declarations/plugins/optimize/LimitChunkCountPlugin.d.ts',
+751 silly gunzTarPerm   438,
+751 silly gunzTarPerm   420 ]
+752 silly gunzTarPerm extractEntry declarations/plugins/LoaderOptionsPlugin.d.ts
+753 silly gunzTarPerm modified mode [ 'declarations/plugins/LoaderOptionsPlugin.d.ts', 438, 420 ]
+754 silly gunzTarPerm extractEntry declarations/plugins/optimize/MinChunkSizePlugin.d.ts
+755 silly gunzTarPerm modified mode [ 'declarations/plugins/optimize/MinChunkSizePlugin.d.ts',
+755 silly gunzTarPerm   438,
+755 silly gunzTarPerm   420 ]
+756 silly gunzTarPerm extractEntry declarations/plugins/optimize/OccurrenceOrderChunkIdsPlugin.d.ts
+757 silly gunzTarPerm modified mode [ 'declarations/plugins/optimize/OccurrenceOrderChunkIdsPlugin.d.ts',
+757 silly gunzTarPerm   438,
+757 silly gunzTarPerm   420 ]
+758 silly gunzTarPerm extractEntry declarations/plugins/optimize/OccurrenceOrderModuleIdsPlugin.d.ts
+759 silly gunzTarPerm modified mode [ 'declarations/plugins/optimize/OccurrenceOrderModuleIdsPlugin.d.ts',
+759 silly gunzTarPerm   438,
+759 silly gunzTarPerm   420 ]
+760 silly gunzTarPerm extractEntry declarations/plugins/debug/ProfilingPlugin.d.ts
+761 silly gunzTarPerm modified mode [ 'declarations/plugins/debug/ProfilingPlugin.d.ts', 438, 420 ]
+762 silly gunzTarPerm extractEntry declarations/plugins/ProgressPlugin.d.ts
+763 silly gunzTarPerm modified mode [ 'declarations/plugins/ProgressPlugin.d.ts', 438, 420 ]
+764 silly gunzTarPerm extractEntry declarations/plugins/SourceMapDevToolPlugin.d.ts
+765 silly gunzTarPerm modified mode [ 'declarations/plugins/SourceMapDevToolPlugin.d.ts', 438, 420 ]
+766 silly gunzTarPerm extractEntry declarations/plugins/WatchIgnorePlugin.d.ts
+767 silly gunzTarPerm modified mode [ 'declarations/plugins/WatchIgnorePlugin.d.ts', 438, 420 ]
+768 silly gunzTarPerm extractEntry declarations/WebpackOptions.d.ts
+769 silly gunzTarPerm modified mode [ 'declarations/WebpackOptions.d.ts', 438, 420 ]
+770 silly lockFile dd1c7ecc-r-local-lib-node-modules-webpack tar:///usr/local/lib/node_modules/webpack
+771 silly lockFile dd1c7ecc-r-local-lib-node-modules-webpack tar:///usr/local/lib/node_modules/webpack
+772 silly lockFile d4b760ab-t-npm-webpack-4-40-2-package-tgz tar:///root/.npm/webpack/4.40.2/package.tgz
+773 silly lockFile d4b760ab-t-npm-webpack-4-40-2-package-tgz tar:///root/.npm/webpack/4.40.2/package.tgz
+774 info preinstall webpack@4.40.2
+775 verbose readDependencies using package.json deps
+776 verbose readDependencies using package.json deps
+777 verbose cache add [ '@webassemblyjs/ast@1.8.5', null ]
+778 verbose cache add name=undefined spec="@webassemblyjs/ast@1.8.5" args=["@webassemblyjs/ast@1.8.5",null]
+779 verbose parsed url { protocol: null,
+779 verbose parsed url   slashes: null,
+779 verbose parsed url   auth: null,
+779 verbose parsed url   host: null,
+779 verbose parsed url   port: null,
+779 verbose parsed url   hostname: null,
+779 verbose parsed url   hash: null,
+779 verbose parsed url   search: null,
+779 verbose parsed url   query: null,
+779 verbose parsed url   pathname: '@webassemblyjs/ast@1.8.5',
+779 verbose parsed url   path: '@webassemblyjs/ast@1.8.5',
+779 verbose parsed url   href: '@webassemblyjs/ast@1.8.5' }
+780 verbose cache add [ '@webassemblyjs/helper-module-context@1.8.5', null ]
+781 verbose cache add name=undefined spec="@webassemblyjs/helper-module-context@1.8.5" args=["@webassemblyjs/helper-module-context@1.8.5",null]
+782 verbose parsed url { protocol: null,
+782 verbose parsed url   slashes: null,
+782 verbose parsed url   auth: null,
+782 verbose parsed url   host: null,
+782 verbose parsed url   port: null,
+782 verbose parsed url   hostname: null,
+782 verbose parsed url   hash: null,
+782 verbose parsed url   search: null,
+782 verbose parsed url   query: null,
+782 verbose parsed url   pathname: '@webassemblyjs/helper-module-context@1.8.5',
+782 verbose parsed url   path: '@webassemblyjs/helper-module-context@1.8.5',
+782 verbose parsed url   href: '@webassemblyjs/helper-module-context@1.8.5' }
+783 verbose cache add [ '@webassemblyjs/wasm-edit@1.8.5', null ]
+784 verbose cache add name=undefined spec="@webassemblyjs/wasm-edit@1.8.5" args=["@webassemblyjs/wasm-edit@1.8.5",null]
+785 verbose parsed url { protocol: null,
+785 verbose parsed url   slashes: null,
+785 verbose parsed url   auth: null,
+785 verbose parsed url   host: null,
+785 verbose parsed url   port: null,
+785 verbose parsed url   hostname: null,
+785 verbose parsed url   hash: null,
+785 verbose parsed url   search: null,
+785 verbose parsed url   query: null,
+785 verbose parsed url   pathname: '@webassemblyjs/wasm-edit@1.8.5',
+785 verbose parsed url   path: '@webassemblyjs/wasm-edit@1.8.5',
+785 verbose parsed url   href: '@webassemblyjs/wasm-edit@1.8.5' }
+786 verbose cache add name="" spec="webassemblyjs/ast@1.8.5" args=["","webassemblyjs/ast@1.8.5"]
+787 verbose parsed url { protocol: null,
+787 verbose parsed url   slashes: null,
+787 verbose parsed url   auth: null,
+787 verbose parsed url   host: null,
+787 verbose parsed url   port: null,
+787 verbose parsed url   hostname: null,
+787 verbose parsed url   hash: null,
+787 verbose parsed url   search: null,
+787 verbose parsed url   query: null,
+787 verbose parsed url   pathname: 'webassemblyjs/ast@1.8.5',
+787 verbose parsed url   path: 'webassemblyjs/ast@1.8.5',
+787 verbose parsed url   href: 'webassemblyjs/ast@1.8.5' }
+788 verbose cache add name="" spec="webassemblyjs/helper-module-context@1.8.5" args=["","webassemblyjs/helper-module-context@1.8.5"]
+789 verbose parsed url { protocol: null,
+789 verbose parsed url   slashes: null,
+789 verbose parsed url   auth: null,
+789 verbose parsed url   host: null,
+789 verbose parsed url   port: null,
+789 verbose parsed url   hostname: null,
+789 verbose parsed url   hash: null,
+789 verbose parsed url   search: null,
+789 verbose parsed url   query: null,
+789 verbose parsed url   pathname: 'webassemblyjs/helper-module-context@1.8.5',
+789 verbose parsed url   path: 'webassemblyjs/helper-module-context@1.8.5',
+789 verbose parsed url   href: 'webassemblyjs/helper-module-context@1.8.5' }
+790 verbose cache add [ '@webassemblyjs/wasm-parser@1.8.5', null ]
+791 verbose cache add name=undefined spec="@webassemblyjs/wasm-parser@1.8.5" args=["@webassemblyjs/wasm-parser@1.8.5",null]
+792 verbose parsed url { protocol: null,
+792 verbose parsed url   slashes: null,
+792 verbose parsed url   auth: null,
+792 verbose parsed url   host: null,
+792 verbose parsed url   port: null,
+792 verbose parsed url   hostname: null,
+792 verbose parsed url   hash: null,
+792 verbose parsed url   search: null,
+792 verbose parsed url   query: null,
+792 verbose parsed url   pathname: '@webassemblyjs/wasm-parser@1.8.5',
+792 verbose parsed url   path: '@webassemblyjs/wasm-parser@1.8.5',
+792 verbose parsed url   href: '@webassemblyjs/wasm-parser@1.8.5' }
+793 verbose cache add name="" spec="webassemblyjs/wasm-edit@1.8.5" args=["","webassemblyjs/wasm-edit@1.8.5"]
+794 verbose parsed url { protocol: null,
+794 verbose parsed url   slashes: null,
+794 verbose parsed url   auth: null,
+794 verbose parsed url   host: null,
+794 verbose parsed url   port: null,
+794 verbose parsed url   hostname: null,
+794 verbose parsed url   hash: null,
+794 verbose parsed url   search: null,
+794 verbose parsed url   query: null,
+794 verbose parsed url   pathname: 'webassemblyjs/wasm-edit@1.8.5',
+794 verbose parsed url   path: 'webassemblyjs/wasm-edit@1.8.5',
+794 verbose parsed url   href: 'webassemblyjs/wasm-edit@1.8.5' }
+795 verbose cache add name="webassemblyjs/ast" spec="1.8.5" args=["webassemblyjs/ast","1.8.5"]
+796 verbose parsed url { protocol: null,
+796 verbose parsed url   slashes: null,
+796 verbose parsed url   auth: null,
+796 verbose parsed url   host: null,
+796 verbose parsed url   port: null,
+796 verbose parsed url   hostname: null,
+796 verbose parsed url   hash: null,
+796 verbose parsed url   search: null,
+796 verbose parsed url   query: null,
+796 verbose parsed url   pathname: '1.8.5',
+796 verbose parsed url   path: '1.8.5',
+796 verbose parsed url   href: '1.8.5' }
+797 verbose addNamed [ 'webassemblyjs/ast', '1.8.5' ]
+798 verbose addNamed [ '1.8.5', '1.8.5' ]
+799 silly lockFile 7f9eba66-webassemblyjs-ast-1-8-5 webassemblyjs/ast@1.8.5
+800 verbose lock webassemblyjs/ast@1.8.5 /root/.npm/7f9eba66-webassemblyjs-ast-1-8-5.lock
+801 verbose cache add name="webassemblyjs/helper-module-context" spec="1.8.5" args=["webassemblyjs/helper-module-context","1.8.5"]
+802 verbose parsed url { protocol: null,
+802 verbose parsed url   slashes: null,
+802 verbose parsed url   auth: null,
+802 verbose parsed url   host: null,
+802 verbose parsed url   port: null,
+802 verbose parsed url   hostname: null,
+802 verbose parsed url   hash: null,
+802 verbose parsed url   search: null,
+802 verbose parsed url   query: null,
+802 verbose parsed url   pathname: '1.8.5',
+802 verbose parsed url   path: '1.8.5',
+802 verbose parsed url   href: '1.8.5' }
+803 verbose addNamed [ 'webassemblyjs/helper-module-context', '1.8.5' ]
+804 verbose addNamed [ '1.8.5', '1.8.5' ]
+805 silly lockFile 2a235b37-lyjs-helper-module-context-1-8-5 webassemblyjs/helper-module-context@1.8.5
+806 verbose lock webassemblyjs/helper-module-context@1.8.5 /root/.npm/2a235b37-lyjs-helper-module-context-1-8-5.lock
+807 verbose cache add name="" spec="webassemblyjs/wasm-parser@1.8.5" args=["","webassemblyjs/wasm-parser@1.8.5"]
+808 verbose parsed url { protocol: null,
+808 verbose parsed url   slashes: null,
+808 verbose parsed url   auth: null,
+808 verbose parsed url   host: null,
+808 verbose parsed url   port: null,
+808 verbose parsed url   hostname: null,
+808 verbose parsed url   hash: null,
+808 verbose parsed url   search: null,
+808 verbose parsed url   query: null,
+808 verbose parsed url   pathname: 'webassemblyjs/wasm-parser@1.8.5',
+808 verbose parsed url   path: 'webassemblyjs/wasm-parser@1.8.5',
+808 verbose parsed url   href: 'webassemblyjs/wasm-parser@1.8.5' }
+809 verbose cache add [ 'acorn@^6.2.1', null ]
+810 verbose cache add name=undefined spec="acorn@^6.2.1" args=["acorn@^6.2.1",null]
+811 verbose parsed url { protocol: null,
+811 verbose parsed url   slashes: null,
+811 verbose parsed url   auth: null,
+811 verbose parsed url   host: null,
+811 verbose parsed url   port: null,
+811 verbose parsed url   hostname: null,
+811 verbose parsed url   hash: null,
+811 verbose parsed url   search: null,
+811 verbose parsed url   query: null,
+811 verbose parsed url   pathname: 'acorn@^6.2.1',
+811 verbose parsed url   path: 'acorn@^6.2.1',
+811 verbose parsed url   href: 'acorn@^6.2.1' }
+812 verbose cache add [ 'ajv@^6.10.2', null ]
+813 verbose cache add name=undefined spec="ajv@^6.10.2" args=["ajv@^6.10.2",null]
+814 verbose parsed url { protocol: null,
+814 verbose parsed url   slashes: null,
+814 verbose parsed url   auth: null,
+814 verbose parsed url   host: null,
+814 verbose parsed url   port: null,
+814 verbose parsed url   hostname: null,
+814 verbose parsed url   hash: null,
+814 verbose parsed url   search: null,
+814 verbose parsed url   query: null,
+814 verbose parsed url   pathname: 'ajv@^6.10.2',
+814 verbose parsed url   path: 'ajv@^6.10.2',
+814 verbose parsed url   href: 'ajv@^6.10.2' }
+815 verbose cache add name="webassemblyjs/wasm-edit" spec="1.8.5" args=["webassemblyjs/wasm-edit","1.8.5"]
+816 verbose parsed url { protocol: null,
+816 verbose parsed url   slashes: null,
+816 verbose parsed url   auth: null,
+816 verbose parsed url   host: null,
+816 verbose parsed url   port: null,
+816 verbose parsed url   hostname: null,
+816 verbose parsed url   hash: null,
+816 verbose parsed url   search: null,
+816 verbose parsed url   query: null,
+816 verbose parsed url   pathname: '1.8.5',
+816 verbose parsed url   path: '1.8.5',
+816 verbose parsed url   href: '1.8.5' }
+817 verbose addNamed [ 'webassemblyjs/wasm-edit', '1.8.5' ]
+818 verbose addNamed [ '1.8.5', '1.8.5' ]
+819 silly lockFile ec98593b-webassemblyjs-wasm-edit-1-8-5 webassemblyjs/wasm-edit@1.8.5
+820 verbose lock webassemblyjs/wasm-edit@1.8.5 /root/.npm/ec98593b-webassemblyjs-wasm-edit-1-8-5.lock
+821 verbose cache add name="webassemblyjs/wasm-parser" spec="1.8.5" args=["webassemblyjs/wasm-parser","1.8.5"]
+822 verbose parsed url { protocol: null,
+822 verbose parsed url   slashes: null,
+822 verbose parsed url   auth: null,
+822 verbose parsed url   host: null,
+822 verbose parsed url   port: null,
+822 verbose parsed url   hostname: null,
+822 verbose parsed url   hash: null,
+822 verbose parsed url   search: null,
+822 verbose parsed url   query: null,
+822 verbose parsed url   pathname: '1.8.5',
+822 verbose parsed url   path: '1.8.5',
+822 verbose parsed url   href: '1.8.5' }
+823 verbose addNamed [ 'webassemblyjs/wasm-parser', '1.8.5' ]
+824 verbose addNamed [ '1.8.5', '1.8.5' ]
+825 silly lockFile 098abcd6-webassemblyjs-wasm-parser-1-8-5 webassemblyjs/wasm-parser@1.8.5
+826 verbose lock webassemblyjs/wasm-parser@1.8.5 /root/.npm/098abcd6-webassemblyjs-wasm-parser-1-8-5.lock
+827 verbose cache add name="acorn" spec="^6.2.1" args=["acorn","^6.2.1"]
+828 verbose parsed url { protocol: null,
+828 verbose parsed url   slashes: null,
+828 verbose parsed url   auth: null,
+828 verbose parsed url   host: null,
+828 verbose parsed url   port: null,
+828 verbose parsed url   hostname: null,
+828 verbose parsed url   hash: null,
+828 verbose parsed url   search: null,
+828 verbose parsed url   query: null,
+828 verbose parsed url   pathname: '^6.2.1',
+828 verbose parsed url   path: '^6.2.1',
+828 verbose parsed url   href: '^6.2.1' }
+829 verbose addNamed [ 'acorn', '^6.2.1' ]
+830 verbose addNamed [ null, '>=6.2.1-0 <7.0.0-0' ]
+831 silly lockFile ba6c3741-acorn-6-2-1 acorn@^6.2.1
+832 verbose lock acorn@^6.2.1 /root/.npm/ba6c3741-acorn-6-2-1.lock
+833 verbose cache add [ 'ajv-keywords@^3.4.1', null ]
+834 verbose cache add name=undefined spec="ajv-keywords@^3.4.1" args=["ajv-keywords@^3.4.1",null]
+835 verbose parsed url { protocol: null,
+835 verbose parsed url   slashes: null,
+835 verbose parsed url   auth: null,
+835 verbose parsed url   host: null,
+835 verbose parsed url   port: null,
+835 verbose parsed url   hostname: null,
+835 verbose parsed url   hash: null,
+835 verbose parsed url   search: null,
+835 verbose parsed url   query: null,
+835 verbose parsed url   pathname: 'ajv-keywords@^3.4.1',
+835 verbose parsed url   path: 'ajv-keywords@^3.4.1',
+835 verbose parsed url   href: 'ajv-keywords@^3.4.1' }
+836 verbose cache add [ 'chrome-trace-event@^1.0.2', null ]
+837 verbose cache add name=undefined spec="chrome-trace-event@^1.0.2" args=["chrome-trace-event@^1.0.2",null]
+838 verbose parsed url { protocol: null,
+838 verbose parsed url   slashes: null,
+838 verbose parsed url   auth: null,
+838 verbose parsed url   host: null,
+838 verbose parsed url   port: null,
+838 verbose parsed url   hostname: null,
+838 verbose parsed url   hash: null,
+838 verbose parsed url   search: null,
+838 verbose parsed url   query: null,
+838 verbose parsed url   pathname: 'chrome-trace-event@^1.0.2',
+838 verbose parsed url   path: 'chrome-trace-event@^1.0.2',
+838 verbose parsed url   href: 'chrome-trace-event@^1.0.2' }
+839 verbose cache add name="ajv" spec="^6.10.2" args=["ajv","^6.10.2"]
+840 verbose parsed url { protocol: null,
+840 verbose parsed url   slashes: null,
+840 verbose parsed url   auth: null,
+840 verbose parsed url   host: null,
+840 verbose parsed url   port: null,
+840 verbose parsed url   hostname: null,
+840 verbose parsed url   hash: null,
+840 verbose parsed url   search: null,
+840 verbose parsed url   query: null,
+840 verbose parsed url   pathname: '^6.10.2',
+840 verbose parsed url   path: '^6.10.2',
+840 verbose parsed url   href: '^6.10.2' }
+841 verbose addNamed [ 'ajv', '^6.10.2' ]
+842 verbose addNamed [ null, '>=6.10.2-0 <7.0.0-0' ]
+843 silly lockFile 23c9c57a-ajv-6-10-2 ajv@^6.10.2
+844 verbose lock ajv@^6.10.2 /root/.npm/23c9c57a-ajv-6-10-2.lock
+845 verbose cache add name="ajv-keywords" spec="^3.4.1" args=["ajv-keywords","^3.4.1"]
+846 verbose parsed url { protocol: null,
+846 verbose parsed url   slashes: null,
+846 verbose parsed url   auth: null,
+846 verbose parsed url   host: null,
+846 verbose parsed url   port: null,
+846 verbose parsed url   hostname: null,
+846 verbose parsed url   hash: null,
+846 verbose parsed url   search: null,
+846 verbose parsed url   query: null,
+846 verbose parsed url   pathname: '^3.4.1',
+846 verbose parsed url   path: '^3.4.1',
+846 verbose parsed url   href: '^3.4.1' }
+847 verbose addNamed [ 'ajv-keywords', '^3.4.1' ]
+848 verbose addNamed [ null, '>=3.4.1-0 <4.0.0-0' ]
+849 silly lockFile 2bcd8552-ajv-keywords-3-4-1 ajv-keywords@^3.4.1
+850 verbose lock ajv-keywords@^3.4.1 /root/.npm/2bcd8552-ajv-keywords-3-4-1.lock
+851 verbose cache add name="chrome-trace-event" spec="^1.0.2" args=["chrome-trace-event","^1.0.2"]
+852 verbose parsed url { protocol: null,
+852 verbose parsed url   slashes: null,
+852 verbose parsed url   auth: null,
+852 verbose parsed url   host: null,
+852 verbose parsed url   port: null,
+852 verbose parsed url   hostname: null,
+852 verbose parsed url   hash: null,
+852 verbose parsed url   search: null,
+852 verbose parsed url   query: null,
+852 verbose parsed url   pathname: '^1.0.2',
+852 verbose parsed url   path: '^1.0.2',
+852 verbose parsed url   href: '^1.0.2' }
+853 verbose addNamed [ 'chrome-trace-event', '^1.0.2' ]
+854 verbose addNamed [ null, '>=1.0.2-0 <2.0.0-0' ]
+855 silly lockFile 5ec663ca-chrome-trace-event-1-0-2 chrome-trace-event@^1.0.2
+856 verbose lock chrome-trace-event@^1.0.2 /root/.npm/5ec663ca-chrome-trace-event-1-0-2.lock
+857 verbose cache add [ 'enhanced-resolve@^4.1.0', null ]
+858 verbose cache add name=undefined spec="enhanced-resolve@^4.1.0" args=["enhanced-resolve@^4.1.0",null]
+859 verbose parsed url { protocol: null,
+859 verbose parsed url   slashes: null,
+859 verbose parsed url   auth: null,
+859 verbose parsed url   host: null,
+859 verbose parsed url   port: null,
+859 verbose parsed url   hostname: null,
+859 verbose parsed url   hash: null,
+859 verbose parsed url   search: null,
+859 verbose parsed url   query: null,
+859 verbose parsed url   pathname: 'enhanced-resolve@^4.1.0',
+859 verbose parsed url   path: 'enhanced-resolve@^4.1.0',
+859 verbose parsed url   href: 'enhanced-resolve@^4.1.0' }
+860 verbose cache add [ 'eslint-scope@^4.0.3', null ]
+861 verbose cache add name=undefined spec="eslint-scope@^4.0.3" args=["eslint-scope@^4.0.3",null]
+862 verbose parsed url { protocol: null,
+862 verbose parsed url   slashes: null,
+862 verbose parsed url   auth: null,
+862 verbose parsed url   host: null,
+862 verbose parsed url   port: null,
+862 verbose parsed url   hostname: null,
+862 verbose parsed url   hash: null,
+862 verbose parsed url   search: null,
+862 verbose parsed url   query: null,
+862 verbose parsed url   pathname: 'eslint-scope@^4.0.3',
+862 verbose parsed url   path: 'eslint-scope@^4.0.3',
+862 verbose parsed url   href: 'eslint-scope@^4.0.3' }
+863 verbose cache add [ 'json-parse-better-errors@^1.0.2', null ]
+864 verbose cache add name=undefined spec="json-parse-better-errors@^1.0.2" args=["json-parse-better-errors@^1.0.2",null]
+865 verbose parsed url { protocol: null,
+865 verbose parsed url   slashes: null,
+865 verbose parsed url   auth: null,
+865 verbose parsed url   host: null,
+865 verbose parsed url   port: null,
+865 verbose parsed url   hostname: null,
+865 verbose parsed url   hash: null,
+865 verbose parsed url   search: null,
+865 verbose parsed url   query: null,
+865 verbose parsed url   pathname: 'json-parse-better-errors@^1.0.2',
+865 verbose parsed url   path: 'json-parse-better-errors@^1.0.2',
+865 verbose parsed url   href: 'json-parse-better-errors@^1.0.2' }
+866 verbose request where is /webassemblyjs/ast
+867 verbose request registry https://registry.npmjs.org/
+868 verbose url raw /webassemblyjs/ast
+869 verbose url resolving [ 'https://registry.npmjs.org/', './webassemblyjs/ast' ]
+870 verbose url resolved https://registry.npmjs.org/webassemblyjs/ast
+871 verbose request where is https://registry.npmjs.org/webassemblyjs/ast
+872 info trying registry request attempt 1 at 15:57:22
+873 http GET https://registry.npmjs.org/webassemblyjs/ast
+874 verbose request where is /webassemblyjs/helper-module-context
+875 verbose request registry https://registry.npmjs.org/
+876 verbose url raw /webassemblyjs/helper-module-context
+877 verbose url resolving [ 'https://registry.npmjs.org/',
+877 verbose url resolving   './webassemblyjs/helper-module-context' ]
+878 verbose url resolved https://registry.npmjs.org/webassemblyjs/helper-module-context
+879 verbose request where is https://registry.npmjs.org/webassemblyjs/helper-module-context
+880 info trying registry request attempt 1 at 15:57:22
+881 http GET https://registry.npmjs.org/webassemblyjs/helper-module-context
+882 silly addNameRange { name: 'acorn', range: '>=6.2.1-0 <7.0.0-0', hasData: false }
+883 verbose cache add name="enhanced-resolve" spec="^4.1.0" args=["enhanced-resolve","^4.1.0"]
+884 verbose parsed url { protocol: null,
+884 verbose parsed url   slashes: null,
+884 verbose parsed url   auth: null,
+884 verbose parsed url   host: null,
+884 verbose parsed url   port: null,
+884 verbose parsed url   hostname: null,
+884 verbose parsed url   hash: null,
+884 verbose parsed url   search: null,
+884 verbose parsed url   query: null,
+884 verbose parsed url   pathname: '^4.1.0',
+884 verbose parsed url   path: '^4.1.0',
+884 verbose parsed url   href: '^4.1.0' }
+885 verbose addNamed [ 'enhanced-resolve', '^4.1.0' ]
+886 verbose addNamed [ null, '>=4.1.0-0 <5.0.0-0' ]
+887 silly lockFile b0682a21-enhanced-resolve-4-1-0 enhanced-resolve@^4.1.0
+888 verbose lock enhanced-resolve@^4.1.0 /root/.npm/b0682a21-enhanced-resolve-4-1-0.lock
+889 verbose cache add name="eslint-scope" spec="^4.0.3" args=["eslint-scope","^4.0.3"]
+890 verbose parsed url { protocol: null,
+890 verbose parsed url   slashes: null,
+890 verbose parsed url   auth: null,
+890 verbose parsed url   host: null,
+890 verbose parsed url   port: null,
+890 verbose parsed url   hostname: null,
+890 verbose parsed url   hash: null,
+890 verbose parsed url   search: null,
+890 verbose parsed url   query: null,
+890 verbose parsed url   pathname: '^4.0.3',
+890 verbose parsed url   path: '^4.0.3',
+890 verbose parsed url   href: '^4.0.3' }
+891 verbose addNamed [ 'eslint-scope', '^4.0.3' ]
+892 verbose addNamed [ null, '>=4.0.3-0 <5.0.0-0' ]
+893 silly lockFile 7871da2c-eslint-scope-4-0-3 eslint-scope@^4.0.3
+894 verbose lock eslint-scope@^4.0.3 /root/.npm/7871da2c-eslint-scope-4-0-3.lock
+895 verbose cache add [ 'loader-runner@^2.4.0', null ]
+896 verbose cache add name=undefined spec="loader-runner@^2.4.0" args=["loader-runner@^2.4.0",null]
+897 verbose parsed url { protocol: null,
+897 verbose parsed url   slashes: null,
+897 verbose parsed url   auth: null,
+897 verbose parsed url   host: null,
+897 verbose parsed url   port: null,
+897 verbose parsed url   hostname: null,
+897 verbose parsed url   hash: null,
+897 verbose parsed url   search: null,
+897 verbose parsed url   query: null,
+897 verbose parsed url   pathname: 'loader-runner@^2.4.0',
+897 verbose parsed url   path: 'loader-runner@^2.4.0',
+897 verbose parsed url   href: 'loader-runner@^2.4.0' }
+898 verbose cache add [ 'loader-utils@^1.2.3', null ]
+899 verbose cache add name=undefined spec="loader-utils@^1.2.3" args=["loader-utils@^1.2.3",null]
+900 verbose parsed url { protocol: null,
+900 verbose parsed url   slashes: null,
+900 verbose parsed url   auth: null,
+900 verbose parsed url   host: null,
+900 verbose parsed url   port: null,
+900 verbose parsed url   hostname: null,
+900 verbose parsed url   hash: null,
+900 verbose parsed url   search: null,
+900 verbose parsed url   query: null,
+900 verbose parsed url   pathname: 'loader-utils@^1.2.3',
+900 verbose parsed url   path: 'loader-utils@^1.2.3',
+900 verbose parsed url   href: 'loader-utils@^1.2.3' }
+901 verbose cache add [ 'memory-fs@^0.4.1', null ]
+902 verbose cache add name=undefined spec="memory-fs@^0.4.1" args=["memory-fs@^0.4.1",null]
+903 verbose parsed url { protocol: null,
+903 verbose parsed url   slashes: null,
+903 verbose parsed url   auth: null,
+903 verbose parsed url   host: null,
+903 verbose parsed url   port: null,
+903 verbose parsed url   hostname: null,
+903 verbose parsed url   hash: null,
+903 verbose parsed url   search: null,
+903 verbose parsed url   query: null,
+903 verbose parsed url   pathname: 'memory-fs@^0.4.1',
+903 verbose parsed url   path: 'memory-fs@^0.4.1',
+903 verbose parsed url   href: 'memory-fs@^0.4.1' }
+904 verbose cache add [ 'micromatch@^3.1.10', null ]
+905 verbose cache add name=undefined spec="micromatch@^3.1.10" args=["micromatch@^3.1.10",null]
+906 verbose parsed url { protocol: null,
+906 verbose parsed url   slashes: null,
+906 verbose parsed url   auth: null,
+906 verbose parsed url   host: null,
+906 verbose parsed url   port: null,
+906 verbose parsed url   hostname: null,
+906 verbose parsed url   hash: null,
+906 verbose parsed url   search: null,
+906 verbose parsed url   query: null,
+906 verbose parsed url   pathname: 'micromatch@^3.1.10',
+906 verbose parsed url   path: 'micromatch@^3.1.10',
+906 verbose parsed url   href: 'micromatch@^3.1.10' }
+907 verbose cache add [ 'mkdirp@^0.5.1', null ]
+908 verbose cache add name=undefined spec="mkdirp@^0.5.1" args=["mkdirp@^0.5.1",null]
+909 verbose parsed url { protocol: null,
+909 verbose parsed url   slashes: null,
+909 verbose parsed url   auth: null,
+909 verbose parsed url   host: null,
+909 verbose parsed url   port: null,
+909 verbose parsed url   hostname: null,
+909 verbose parsed url   hash: null,
+909 verbose parsed url   search: null,
+909 verbose parsed url   query: null,
+909 verbose parsed url   pathname: 'mkdirp@^0.5.1',
+909 verbose parsed url   path: 'mkdirp@^0.5.1',
+909 verbose parsed url   href: 'mkdirp@^0.5.1' }
+910 verbose cache add [ 'neo-async@^2.6.1', null ]
+911 verbose cache add name=undefined spec="neo-async@^2.6.1" args=["neo-async@^2.6.1",null]
+912 verbose parsed url { protocol: null,
+912 verbose parsed url   slashes: null,
+912 verbose parsed url   auth: null,
+912 verbose parsed url   host: null,
+912 verbose parsed url   port: null,
+912 verbose parsed url   hostname: null,
+912 verbose parsed url   hash: null,
+912 verbose parsed url   search: null,
+912 verbose parsed url   query: null,
+912 verbose parsed url   pathname: 'neo-async@^2.6.1',
+912 verbose parsed url   path: 'neo-async@^2.6.1',
+912 verbose parsed url   href: 'neo-async@^2.6.1' }
+913 verbose cache add name="json-parse-better-errors" spec="^1.0.2" args=["json-parse-better-errors","^1.0.2"]
+914 verbose parsed url { protocol: null,
+914 verbose parsed url   slashes: null,
+914 verbose parsed url   auth: null,
+914 verbose parsed url   host: null,
+914 verbose parsed url   port: null,
+914 verbose parsed url   hostname: null,
+914 verbose parsed url   hash: null,
+914 verbose parsed url   search: null,
+914 verbose parsed url   query: null,
+914 verbose parsed url   pathname: '^1.0.2',
+914 verbose parsed url   path: '^1.0.2',
+914 verbose parsed url   href: '^1.0.2' }
+915 verbose addNamed [ 'json-parse-better-errors', '^1.0.2' ]
+916 verbose addNamed [ null, '>=1.0.2-0 <2.0.0-0' ]
+917 silly lockFile 22ebb7b8-json-parse-better-errors-1-0-2 json-parse-better-errors@^1.0.2
+918 verbose lock json-parse-better-errors@^1.0.2 /root/.npm/22ebb7b8-json-parse-better-errors-1-0-2.lock
+919 silly addNameRange { name: 'ajv', range: '>=6.10.2-0 <7.0.0-0', hasData: false }
+920 verbose request where is /webassemblyjs/wasm-edit
+921 verbose request registry https://registry.npmjs.org/
+922 verbose url raw /webassemblyjs/wasm-edit
+923 verbose url resolving [ 'https://registry.npmjs.org/', './webassemblyjs/wasm-edit' ]
+924 verbose url resolved https://registry.npmjs.org/webassemblyjs/wasm-edit
+925 verbose request where is https://registry.npmjs.org/webassemblyjs/wasm-edit
+926 info trying registry request attempt 1 at 15:57:22
+927 http GET https://registry.npmjs.org/webassemblyjs/wasm-edit
+928 verbose request where is /webassemblyjs/wasm-parser
+929 verbose request registry https://registry.npmjs.org/
+930 verbose url raw /webassemblyjs/wasm-parser
+931 verbose url resolving [ 'https://registry.npmjs.org/', './webassemblyjs/wasm-parser' ]
+932 verbose url resolved https://registry.npmjs.org/webassemblyjs/wasm-parser
+933 verbose request where is https://registry.npmjs.org/webassemblyjs/wasm-parser
+934 info trying registry request attempt 1 at 15:57:22
+935 http GET https://registry.npmjs.org/webassemblyjs/wasm-parser
+936 silly addNameRange { name: 'ajv-keywords',
+936 silly addNameRange   range: '>=3.4.1-0 <4.0.0-0',
+936 silly addNameRange   hasData: false }
+937 silly addNameRange { name: 'chrome-trace-event',
+937 silly addNameRange   range: '>=1.0.2-0 <2.0.0-0',
+937 silly addNameRange   hasData: false }
+938 verbose cache add name="loader-runner" spec="^2.4.0" args=["loader-runner","^2.4.0"]
+939 verbose parsed url { protocol: null,
+939 verbose parsed url   slashes: null,
+939 verbose parsed url   auth: null,
+939 verbose parsed url   host: null,
+939 verbose parsed url   port: null,
+939 verbose parsed url   hostname: null,
+939 verbose parsed url   hash: null,
+939 verbose parsed url   search: null,
+939 verbose parsed url   query: null,
+939 verbose parsed url   pathname: '^2.4.0',
+939 verbose parsed url   path: '^2.4.0',
+939 verbose parsed url   href: '^2.4.0' }
+940 verbose addNamed [ 'loader-runner', '^2.4.0' ]
+941 verbose addNamed [ null, '>=2.4.0-0 <3.0.0-0' ]
+942 silly lockFile f8802a0c-loader-runner-2-4-0 loader-runner@^2.4.0
+943 verbose lock loader-runner@^2.4.0 /root/.npm/f8802a0c-loader-runner-2-4-0.lock
+944 verbose cache add name="loader-utils" spec="^1.2.3" args=["loader-utils","^1.2.3"]
+945 verbose parsed url { protocol: null,
+945 verbose parsed url   slashes: null,
+945 verbose parsed url   auth: null,
+945 verbose parsed url   host: null,
+945 verbose parsed url   port: null,
+945 verbose parsed url   hostname: null,
+945 verbose parsed url   hash: null,
+945 verbose parsed url   search: null,
+945 verbose parsed url   query: null,
+945 verbose parsed url   pathname: '^1.2.3',
+945 verbose parsed url   path: '^1.2.3',
+945 verbose parsed url   href: '^1.2.3' }
+946 verbose addNamed [ 'loader-utils', '^1.2.3' ]
+947 verbose addNamed [ null, '>=1.2.3-0 <2.0.0-0' ]
+948 silly lockFile 7d820bf9-loader-utils-1-2-3 loader-utils@^1.2.3
+949 verbose lock loader-utils@^1.2.3 /root/.npm/7d820bf9-loader-utils-1-2-3.lock
+950 verbose cache add name="memory-fs" spec="^0.4.1" args=["memory-fs","^0.4.1"]
+951 verbose parsed url { protocol: null,
+951 verbose parsed url   slashes: null,
+951 verbose parsed url   auth: null,
+951 verbose parsed url   host: null,
+951 verbose parsed url   port: null,
+951 verbose parsed url   hostname: null,
+951 verbose parsed url   hash: null,
+951 verbose parsed url   search: null,
+951 verbose parsed url   query: null,
+951 verbose parsed url   pathname: '^0.4.1',
+951 verbose parsed url   path: '^0.4.1',
+951 verbose parsed url   href: '^0.4.1' }
+952 verbose addNamed [ 'memory-fs', '^0.4.1' ]
+953 verbose addNamed [ null, '>=0.4.1-0 <0.5.0-0' ]
+954 silly lockFile 06751907-memory-fs-0-4-1 memory-fs@^0.4.1
+955 verbose lock memory-fs@^0.4.1 /root/.npm/06751907-memory-fs-0-4-1.lock
+956 verbose cache add name="micromatch" spec="^3.1.10" args=["micromatch","^3.1.10"]
+957 verbose parsed url { protocol: null,
+957 verbose parsed url   slashes: null,
+957 verbose parsed url   auth: null,
+957 verbose parsed url   host: null,
+957 verbose parsed url   port: null,
+957 verbose parsed url   hostname: null,
+957 verbose parsed url   hash: null,
+957 verbose parsed url   search: null,
+957 verbose parsed url   query: null,
+957 verbose parsed url   pathname: '^3.1.10',
+957 verbose parsed url   path: '^3.1.10',
+957 verbose parsed url   href: '^3.1.10' }
+958 verbose addNamed [ 'micromatch', '^3.1.10' ]
+959 verbose addNamed [ null, '>=3.1.10-0 <4.0.0-0' ]
+960 silly lockFile 9278b259-micromatch-3-1-10 micromatch@^3.1.10
+961 verbose lock micromatch@^3.1.10 /root/.npm/9278b259-micromatch-3-1-10.lock
+962 verbose cache add name="mkdirp" spec="^0.5.1" args=["mkdirp","^0.5.1"]
+963 verbose parsed url { protocol: null,
+963 verbose parsed url   slashes: null,
+963 verbose parsed url   auth: null,
+963 verbose parsed url   host: null,
+963 verbose parsed url   port: null,
+963 verbose parsed url   hostname: null,
+963 verbose parsed url   hash: null,
+963 verbose parsed url   search: null,
+963 verbose parsed url   query: null,
+963 verbose parsed url   pathname: '^0.5.1',
+963 verbose parsed url   path: '^0.5.1',
+963 verbose parsed url   href: '^0.5.1' }
+964 verbose addNamed [ 'mkdirp', '^0.5.1' ]
+965 verbose addNamed [ null, '>=0.5.1-0 <0.6.0-0' ]
+966 silly lockFile 4515eb10-mkdirp-0-5-1 mkdirp@^0.5.1
+967 verbose lock mkdirp@^0.5.1 /root/.npm/4515eb10-mkdirp-0-5-1.lock
+968 verbose cache add [ 'node-libs-browser@^2.2.1', null ]
+969 verbose cache add name=undefined spec="node-libs-browser@^2.2.1" args=["node-libs-browser@^2.2.1",null]
+970 verbose parsed url { protocol: null,
+970 verbose parsed url   slashes: null,
+970 verbose parsed url   auth: null,
+970 verbose parsed url   host: null,
+970 verbose parsed url   port: null,
+970 verbose parsed url   hostname: null,
+970 verbose parsed url   hash: null,
+970 verbose parsed url   search: null,
+970 verbose parsed url   query: null,
+970 verbose parsed url   pathname: 'node-libs-browser@^2.2.1',
+970 verbose parsed url   path: 'node-libs-browser@^2.2.1',
+970 verbose parsed url   href: 'node-libs-browser@^2.2.1' }
+971 verbose cache add [ 'schema-utils@^1.0.0', null ]
+972 verbose cache add name=undefined spec="schema-utils@^1.0.0" args=["schema-utils@^1.0.0",null]
+973 verbose parsed url { protocol: null,
+973 verbose parsed url   slashes: null,
+973 verbose parsed url   auth: null,
+973 verbose parsed url   host: null,
+973 verbose parsed url   port: null,
+973 verbose parsed url   hostname: null,
+973 verbose parsed url   hash: null,
+973 verbose parsed url   search: null,
+973 verbose parsed url   query: null,
+973 verbose parsed url   pathname: 'schema-utils@^1.0.0',
+973 verbose parsed url   path: 'schema-utils@^1.0.0',
+973 verbose parsed url   href: 'schema-utils@^1.0.0' }
+974 verbose cache add [ 'tapable@^1.1.3', null ]
+975 verbose cache add name=undefined spec="tapable@^1.1.3" args=["tapable@^1.1.3",null]
+976 verbose parsed url { protocol: null,
+976 verbose parsed url   slashes: null,
+976 verbose parsed url   auth: null,
+976 verbose parsed url   host: null,
+976 verbose parsed url   port: null,
+976 verbose parsed url   hostname: null,
+976 verbose parsed url   hash: null,
+976 verbose parsed url   search: null,
+976 verbose parsed url   query: null,
+976 verbose parsed url   pathname: 'tapable@^1.1.3',
+976 verbose parsed url   path: 'tapable@^1.1.3',
+976 verbose parsed url   href: 'tapable@^1.1.3' }
+977 verbose cache add [ 'terser-webpack-plugin@^1.4.1', null ]
+978 verbose cache add name=undefined spec="terser-webpack-plugin@^1.4.1" args=["terser-webpack-plugin@^1.4.1",null]
+979 verbose parsed url { protocol: null,
+979 verbose parsed url   slashes: null,
+979 verbose parsed url   auth: null,
+979 verbose parsed url   host: null,
+979 verbose parsed url   port: null,
+979 verbose parsed url   hostname: null,
+979 verbose parsed url   hash: null,
+979 verbose parsed url   search: null,
+979 verbose parsed url   query: null,
+979 verbose parsed url   pathname: 'terser-webpack-plugin@^1.4.1',
+979 verbose parsed url   path: 'terser-webpack-plugin@^1.4.1',
+979 verbose parsed url   href: 'terser-webpack-plugin@^1.4.1' }
+980 verbose cache add [ 'watchpack@^1.6.0', null ]
+981 verbose cache add name=undefined spec="watchpack@^1.6.0" args=["watchpack@^1.6.0",null]
+982 verbose parsed url { protocol: null,
+982 verbose parsed url   slashes: null,
+982 verbose parsed url   auth: null,
+982 verbose parsed url   host: null,
+982 verbose parsed url   port: null,
+982 verbose parsed url   hostname: null,
+982 verbose parsed url   hash: null,
+982 verbose parsed url   search: null,
+982 verbose parsed url   query: null,
+982 verbose parsed url   pathname: 'watchpack@^1.6.0',
+982 verbose parsed url   path: 'watchpack@^1.6.0',
+982 verbose parsed url   href: 'watchpack@^1.6.0' }
+983 verbose cache add [ 'webpack-sources@^1.4.1', null ]
+984 verbose cache add name=undefined spec="webpack-sources@^1.4.1" args=["webpack-sources@^1.4.1",null]
+985 verbose parsed url { protocol: null,
+985 verbose parsed url   slashes: null,
+985 verbose parsed url   auth: null,
+985 verbose parsed url   host: null,
+985 verbose parsed url   port: null,
+985 verbose parsed url   hostname: null,
+985 verbose parsed url   hash: null,
+985 verbose parsed url   search: null,
+985 verbose parsed url   query: null,
+985 verbose parsed url   pathname: 'webpack-sources@^1.4.1',
+985 verbose parsed url   path: 'webpack-sources@^1.4.1',
+985 verbose parsed url   href: 'webpack-sources@^1.4.1' }
+986 verbose cache add name="neo-async" spec="^2.6.1" args=["neo-async","^2.6.1"]
+987 verbose parsed url { protocol: null,
+987 verbose parsed url   slashes: null,
+987 verbose parsed url   auth: null,
+987 verbose parsed url   host: null,
+987 verbose parsed url   port: null,
+987 verbose parsed url   hostname: null,
+987 verbose parsed url   hash: null,
+987 verbose parsed url   search: null,
+987 verbose parsed url   query: null,
+987 verbose parsed url   pathname: '^2.6.1',
+987 verbose parsed url   path: '^2.6.1',
+987 verbose parsed url   href: '^2.6.1' }
+988 verbose addNamed [ 'neo-async', '^2.6.1' ]
+989 verbose addNamed [ null, '>=2.6.1-0 <3.0.0-0' ]
+990 silly lockFile 79ebe033-neo-async-2-6-1 neo-async@^2.6.1
+991 verbose lock neo-async@^2.6.1 /root/.npm/79ebe033-neo-async-2-6-1.lock
+992 verbose request where is /chrome-trace-event
+993 verbose request registry https://registry.npmjs.org/
+994 verbose url raw /chrome-trace-event
+995 verbose url resolving [ 'https://registry.npmjs.org/', './chrome-trace-event' ]
+996 verbose url resolved https://registry.npmjs.org/chrome-trace-event
+997 verbose request where is https://registry.npmjs.org/chrome-trace-event
+998 info trying registry request attempt 1 at 15:57:22
+999 http GET https://registry.npmjs.org/chrome-trace-event
+1000 silly addNameRange { name: 'enhanced-resolve',
+1000 silly addNameRange   range: '>=4.1.0-0 <5.0.0-0',
+1000 silly addNameRange   hasData: false }
+1001 silly addNameRange { name: 'eslint-scope',
+1001 silly addNameRange   range: '>=4.0.3-0 <5.0.0-0',
+1001 silly addNameRange   hasData: false }
+1002 verbose cache add name="node-libs-browser" spec="^2.2.1" args=["node-libs-browser","^2.2.1"]
+1003 verbose parsed url { protocol: null,
+1003 verbose parsed url   slashes: null,
+1003 verbose parsed url   auth: null,
+1003 verbose parsed url   host: null,
+1003 verbose parsed url   port: null,
+1003 verbose parsed url   hostname: null,
+1003 verbose parsed url   hash: null,
+1003 verbose parsed url   search: null,
+1003 verbose parsed url   query: null,
+1003 verbose parsed url   pathname: '^2.2.1',
+1003 verbose parsed url   path: '^2.2.1',
+1003 verbose parsed url   href: '^2.2.1' }
+1004 verbose addNamed [ 'node-libs-browser', '^2.2.1' ]
+1005 verbose addNamed [ null, '>=2.2.1-0 <3.0.0-0' ]
+1006 silly lockFile d6ea8d00-node-libs-browser-2-2-1 node-libs-browser@^2.2.1
+1007 verbose lock node-libs-browser@^2.2.1 /root/.npm/d6ea8d00-node-libs-browser-2-2-1.lock
+1008 verbose cache add name="schema-utils" spec="^1.0.0" args=["schema-utils","^1.0.0"]
+1009 verbose parsed url { protocol: null,
+1009 verbose parsed url   slashes: null,
+1009 verbose parsed url   auth: null,
+1009 verbose parsed url   host: null,
+1009 verbose parsed url   port: null,
+1009 verbose parsed url   hostname: null,
+1009 verbose parsed url   hash: null,
+1009 verbose parsed url   search: null,
+1009 verbose parsed url   query: null,
+1009 verbose parsed url   pathname: '^1.0.0',
+1009 verbose parsed url   path: '^1.0.0',
+1009 verbose parsed url   href: '^1.0.0' }
+1010 verbose addNamed [ 'schema-utils', '^1.0.0' ]
+1011 verbose addNamed [ null, '>=1.0.0-0 <2.0.0-0' ]
+1012 silly lockFile 363db380-schema-utils-1-0-0 schema-utils@^1.0.0
+1013 verbose lock schema-utils@^1.0.0 /root/.npm/363db380-schema-utils-1-0-0.lock
+1014 verbose cache add name="tapable" spec="^1.1.3" args=["tapable","^1.1.3"]
+1015 verbose parsed url { protocol: null,
+1015 verbose parsed url   slashes: null,
+1015 verbose parsed url   auth: null,
+1015 verbose parsed url   host: null,
+1015 verbose parsed url   port: null,
+1015 verbose parsed url   hostname: null,
+1015 verbose parsed url   hash: null,
+1015 verbose parsed url   search: null,
+1015 verbose parsed url   query: null,
+1015 verbose parsed url   pathname: '^1.1.3',
+1015 verbose parsed url   path: '^1.1.3',
+1015 verbose parsed url   href: '^1.1.3' }
+1016 verbose addNamed [ 'tapable', '^1.1.3' ]
+1017 verbose addNamed [ null, '>=1.1.3-0 <2.0.0-0' ]
+1018 silly lockFile f9aea239-tapable-1-1-3 tapable@^1.1.3
+1019 verbose lock tapable@^1.1.3 /root/.npm/f9aea239-tapable-1-1-3.lock
+1020 verbose cache add name="terser-webpack-plugin" spec="^1.4.1" args=["terser-webpack-plugin","^1.4.1"]
+1021 verbose parsed url { protocol: null,
+1021 verbose parsed url   slashes: null,
+1021 verbose parsed url   auth: null,
+1021 verbose parsed url   host: null,
+1021 verbose parsed url   port: null,
+1021 verbose parsed url   hostname: null,
+1021 verbose parsed url   hash: null,
+1021 verbose parsed url   search: null,
+1021 verbose parsed url   query: null,
+1021 verbose parsed url   pathname: '^1.4.1',
+1021 verbose parsed url   path: '^1.4.1',
+1021 verbose parsed url   href: '^1.4.1' }
+1022 verbose addNamed [ 'terser-webpack-plugin', '^1.4.1' ]
+1023 verbose addNamed [ null, '>=1.4.1-0 <2.0.0-0' ]
+1024 silly lockFile 36ca83a2-terser-webpack-plugin-1-4-1 terser-webpack-plugin@^1.4.1
+1025 verbose lock terser-webpack-plugin@^1.4.1 /root/.npm/36ca83a2-terser-webpack-plugin-1-4-1.lock
+1026 verbose cache add name="webpack-sources" spec="^1.4.1" args=["webpack-sources","^1.4.1"]
+1027 verbose parsed url { protocol: null,
+1027 verbose parsed url   slashes: null,
+1027 verbose parsed url   auth: null,
+1027 verbose parsed url   host: null,
+1027 verbose parsed url   port: null,
+1027 verbose parsed url   hostname: null,
+1027 verbose parsed url   hash: null,
+1027 verbose parsed url   search: null,
+1027 verbose parsed url   query: null,
+1027 verbose parsed url   pathname: '^1.4.1',
+1027 verbose parsed url   path: '^1.4.1',
+1027 verbose parsed url   href: '^1.4.1' }
+1028 verbose addNamed [ 'webpack-sources', '^1.4.1' ]
+1029 verbose addNamed [ null, '>=1.4.1-0 <2.0.0-0' ]
+1030 silly lockFile da66fecb-webpack-sources-1-4-1 webpack-sources@^1.4.1
+1031 verbose lock webpack-sources@^1.4.1 /root/.npm/da66fecb-webpack-sources-1-4-1.lock
+1032 verbose cache add name="watchpack" spec="^1.6.0" args=["watchpack","^1.6.0"]
+1033 verbose parsed url { protocol: null,
+1033 verbose parsed url   slashes: null,
+1033 verbose parsed url   auth: null,
+1033 verbose parsed url   host: null,
+1033 verbose parsed url   port: null,
+1033 verbose parsed url   hostname: null,
+1033 verbose parsed url   hash: null,
+1033 verbose parsed url   search: null,
+1033 verbose parsed url   query: null,
+1033 verbose parsed url   pathname: '^1.6.0',
+1033 verbose parsed url   path: '^1.6.0',
+1033 verbose parsed url   href: '^1.6.0' }
+1034 verbose addNamed [ 'watchpack', '^1.6.0' ]
+1035 verbose addNamed [ null, '>=1.6.0-0 <2.0.0-0' ]
+1036 silly lockFile 1bebeb5d-watchpack-1-6-0 watchpack@^1.6.0
+1037 verbose lock watchpack@^1.6.0 /root/.npm/1bebeb5d-watchpack-1-6-0.lock
+1038 silly addNameRange { name: 'json-parse-better-errors',
+1038 silly addNameRange   range: '>=1.0.2-0 <2.0.0-0',
+1038 silly addNameRange   hasData: false }
+1039 silly addNameRange { name: 'loader-runner',
+1039 silly addNameRange   range: '>=2.4.0-0 <3.0.0-0',
+1039 silly addNameRange   hasData: false }
+1040 silly addNameRange { name: 'loader-utils',
+1040 silly addNameRange   range: '>=1.2.3-0 <2.0.0-0',
+1040 silly addNameRange   hasData: false }
+1041 silly addNameRange { name: 'memory-fs',
+1041 silly addNameRange   range: '>=0.4.1-0 <0.5.0-0',
+1041 silly addNameRange   hasData: false }
+1042 silly addNameRange { name: 'micromatch',
+1042 silly addNameRange   range: '>=3.1.10-0 <4.0.0-0',
+1042 silly addNameRange   hasData: false }
+1043 silly addNameRange { name: 'mkdirp', range: '>=0.5.1-0 <0.6.0-0', hasData: false }
+1044 silly addNameRange { name: 'neo-async',
+1044 silly addNameRange   range: '>=2.6.1-0 <3.0.0-0',
+1044 silly addNameRange   hasData: false }
+1045 silly addNameRange { name: 'schema-utils',
+1045 silly addNameRange   range: '>=1.0.0-0 <2.0.0-0',
+1045 silly addNameRange   hasData: false }
+1046 silly addNameRange { name: 'node-libs-browser',
+1046 silly addNameRange   range: '>=2.2.1-0 <3.0.0-0',
+1046 silly addNameRange   hasData: false }
+1047 silly addNameRange { name: 'tapable', range: '>=1.1.3-0 <2.0.0-0', hasData: false }
+1048 silly addNameRange { name: 'webpack-sources',
+1048 silly addNameRange   range: '>=1.4.1-0 <2.0.0-0',
+1048 silly addNameRange   hasData: false }
+1049 silly addNameRange { name: 'watchpack',
+1049 silly addNameRange   range: '>=1.6.0-0 <2.0.0-0',
+1049 silly addNameRange   hasData: false }
+1050 silly addNameRange { name: 'terser-webpack-plugin',
+1050 silly addNameRange   range: '>=1.4.1-0 <2.0.0-0',
+1050 silly addNameRange   hasData: false }
+1051 verbose request where is /acorn
+1052 verbose request registry https://registry.npmjs.org/
+1053 verbose url raw /acorn
+1054 verbose url resolving [ 'https://registry.npmjs.org/', './acorn' ]
+1055 verbose url resolved https://registry.npmjs.org/acorn
+1056 verbose request where is https://registry.npmjs.org/acorn
+1057 info trying registry request attempt 1 at 15:57:22
+1058 verbose etag W/"1805eea2fc1fa9f6a547297dff14bea7"
+1059 http GET https://registry.npmjs.org/acorn
+1060 verbose request where is /terser-webpack-plugin
+1061 verbose request registry https://registry.npmjs.org/
+1062 verbose url raw /terser-webpack-plugin
+1063 verbose url resolving [ 'https://registry.npmjs.org/', './terser-webpack-plugin' ]
+1064 verbose url resolved https://registry.npmjs.org/terser-webpack-plugin
+1065 verbose request where is https://registry.npmjs.org/terser-webpack-plugin
+1066 info trying registry request attempt 1 at 15:57:22
+1067 http GET https://registry.npmjs.org/terser-webpack-plugin
+1068 verbose request where is /ajv
+1069 verbose request registry https://registry.npmjs.org/
+1070 verbose url raw /ajv
+1071 verbose url resolving [ 'https://registry.npmjs.org/', './ajv' ]
+1072 verbose url resolved https://registry.npmjs.org/ajv
+1073 verbose request where is https://registry.npmjs.org/ajv
+1074 info trying registry request attempt 1 at 15:57:22
+1075 verbose etag W/"588897701394781b1eee98032b3b5505"
+1076 http GET https://registry.npmjs.org/ajv
+1077 verbose request where is /ajv-keywords
+1078 verbose request registry https://registry.npmjs.org/
+1079 verbose url raw /ajv-keywords
+1080 verbose url resolving [ 'https://registry.npmjs.org/', './ajv-keywords' ]
+1081 verbose url resolved https://registry.npmjs.org/ajv-keywords
+1082 verbose request where is https://registry.npmjs.org/ajv-keywords
+1083 info trying registry request attempt 1 at 15:57:22
+1084 verbose etag W/"6677d5a75e2d10f8c6b70fbf5f121316"
+1085 http GET https://registry.npmjs.org/ajv-keywords
+1086 verbose request where is /enhanced-resolve
+1087 verbose request registry https://registry.npmjs.org/
+1088 verbose url raw /enhanced-resolve
+1089 verbose url resolving [ 'https://registry.npmjs.org/', './enhanced-resolve' ]
+1090 verbose url resolved https://registry.npmjs.org/enhanced-resolve
+1091 verbose request where is https://registry.npmjs.org/enhanced-resolve
+1092 info trying registry request attempt 1 at 15:57:22
+1093 verbose etag W/"401913981cbf9c3c89d655ab65d0efb0"
+1094 http GET https://registry.npmjs.org/enhanced-resolve
+1095 verbose request where is /eslint-scope
+1096 verbose request registry https://registry.npmjs.org/
+1097 verbose url raw /eslint-scope
+1098 verbose url resolving [ 'https://registry.npmjs.org/', './eslint-scope' ]
+1099 verbose url resolved https://registry.npmjs.org/eslint-scope
+1100 verbose request where is https://registry.npmjs.org/eslint-scope
+1101 info trying registry request attempt 1 at 15:57:22
+1102 verbose etag W/"c52a3caa38005ce5fbc40c956b4000e5"
+1103 http GET https://registry.npmjs.org/eslint-scope
+1104 verbose request where is /json-parse-better-errors
+1105 verbose request registry https://registry.npmjs.org/
+1106 verbose url raw /json-parse-better-errors
+1107 verbose url resolving [ 'https://registry.npmjs.org/', './json-parse-better-errors' ]
+1108 verbose url resolved https://registry.npmjs.org/json-parse-better-errors
+1109 verbose request where is https://registry.npmjs.org/json-parse-better-errors
+1110 info trying registry request attempt 1 at 15:57:22
+1111 verbose etag W/"641838e1e2ab981ec00b18cfdd176fbb"
+1112 http GET https://registry.npmjs.org/json-parse-better-errors
+1113 verbose request where is /loader-runner
+1114 verbose request registry https://registry.npmjs.org/
+1115 verbose url raw /loader-runner
+1116 verbose url resolving [ 'https://registry.npmjs.org/', './loader-runner' ]
+1117 verbose url resolved https://registry.npmjs.org/loader-runner
+1118 verbose request where is https://registry.npmjs.org/loader-runner
+1119 info trying registry request attempt 1 at 15:57:22
+1120 verbose etag W/"c51429663f5504102ba3768bf274906e"
+1121 http GET https://registry.npmjs.org/loader-runner
+1122 verbose request where is /loader-utils
+1123 verbose request registry https://registry.npmjs.org/
+1124 verbose url raw /loader-utils
+1125 verbose url resolving [ 'https://registry.npmjs.org/', './loader-utils' ]
+1126 verbose url resolved https://registry.npmjs.org/loader-utils
+1127 verbose request where is https://registry.npmjs.org/loader-utils
+1128 info trying registry request attempt 1 at 15:57:22
+1129 verbose etag W/"37f906502c65d666c1540dda69c4551b"
+1130 http GET https://registry.npmjs.org/loader-utils
+1131 verbose request where is /memory-fs
+1132 verbose request registry https://registry.npmjs.org/
+1133 verbose url raw /memory-fs
+1134 verbose url resolving [ 'https://registry.npmjs.org/', './memory-fs' ]
+1135 verbose url resolved https://registry.npmjs.org/memory-fs
+1136 verbose request where is https://registry.npmjs.org/memory-fs
+1137 info trying registry request attempt 1 at 15:57:23
+1138 verbose etag W/"b328260ac31daf8a54e8cc6c8ff4acd8"
+1139 http GET https://registry.npmjs.org/memory-fs
+1140 verbose request where is /neo-async
+1141 verbose request registry https://registry.npmjs.org/
+1142 verbose url raw /neo-async
+1143 verbose url resolving [ 'https://registry.npmjs.org/', './neo-async' ]
+1144 verbose url resolved https://registry.npmjs.org/neo-async
+1145 verbose request where is https://registry.npmjs.org/neo-async
+1146 info trying registry request attempt 1 at 15:57:23
+1147 verbose etag W/"27768d47fd8cd76fb761c48da7cd81da"
+1148 http GET https://registry.npmjs.org/neo-async
+1149 verbose request where is /micromatch
+1150 verbose request registry https://registry.npmjs.org/
+1151 verbose url raw /micromatch
+1152 verbose url resolving [ 'https://registry.npmjs.org/', './micromatch' ]
+1153 verbose url resolved https://registry.npmjs.org/micromatch
+1154 verbose request where is https://registry.npmjs.org/micromatch
+1155 info trying registry request attempt 1 at 15:57:23
+1156 verbose etag W/"3ab7fc0f2146516ddc8c2771daad985e"
+1157 http GET https://registry.npmjs.org/micromatch
+1158 verbose request where is /mkdirp
+1159 verbose request registry https://registry.npmjs.org/
+1160 verbose url raw /mkdirp
+1161 verbose url resolving [ 'https://registry.npmjs.org/', './mkdirp' ]
+1162 verbose url resolved https://registry.npmjs.org/mkdirp
+1163 verbose request where is https://registry.npmjs.org/mkdirp
+1164 info trying registry request attempt 1 at 15:57:23
+1165 verbose etag W/"ada8927dab30a8226171e5034ce7d53f"
+1166 http GET https://registry.npmjs.org/mkdirp
+1167 verbose request where is /schema-utils
+1168 verbose request registry https://registry.npmjs.org/
+1169 verbose url raw /schema-utils
+1170 verbose url resolving [ 'https://registry.npmjs.org/', './schema-utils' ]
+1171 verbose url resolved https://registry.npmjs.org/schema-utils
+1172 verbose request where is https://registry.npmjs.org/schema-utils
+1173 info trying registry request attempt 1 at 15:57:23
+1174 verbose etag W/"1bbbe646a93718b4e6c89a72699885ac"
+1175 http GET https://registry.npmjs.org/schema-utils
+1176 verbose request where is /node-libs-browser
+1177 verbose request registry https://registry.npmjs.org/
+1178 verbose url raw /node-libs-browser
+1179 verbose url resolving [ 'https://registry.npmjs.org/', './node-libs-browser' ]
+1180 verbose url resolved https://registry.npmjs.org/node-libs-browser
+1181 verbose request where is https://registry.npmjs.org/node-libs-browser
+1182 info trying registry request attempt 1 at 15:57:23
+1183 verbose etag W/"28b6cbbf80b7ffba85c0109f2f1d4c23"
+1184 http GET https://registry.npmjs.org/node-libs-browser
+1185 verbose request where is /webpack-sources
+1186 verbose request registry https://registry.npmjs.org/
+1187 verbose url raw /webpack-sources
+1188 verbose url resolving [ 'https://registry.npmjs.org/', './webpack-sources' ]
+1189 verbose url resolved https://registry.npmjs.org/webpack-sources
+1190 verbose request where is https://registry.npmjs.org/webpack-sources
+1191 info trying registry request attempt 1 at 15:57:23
+1192 verbose etag W/"b202da3ba60995002cd305fb963a0b27"
+1193 http GET https://registry.npmjs.org/webpack-sources
+1194 verbose request where is /tapable
+1195 verbose request registry https://registry.npmjs.org/
+1196 verbose url raw /tapable
+1197 verbose url resolving [ 'https://registry.npmjs.org/', './tapable' ]
+1198 verbose url resolved https://registry.npmjs.org/tapable
+1199 verbose request where is https://registry.npmjs.org/tapable
+1200 info trying registry request attempt 1 at 15:57:23
+1201 verbose etag W/"e8433e0a95119f9507a092a04f3318ce"
+1202 http GET https://registry.npmjs.org/tapable
+1203 verbose request where is /watchpack
+1204 verbose request registry https://registry.npmjs.org/
+1205 verbose url raw /watchpack
+1206 verbose url resolving [ 'https://registry.npmjs.org/', './watchpack' ]
+1207 verbose url resolved https://registry.npmjs.org/watchpack
+1208 verbose request where is https://registry.npmjs.org/watchpack
+1209 info trying registry request attempt 1 at 15:57:23
+1210 verbose etag W/"2c7e24ead0442b0593ec7a85644d9c3e"
+1211 http GET https://registry.npmjs.org/watchpack
+1212 http 405 https://registry.npmjs.org/webassemblyjs/ast
+1213 silly registry.get cb [ 405,
+1213 silly registry.get   { date: 'Mon, 16 Sep 2019 07:56:59 GMT',
+1213 silly registry.get     'content-type': 'application/json',
+1213 silly registry.get     'content-length': '63',
+1213 silly registry.get     connection: 'keep-alive',
+1213 silly registry.get     'set-cookie': [ '__cfduid=d00fb5c5cb55465fd6ef6f04e260653661568620619; expires=Tue, 15-Sep-20 07:56:59 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+1213 silly registry.get     'cf-ray': '51714978ee156e12-SJC',
+1213 silly registry.get     allow: 'PUT',
+1213 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+1213 silly registry.get     vary: 'Accept-Encoding',
+1213 silly registry.get     server: 'cloudflare' } ]
+1214 silly lockFile 7f9eba66-webassemblyjs-ast-1-8-5 webassemblyjs/ast@1.8.5
+1215 silly lockFile 7f9eba66-webassemblyjs-ast-1-8-5 webassemblyjs/ast@1.8.5
+1216 verbose about to build /usr/local/lib/node_modules/webpack
+1217 verbose lib/node_modules/webpack unbuild
+1218 info preuninstall webpack@4.40.2
+1219 info uninstall webpack@4.40.2
+1220 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild webpack@4.40.2
+1221 verbose /usr/local/bin,[object Object] binRoot
+1222 http 405 https://registry.npmjs.org/webassemblyjs/wasm-edit
+1223 silly registry.get cb [ 405,
+1223 silly registry.get   { date: 'Mon, 16 Sep 2019 07:56:59 GMT',
+1223 silly registry.get     'content-type': 'application/json',
+1223 silly registry.get     'content-length': '63',
+1223 silly registry.get     connection: 'keep-alive',
+1223 silly registry.get     'set-cookie': [ '__cfduid=da2a5694eace4a1df2999ee81cc5273221568620619; expires=Tue, 15-Sep-20 07:56:59 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+1223 silly registry.get     'cf-ray': '51714978fa239334-SJC',
+1223 silly registry.get     allow: 'PUT',
+1223 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+1223 silly registry.get     vary: 'Accept-Encoding',
+1223 silly registry.get     server: 'cloudflare' } ]
+1224 info postuninstall webpack@4.40.2
+1225 silly lockFile ec98593b-webassemblyjs-wasm-edit-1-8-5 webassemblyjs/wasm-edit@1.8.5
+1226 silly lockFile ec98593b-webassemblyjs-wasm-edit-1-8-5 webassemblyjs/wasm-edit@1.8.5
+1227 error Error: Method Not Allowed
+1227 error     at errorResponse (/usr/local/lib/node_modules/npm/lib/cache/add-named.js:260:10)
+1227 error     at /usr/local/lib/node_modules/npm/lib/cache/add-named.js:120:12
+1227 error     at saved (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:167:7)
+1227 error     at Object.oncomplete (fs.js:107:15)
+1228 error If you need help, you may report this *entire* log,
+1228 error including the npm and node versions, at:
+1228 error     <http://github.com/npm/npm/issues>
+1229 error System Linux 3.10.0-957.21.3.el7.x86_64
+1230 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "webpack" "-g"
+1231 error cwd /root/Github/flask_vue_pro
+1232 error node -v v0.10.30
+1233 error npm -v 1.4.21
+1234 error code E405
+1235 verbose exit [ 1, true ]

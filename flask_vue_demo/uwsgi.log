@@ -1,0 +1,1481 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Sep 16 12:50:41 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 16 September 2019 04:49:39
+os: Linux-3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019
+nodename: centos-k8s018
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /root/Github/flask_vue_pro/flask_vue_demo
+writing pidfile to /root/Github/flask_vue_pro/flask_vue_demo/uwsgi.pid
+detected binary path: /root/Github/flask_vue_pro/venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/Github/flask_vue_pro/flask_vue_demo
+your processes number limit is 31162
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 3
+uwsgi socket 0 bound to UNIX address /root/Github/flask_vue_pro/flask_vue_demo/flask_demo.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr 25 2019, 21:02:35)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xb81c40
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "./wsgi.py", line 1, in <module>
+    from flask_demo.app import app
+ModuleNotFoundError: No module named 'flask_demo'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 27826)
+spawned uWSGI worker 1 (pid: 27833, cores: 1)
+spawned uWSGI worker 2 (pid: 27834, cores: 1)
+spawned uWSGI worker 3 (pid: 27835, cores: 1)
+spawned uWSGI worker 4 (pid: 27836, cores: 1)
+spawned uWSGI worker 5 (pid: 27837, cores: 1)
+spawned uWSGI http 1 (pid: 27838)
+--- no python application found, check your startup logs for errors ---
+[pid: 27833|app: -1|req: -1/1] 127.0.0.1 () {40 vars in 820 bytes} [Mon Sep 16 12:51:17 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 27837|app: -1|req: -1/2] 127.0.0.1 () {36 vars in 750 bytes} [Mon Sep 16 12:51:17 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 27836|app: -1|req: -1/3] 127.0.0.1 () {40 vars in 794 bytes} [Mon Sep 16 12:54:15 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 27836|app: -1|req: -1/4] 127.0.0.1 () {40 vars in 794 bytes} [Mon Sep 16 12:54:16 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Sep 16 12:56:15 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 16 September 2019 04:49:39
+os: Linux-3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019
+nodename: centos-k8s018
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /root/Github/flask_vue_pro/flask_vue_demo
+writing pidfile to /root/Github/flask_vue_pro/flask_vue_demo/uwsgi.pid
+detected binary path: /root/Github/flask_vue_pro/venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/Github/flask_vue_pro/flask_vue_demo
+your processes number limit is 31162
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0.0.0.0:8080).
+bind(): Address already in use [core/socket.c line 769]
+--- no python application found, check your startup logs for errors ---
+[pid: 27835|app: -1|req: -1/5] 127.0.0.1 () {40 vars in 794 bytes} [Mon Sep 16 12:56:20 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Sep 16 12:57:03 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 16 September 2019 04:49:39
+os: Linux-3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019
+nodename: centos-k8s018
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /root/Github/flask_vue_pro/flask_vue_demo
+writing pidfile to /root/Github/flask_vue_pro/flask_vue_demo/uwsgi.pid
+detected binary path: /root/Github/flask_vue_pro/venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/Github/flask_vue_pro/flask_vue_demo
+your processes number limit is 31162
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8081 fd 3
+uwsgi socket 0 bound to UNIX address /root/Github/flask_vue_pro/flask_vue_demo/flask_demo.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr 25 2019, 21:02:35)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x253bc40
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "./wsgi.py", line 1, in <module>
+    from flask_vue_demo.app import app
+ModuleNotFoundError: No module named 'flask_vue_demo'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28391)
+spawned uWSGI worker 1 (pid: 28398, cores: 1)
+spawned uWSGI worker 2 (pid: 28399, cores: 1)
+spawned uWSGI worker 3 (pid: 28400, cores: 1)
+spawned uWSGI worker 4 (pid: 28401, cores: 1)
+spawned uWSGI worker 5 (pid: 28402, cores: 1)
+spawned uWSGI http 1 (pid: 28403)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Sep 16 12:58:41 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 16 September 2019 04:49:39
+os: Linux-3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019
+nodename: centos-k8s018
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /root/Github/flask_vue_pro/flask_vue_demo
+writing pidfile to /root/Github/flask_vue_pro/flask_vue_demo/uwsgi.pid
+detected binary path: /root/Github/flask_vue_pro/venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/Github/flask_vue_pro/flask_vue_demo
+your processes number limit is 31162
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8082 fd 3
+uwsgi socket 0 bound to UNIX address /root/Github/flask_vue_pro/flask_vue_demo/flask_demo.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr 25 2019, 21:02:35)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1a33c40
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "./wsgi.py", line 1, in <module>
+    from .app import app
+ImportError: attempted relative import with no known parent package
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28481)
+spawned uWSGI worker 1 (pid: 28488, cores: 1)
+spawned uWSGI worker 2 (pid: 28489, cores: 1)
+spawned uWSGI worker 3 (pid: 28490, cores: 1)
+spawned uWSGI worker 4 (pid: 28491, cores: 1)
+spawned uWSGI worker 5 (pid: 28492, cores: 1)
+spawned uWSGI http 1 (pid: 28493)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Sep 16 13:00:03 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 16 September 2019 04:49:39
+os: Linux-3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019
+nodename: centos-k8s018
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /root/Github/flask_vue_pro/flask_vue_demo
+writing pidfile to /root/Github/flask_vue_pro/flask_vue_demo/uwsgi.pid
+detected binary path: /root/Github/flask_vue_pro/venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/Github/flask_vue_pro/flask_vue_demo
+your processes number limit is 31162
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8083 fd 3
+uwsgi socket 0 bound to UNIX address /root/Github/flask_vue_pro/flask_vue_demo/flask_demo.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr 25 2019, 21:02:35)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x254bc40
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "./wsgi.py", line 1, in <module>
+    from flask_vue_demo.app import app
+ModuleNotFoundError: No module named 'flask_vue_demo'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28564)
+spawned uWSGI worker 1 (pid: 28571, cores: 1)
+spawned uWSGI worker 2 (pid: 28572, cores: 1)
+spawned uWSGI worker 3 (pid: 28573, cores: 1)
+spawned uWSGI worker 4 (pid: 28574, cores: 1)
+spawned uWSGI worker 5 (pid: 28575, cores: 1)
+spawned uWSGI http 1 (pid: 28576)
+--- no python application found, check your startup logs for errors ---
+[pid: 28573|app: -1|req: -1/1] 127.0.0.1 () {38 vars in 763 bytes} [Mon Sep 16 13:02:42 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 28573|app: -1|req: -1/2] 127.0.0.1 () {36 vars in 750 bytes} [Mon Sep 16 13:02:42 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 28571|app: -1|req: -1/3] 127.0.0.1 () {38 vars in 763 bytes} [Mon Sep 16 13:02:46 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 28571|app: -1|req: -1/4] 127.0.0.1 () {36 vars in 750 bytes} [Mon Sep 16 13:02:46 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 28575|app: -1|req: -1/5] 127.0.0.1 () {40 vars in 794 bytes} [Mon Sep 16 13:04:49 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 28575|app: -1|req: -1/6] 127.0.0.1 () {38 vars in 763 bytes} [Mon Sep 16 13:04:59 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 28571|app: -1|req: -1/7] 127.0.0.1 () {40 vars in 793 bytes} [Mon Sep 16 13:08:01 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 28571|app: -1|req: -1/8] 127.0.0.1 () {40 vars in 793 bytes} [Mon Sep 16 13:08:04 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Sep 16 13:09:16 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 16 September 2019 04:49:39
+os: Linux-3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019
+nodename: centos-k8s018
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /root/Github/flask_vue_pro/flask_vue_demo
+writing pidfile to /root/Github/flask_vue_pro/flask_vue_demo/uwsgi.pid
+detected binary path: /root/Github/flask_vue_pro/venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/Github/flask_vue_pro/flask_vue_demo
+your processes number limit is 31162
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0.0.0.0:8083).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Sep 16 13:10:16 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 16 September 2019 04:49:39
+os: Linux-3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019
+nodename: centos-k8s018
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /root/Github/flask_vue_pro/flask_vue_demo
+writing pidfile to /root/Github/flask_vue_pro/flask_vue_demo/uwsgi.pid
+detected binary path: /root/Github/flask_vue_pro/venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/Github/flask_vue_pro/flask_vue_demo
+your processes number limit is 31162
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8084 fd 3
+uwsgi socket 0 bound to UNIX address /root/Github/flask_vue_pro/flask_vue_demo/flask_demo.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr 25 2019, 21:02:35)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1da0c30
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "./wsgi.py", line 4, in <module>
+    from flask_vue_demo.app import app
+ModuleNotFoundError: No module named 'flask_vue_demo'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 31461)
+spawned uWSGI worker 1 (pid: 31468, cores: 1)
+spawned uWSGI worker 2 (pid: 31469, cores: 1)
+spawned uWSGI worker 3 (pid: 31470, cores: 1)
+spawned uWSGI worker 4 (pid: 31471, cores: 1)
+spawned uWSGI worker 5 (pid: 31472, cores: 1)
+spawned uWSGI http 1 (pid: 31473)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Sep 16 13:22:05 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 16 September 2019 04:49:39
+os: Linux-3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019
+nodename: centos-k8s018
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /root/Github/flask_vue_pro/flask_vue_demo
+writing pidfile to /root/Github/flask_vue_pro/flask_vue_demo/uwsgi.pid
+detected binary path: /root/Github/flask_vue_pro/venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/Github/flask_vue_pro/flask_vue_demo
+your processes number limit is 31162
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8085 fd 3
+uwsgi socket 0 bound to UNIX address /root/Github/flask_vue_pro/flask_vue_demo/flask_demo.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr 25 2019, 21:02:35)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x80ec30
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "./wsgi.py", line 4, in <module>
+    from flask_vue_demo.app import app
+ModuleNotFoundError: No module named 'flask_vue_demo'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 31691)
+spawned uWSGI worker 1 (pid: 31698, cores: 1)
+spawned uWSGI worker 2 (pid: 31699, cores: 1)
+spawned uWSGI worker 3 (pid: 31700, cores: 1)
+spawned uWSGI worker 4 (pid: 31701, cores: 1)
+spawned uWSGI worker 5 (pid: 31702, cores: 1)
+spawned uWSGI http 1 (pid: 31703)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Sep 16 13:29:46 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 16 September 2019 04:49:39
+os: Linux-3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019
+nodename: centos-k8s018
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /root/Github/flask_vue_pro/flask_vue_demo
+writing pidfile to /root/Github/flask_vue_pro/flask_vue_demo/uwsgi.pid
+detected binary path: /root/Github/flask_vue_pro/venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/Github/flask_vue_pro/flask_vue_demo
+your processes number limit is 31162
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8086 fd 3
+uwsgi socket 0 bound to UNIX address /root/Github/flask_vue_pro/flask_vue_demo/flask_demo.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr 25 2019, 21:02:35)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x22aac80
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+ModuleNotFoundError: No module named '/root/Github/flask_vue_pro/flask_vue_demo/wsgi'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 32003)
+spawned uWSGI worker 1 (pid: 32009, cores: 1)
+spawned uWSGI worker 2 (pid: 32010, cores: 1)
+spawned uWSGI worker 3 (pid: 32011, cores: 1)
+spawned uWSGI worker 4 (pid: 32012, cores: 1)
+spawned uWSGI worker 5 (pid: 32013, cores: 1)
+spawned uWSGI http 1 (pid: 32014)
+--- no python application found, check your startup logs for errors ---
+[pid: 32011|app: -1|req: -1/1] 127.0.0.1 () {38 vars in 763 bytes} [Mon Sep 16 13:30:18 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 32011|app: -1|req: -1/2] 127.0.0.1 () {36 vars in 750 bytes} [Mon Sep 16 13:30:18 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 32010|app: -1|req: -1/3] 127.0.0.1 () {38 vars in 763 bytes} [Mon Sep 16 13:30:21 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 32011|app: -1|req: -1/4] 127.0.0.1 () {38 vars in 763 bytes} [Mon Sep 16 13:30:40 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Sep 16 13:32:40 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 16 September 2019 04:49:39
+os: Linux-3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019
+nodename: centos-k8s018
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /root/Github/flask_vue_pro/flask_vue_demo
+writing pidfile to /root/Github/flask_vue_pro/flask_vue_demo/uwsgi.pid
+detected binary path: /root/Github/flask_vue_pro/venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/Github/flask_vue_pro/flask_vue_demo
+your processes number limit is 31162
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0.0.0.0:8086).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Sep 16 13:32:46 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 16 September 2019 04:49:39
+os: Linux-3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019
+nodename: centos-k8s018
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /root/Github/flask_vue_pro/flask_vue_demo
+writing pidfile to /root/Github/flask_vue_pro/flask_vue_demo/uwsgi.pid
+detected binary path: /root/Github/flask_vue_pro/venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/Github/flask_vue_pro/flask_vue_demo
+your processes number limit is 31162
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8087 fd 3
+uwsgi socket 0 bound to UNIX address /root/Github/flask_vue_pro/flask_vue_demo/flask_demo.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr 25 2019, 21:02:35)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x91bc80
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+ModuleNotFoundError: No module named '/root/Github/flask_vue_pro/flask_vue_demo/wsgi'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 32127)
+spawned uWSGI worker 1 (pid: 32134, cores: 1)
+spawned uWSGI worker 2 (pid: 32135, cores: 1)
+spawned uWSGI worker 3 (pid: 32136, cores: 1)
+spawned uWSGI worker 4 (pid: 32137, cores: 1)
+spawned uWSGI worker 5 (pid: 32138, cores: 1)
+spawned uWSGI http 1 (pid: 32139)
+--- no python application found, check your startup logs for errors ---
+[pid: 32138|app: -1|req: -1/1] 127.0.0.1 () {38 vars in 763 bytes} [Mon Sep 16 13:33:17 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 32138|app: -1|req: -1/2] 127.0.0.1 () {36 vars in 750 bytes} [Mon Sep 16 13:33:17 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Sep 16 13:34:41 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 16 September 2019 04:49:39
+os: Linux-3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019
+nodename: centos-k8s018
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /root/Github/flask_vue_pro/flask_vue_demo
+writing pidfile to /root/Github/flask_vue_pro/flask_vue_demo/uwsgi.pid
+detected binary path: /root/Github/flask_vue_pro/venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/Github/flask_vue_pro/flask_vue_demo
+your processes number limit is 31162
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8088 fd 3
+uwsgi socket 0 bound to UNIX address /root/Github/flask_vue_pro/flask_vue_demo/flask_demo.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr 25 2019, 21:02:35)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x26bec80
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+ModuleNotFoundError: No module named '/root/Github/flask_vue_pro/flask_vue_demo/wsgi'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 32171)
+spawned uWSGI worker 1 (pid: 32178, cores: 1)
+spawned uWSGI worker 2 (pid: 32179, cores: 1)
+spawned uWSGI worker 3 (pid: 32180, cores: 1)
+spawned uWSGI worker 4 (pid: 32181, cores: 1)
+spawned uWSGI worker 5 (pid: 32182, cores: 1)
+spawned uWSGI http 1 (pid: 32183)
+--- no python application found, check your startup logs for errors ---
+[pid: 32180|app: -1|req: -1/1] 127.0.0.1 () {38 vars in 763 bytes} [Mon Sep 16 13:34:47 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 32179|app: -1|req: -1/2] 127.0.0.1 () {36 vars in 690 bytes} [Mon Sep 16 13:34:47 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 32178|app: -1|req: -1/3] 127.0.0.1 () {36 vars in 750 bytes} [Mon Sep 16 13:34:47 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Sep 16 13:35:36 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 16 September 2019 04:49:39
+os: Linux-3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019
+nodename: centos-k8s018
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /root/Github/flask_vue_pro/flask_vue_demo
+writing pidfile to /root/Github/flask_vue_pro/flask_vue_demo/uwsgi.pid
+detected binary path: /root/Github/flask_vue_pro/venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/Github/flask_vue_pro/flask_vue_demo
+your processes number limit is 31162
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8089 fd 3
+uwsgi socket 0 bound to UNIX address /root/Github/flask_vue_pro/flask_vue_demo/flask_demo.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr 25 2019, 21:02:35)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1dbfc80
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+ModuleNotFoundError: No module named '/root/Github/flask_vue_pro/flask_vue_demo/wsgi'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 32201)
+spawned uWSGI worker 1 (pid: 32208, cores: 1)
+spawned uWSGI worker 2 (pid: 32209, cores: 1)
+spawned uWSGI worker 3 (pid: 32210, cores: 1)
+spawned uWSGI worker 4 (pid: 32211, cores: 1)
+spawned uWSGI worker 5 (pid: 32212, cores: 1)
+spawned uWSGI http 1 (pid: 32213)
+--- no python application found, check your startup logs for errors ---
+[pid: 32211|app: -1|req: -1/1] 127.0.0.1 () {38 vars in 763 bytes} [Mon Sep 16 13:35:41 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 32211|app: -1|req: -1/2] 127.0.0.1 () {36 vars in 750 bytes} [Mon Sep 16 13:35:41 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Sep 16 13:40:56 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 16 September 2019 04:49:39
+os: Linux-3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019
+nodename: centos-k8s018
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /root/Github/flask_vue_pro/flask_vue_demo
+writing pidfile to /root/Github/flask_vue_pro/flask_vue_demo/uwsgi.pid
+detected binary path: /root/Github/flask_vue_pro/venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/Github/flask_vue_pro/flask_vue_demo
+your processes number limit is 31162
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8090 fd 3
+uwsgi socket 0 bound to UNIX address /root/Github/flask_vue_pro/flask_vue_demo/flask_demo.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr 25 2019, 21:02:35)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1612c80
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+ModuleNotFoundError: No module named '/root/Github/flask_vue_pro/flask_vue_demo/wsgi'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 32317)
+spawned uWSGI worker 1 (pid: 32324, cores: 1)
+spawned uWSGI worker 2 (pid: 32325, cores: 1)
+spawned uWSGI worker 3 (pid: 32326, cores: 1)
+spawned uWSGI worker 4 (pid: 32327, cores: 1)
+spawned uWSGI worker 5 (pid: 32328, cores: 1)
+spawned uWSGI http 1 (pid: 32329)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Sep 16 13:41:52 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 16 September 2019 04:49:39
+os: Linux-3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019
+nodename: centos-k8s018
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /root/Github/flask_vue_pro/flask_vue_demo
+writing pidfile to /root/Github/flask_vue_pro/flask_vue_demo/uwsgi.pid
+detected binary path: /root/Github/flask_vue_pro/venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/Github/flask_vue_pro/flask_vue_demo
+your processes number limit is 31162
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8091 fd 3
+uwsgi socket 0 bound to UNIX address /root/Github/flask_vue_pro/flask_vue_demo/flask_demo.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr 25 2019, 21:02:35)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x18eec80
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+ModuleNotFoundError: No module named '/root/Github/flask_vue_pro/flask_vue_demo/wsgi'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 32354)
+spawned uWSGI worker 1 (pid: 32361, cores: 1)
+spawned uWSGI worker 2 (pid: 32362, cores: 1)
+spawned uWSGI worker 3 (pid: 32363, cores: 1)
+spawned uWSGI worker 4 (pid: 32364, cores: 1)
+spawned uWSGI worker 5 (pid: 32365, cores: 1)
+spawned uWSGI http 1 (pid: 32366)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Sep 16 13:42:48 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 16 September 2019 04:49:39
+os: Linux-3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019
+nodename: centos-k8s018
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /root/Github/flask_vue_pro/flask_vue_demo
+writing pidfile to /root/Github/flask_vue_pro/flask_vue_demo/uwsgi.pid
+detected binary path: /root/Github/flask_vue_pro/venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/Github/flask_vue_pro/flask_vue_demo
+your processes number limit is 31162
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8092 fd 3
+uwsgi socket 0 bound to UNIX address /root/Github/flask_vue_pro/flask_vue_demo/flask_demo.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr 25 2019, 21:02:35)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x19b8c80
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+ModuleNotFoundError: No module named '/root/Github/flask_vue_pro/flask_vue_demo/wsgi'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 32382)
+spawned uWSGI worker 1 (pid: 32389, cores: 1)
+spawned uWSGI worker 2 (pid: 32390, cores: 1)
+spawned uWSGI worker 3 (pid: 32391, cores: 1)
+spawned uWSGI worker 4 (pid: 32392, cores: 1)
+spawned uWSGI worker 5 (pid: 32393, cores: 1)
+spawned uWSGI http 1 (pid: 32394)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Sep 16 13:43:30 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 16 September 2019 04:49:39
+os: Linux-3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019
+nodename: centos-k8s018
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /root/Github/flask_vue_pro/flask_vue_demo
+writing pidfile to /root/Github/flask_vue_pro/flask_vue_demo/uwsgi.pid
+detected binary path: /root/Github/flask_vue_pro/venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/Github/flask_vue_pro/flask_vue_demo
+your processes number limit is 31162
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8093 fd 3
+uwsgi socket 0 bound to UNIX address /root/Github/flask_vue_pro/flask_vue_demo/flask_demo.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr 25 2019, 21:02:35)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x18fdc80
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+ModuleNotFoundError: No module named '/root/Github/flask_vue_pro/flask_vue_demo/wsgi'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 32402)
+spawned uWSGI worker 1 (pid: 32409, cores: 1)
+spawned uWSGI worker 2 (pid: 32410, cores: 1)
+spawned uWSGI worker 3 (pid: 32411, cores: 1)
+spawned uWSGI worker 4 (pid: 32412, cores: 1)
+spawned uWSGI worker 5 (pid: 32413, cores: 1)
+spawned uWSGI http 1 (pid: 32414)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Sep 16 13:46:15 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 16 September 2019 04:49:39
+os: Linux-3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019
+nodename: centos-k8s018
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /root/Github/flask_vue_pro/flask_vue_demo
+writing pidfile to /root/Github/flask_vue_pro/flask_vue_demo/uwsgi.pid
+detected binary path: /root/Github/flask_vue_pro/venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/Github/flask_vue_pro/flask_vue_demo
+your processes number limit is 31162
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8094 fd 3
+uwsgi socket 0 bound to UNIX address /root/Github/flask_vue_pro/flask_vue_demo/flask_demo.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr 25 2019, 21:02:35)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x11fbc80
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "/root/Github/flask_vue_pro/flask_vue_demo/wsgi.py", line 3, in <module>
+    from flask_vue_demo.app import app
+ModuleNotFoundError: No module named 'flask_vue_demo'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 32468)
+spawned uWSGI worker 1 (pid: 32475, cores: 1)
+spawned uWSGI worker 2 (pid: 32476, cores: 1)
+spawned uWSGI worker 3 (pid: 32477, cores: 1)
+spawned uWSGI worker 4 (pid: 32478, cores: 1)
+spawned uWSGI worker 5 (pid: 32479, cores: 1)
+spawned uWSGI http 1 (pid: 32480)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Sep 16 13:47:04 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 16 September 2019 04:49:39
+os: Linux-3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019
+nodename: centos-k8s018
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /root/Github/flask_vue_pro/flask_vue_demo
+writing pidfile to /root/Github/flask_vue_pro/flask_vue_demo/uwsgi.pid
+detected binary path: /root/Github/flask_vue_pro/venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/Github/flask_vue_pro/flask_vue_demo
+your processes number limit is 31162
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8095 fd 3
+uwsgi socket 0 bound to UNIX address /root/Github/flask_vue_pro/flask_vue_demo/flask_demo.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr 25 2019, 21:02:35)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x14e6c80
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+unable to find "application" callable in file /root/Github/flask_vue_pro/flask_vue_demo/wsgi.py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 32499)
+spawned uWSGI worker 1 (pid: 32506, cores: 1)
+spawned uWSGI worker 2 (pid: 32507, cores: 1)
+spawned uWSGI worker 3 (pid: 32508, cores: 1)
+spawned uWSGI worker 4 (pid: 32509, cores: 1)
+spawned uWSGI worker 5 (pid: 32510, cores: 1)
+spawned uWSGI http 1 (pid: 32511)
+--- no python application found, check your startup logs for errors ---
+[pid: 32506|app: -1|req: -1/1] 127.0.0.1 () {38 vars in 763 bytes} [Mon Sep 16 13:47:56 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 32509|app: -1|req: -1/2] 127.0.0.1 () {36 vars in 750 bytes} [Mon Sep 16 13:47:56 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Sep 16 13:49:11 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 16 September 2019 04:49:39
+os: Linux-3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019
+nodename: centos-k8s018
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /root/Github/flask_vue_pro/flask_vue_demo
+writing pidfile to /root/Github/flask_vue_pro/flask_vue_demo/uwsgi.pid
+detected binary path: /root/Github/flask_vue_pro/venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/Github/flask_vue_pro/flask_vue_demo
+your processes number limit is 31162
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8096 fd 3
+uwsgi socket 0 bound to UNIX address /root/Github/flask_vue_pro/flask_vue_demo/flask_demo.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr 25 2019, 21:02:35)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xe6cc80
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "/root/Github/flask_vue_pro/flask_vue_demo/wsgi.py", line 5, in <module>
+    from flask_vue_demo.app import app
+ModuleNotFoundError: No module named 'flask_vue_demo'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 32548)
+spawned uWSGI worker 1 (pid: 32555, cores: 1)
+spawned uWSGI worker 2 (pid: 32556, cores: 1)
+spawned uWSGI worker 3 (pid: 32557, cores: 1)
+spawned uWSGI worker 4 (pid: 32558, cores: 1)
+spawned uWSGI worker 5 (pid: 32559, cores: 1)
+spawned uWSGI http 1 (pid: 32560)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Sep 16 13:56:24 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 16 September 2019 04:49:39
+os: Linux-3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019
+nodename: centos-k8s018
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /root/Github/flask_vue_pro/flask_vue_demo
+writing pidfile to /root/Github/flask_vue_pro/flask_vue_demo/uwsgi.pid
+detected binary path: /root/Github/flask_vue_pro/venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/Github/flask_vue_pro/flask_vue_demo
+your processes number limit is 31162
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8097 fd 3
+uwsgi socket 0 bound to UNIX address /root/Github/flask_vue_pro/flask_vue_demo/flask_demo.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr 25 2019, 21:02:35)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2374cf0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "/root/Github/flask_vue_pro/flask_vue_demo/wsgi.py", line 5, in <module>
+    from flask_vue_demo.app import app
+ModuleNotFoundError: No module named 'flask_vue_demo'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 32766)
+spawned uWSGI worker 1 (pid: 305, cores: 1)
+spawned uWSGI worker 2 (pid: 306, cores: 1)
+spawned uWSGI worker 3 (pid: 307, cores: 1)
+spawned uWSGI worker 4 (pid: 308, cores: 1)
+spawned uWSGI worker 5 (pid: 309, cores: 1)
+spawned uWSGI http 1 (pid: 310)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Sep 16 13:58:53 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 16 September 2019 04:49:39
+os: Linux-3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019
+nodename: centos-k8s018
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /root/Github/flask_vue_pro/flask_vue_demo
+writing pidfile to /root/Github/flask_vue_pro/flask_vue_demo/uwsgi.pid
+detected binary path: /root/Github/flask_vue_pro/venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/Github/flask_vue_pro/flask_vue_demo
+your processes number limit is 31162
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8098 fd 3
+uwsgi socket 0 bound to UNIX address /root/Github/flask_vue_pro/flask_vue_demo/flask_demo.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr 25 2019, 21:02:35)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+PEP 405 virtualenv detected: /root/Github/flask_vue_pro/venv
+Set PythonHome to /root/Github/flask_vue_pro/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x10e5d70
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "/root/Github/flask_vue_pro/flask_vue_demo/wsgi.py", line 5, in <module>
+    from flask_vue_demo.app import app
+ModuleNotFoundError: No module named 'flask_vue_demo'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 394)
+spawned uWSGI worker 1 (pid: 401, cores: 1)
+spawned uWSGI worker 2 (pid: 402, cores: 1)
+spawned uWSGI worker 3 (pid: 403, cores: 1)
+spawned uWSGI worker 4 (pid: 404, cores: 1)
+spawned uWSGI worker 5 (pid: 405, cores: 1)
+spawned uWSGI http 1 (pid: 406)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Sep 16 13:59:35 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 16 September 2019 04:49:39
+os: Linux-3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019
+nodename: centos-k8s018
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /root/Github/flask_vue_pro/flask_vue_demo
+writing pidfile to /root/Github/flask_vue_pro/flask_vue_demo/uwsgi.pid
+detected binary path: /root/Github/flask_vue_pro/venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/Github/flask_vue_pro/flask_vue_demo
+your processes number limit is 31162
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8099 fd 3
+uwsgi socket 0 bound to UNIX address /root/Github/flask_vue_pro/flask_vue_demo/flask_demo.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr 25 2019, 21:02:35)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+PEP 405 virtualenv detected: /root/Github/flask_vue_pro/venv
+Set PythonHome to /root/Github/flask_vue_pro/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1885d70
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "/root/Github/flask_vue_pro/flask_vue_demo/wsgi.py", line 5, in <module>
+    from flask_vue_demo.app import app
+ModuleNotFoundError: No module named 'flask_vue_demo'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 415)
+spawned uWSGI worker 1 (pid: 422, cores: 1)
+spawned uWSGI worker 2 (pid: 423, cores: 1)
+spawned uWSGI worker 3 (pid: 424, cores: 1)
+spawned uWSGI worker 4 (pid: 425, cores: 1)
+spawned uWSGI worker 5 (pid: 426, cores: 1)
+spawned uWSGI http 1 (pid: 427)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Sep 16 15:06:50 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 16 September 2019 04:49:39
+os: Linux-3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019
+nodename: centos-k8s018
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /root/Github/flask_vue_pro/flask_vue_demo
+writing pidfile to /root/Github/flask_vue_pro/flask_vue_demo/uwsgi.pid
+detected binary path: /root/Github/flask_vue_pro/venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/Github/flask_vue_pro/flask_vue_demo
+your processes number limit is 31162
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8079 fd 3
+uwsgi socket 0 bound to UNIX address /root/Github/flask_vue_pro/flask_vue_demo/flask_demo.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr 25 2019, 21:02:35)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+PEP 405 virtualenv detected: /root/Github/flask_vue_pro/venv
+Set PythonHome to /root/Github/flask_vue_pro/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x9cdd70
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x9cdd70 pid: 1749 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1749)
+spawned uWSGI worker 1 (pid: 1757, cores: 1)
+spawned uWSGI worker 2 (pid: 1758, cores: 1)
+spawned uWSGI worker 3 (pid: 1759, cores: 1)
+spawned uWSGI worker 4 (pid: 1760, cores: 1)
+spawned uWSGI worker 5 (pid: 1761, cores: 1)
+spawned uWSGI http 1 (pid: 1762)
+[pid: 1761|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 763 bytes} [Mon Sep 16 15:07:06 2019] GET / => generated 42 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+[pid: 1760|app: 0|req: 1/2] 127.0.0.1 () {36 vars in 750 bytes} [Mon Sep 16 15:07:06 2019] GET /favicon.ico => generated 233 bytes in 17 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Sep 16 15:11:41 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 16 September 2019 04:49:39
+os: Linux-3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019
+nodename: centos-k8s018
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /root/Github/flask_vue_pro/flask_vue_demo
+writing pidfile to /root/Github/flask_vue_pro/flask_vue_demo/uwsgi.pid
+detected binary path: /root/Github/flask_vue_pro/venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/Github/flask_vue_pro/flask_vue_demo
+your processes number limit is 31162
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8078 fd 3
+uwsgi socket 0 bound to UNIX address /root/Github/flask_vue_pro/flask_vue_demo/flask_demo.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr 25 2019, 21:02:35)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+PEP 405 virtualenv detected: /root/Github/flask_vue_pro/venv
+Set PythonHome to /root/Github/flask_vue_pro/venv
+Python main interpreter initialized at 0xb29d90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xb29d90 pid: 1834 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1834)
+spawned uWSGI worker 1 (pid: 1842, cores: 1)
+spawned uWSGI http 1 (pid: 1843)
+[pid: 1842|app: 0|req: 1/1] 127.0.0.1 () {40 vars in 794 bytes} [Mon Sep 16 15:11:47 2019] GET / => generated 42 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+[pid: 1842|app: 0|req: 2/2] 127.0.0.1 () {40 vars in 794 bytes} [Mon Sep 16 15:11:49 2019] GET / => generated 42 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+[pid: 1842|app: 0|req: 3/3] 127.0.0.1 () {38 vars in 763 bytes} [Mon Sep 16 15:11:53 2019] GET / => generated 42 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+[pid: 1842|app: 0|req: 4/4] 127.0.0.1 () {36 vars in 750 bytes} [Mon Sep 16 15:11:53 2019] GET /favicon.ico => generated 233 bytes in 10 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Sep 16 15:12:28 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 16 September 2019 04:49:39
+os: Linux-3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019
+nodename: centos-k8s018
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /root/Github/flask_vue_pro/flask_vue_demo
+writing pidfile to /root/Github/flask_vue_pro/flask_vue_demo/uwsgi.pid
+detected binary path: /root/Github/flask_vue_pro/venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/Github/flask_vue_pro/flask_vue_demo
+your processes number limit is 31162
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8077 fd 3
+uwsgi socket 0 bound to UNIX address /root/Github/flask_vue_pro/flask_vue_demo/flask_demo.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr 25 2019, 21:02:35)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+PEP 405 virtualenv detected: /root/Github/flask_vue_pro/venv
+Set PythonHome to /root/Github/flask_vue_pro/venv
+Python main interpreter initialized at 0x1ae7d90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+Traceback (most recent call last):
+  File "/root/Github/flask_vue_pro/flask_vue_demo/wsgi.py", line 1, in <module>
+    from flask_vue_demo.app import app
+ModuleNotFoundError: No module named 'flask_vue_demo'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1868)
+spawned uWSGI worker 1 (pid: 1875, cores: 1)
+spawned uWSGI http 1 (pid: 1876)
+--- no python application found, check your startup logs for errors ---
+[pid: 1875|app: -1|req: -1/1] 127.0.0.1 () {38 vars in 763 bytes} [Mon Sep 16 15:12:34 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 1875|app: -1|req: -1/2] 127.0.0.1 () {36 vars in 750 bytes} [Mon Sep 16 15:12:34 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Sep 16 15:14:00 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 16 September 2019 04:49:39
+os: Linux-3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019
+nodename: centos-k8s018
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /root/Github/flask_vue_pro/flask_vue_demo
+writing pidfile to /root/Github/flask_vue_pro/flask_vue_demo/uwsgi.pid
+detected binary path: /root/Github/flask_vue_pro/venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/Github/flask_vue_pro/flask_vue_demo
+your processes number limit is 31162
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8076 fd 3
+uwsgi socket 0 bound to UNIX address /root/Github/flask_vue_pro/flask_vue_demo/flask_demo.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr 25 2019, 21:02:35)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+PEP 405 virtualenv detected: /root/Github/flask_vue_pro/venv
+Set PythonHome to /root/Github/flask_vue_pro/venv
+Python main interpreter initialized at 0x1dfdd90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+Traceback (most recent call last):
+  File "/root/Github/flask_vue_pro/flask_vue_demo/wsgi.py", line 1, in <module>
+    from .app import app
+ImportError: attempted relative import with no known parent package
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1909)
+spawned uWSGI worker 1 (pid: 1916, cores: 1)
+spawned uWSGI http 1 (pid: 1917)
+--- no python application found, check your startup logs for errors ---
+[pid: 1916|app: -1|req: -1/1] 127.0.0.1 () {38 vars in 763 bytes} [Mon Sep 16 15:14:07 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 1916|app: -1|req: -1/2] 127.0.0.1 () {36 vars in 750 bytes} [Mon Sep 16 15:14:07 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Sep 16 15:15:18 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 16 September 2019 04:49:39
+os: Linux-3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019
+nodename: centos-k8s018
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /root/Github/flask_vue_pro/flask_vue_demo
+writing pidfile to /root/Github/flask_vue_pro/flask_vue_demo/uwsgi.pid
+detected binary path: /root/Github/flask_vue_pro/venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/Github/flask_vue_pro/flask_vue_demo
+your processes number limit is 31162
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8075 fd 3
+uwsgi socket 0 bound to UNIX address /root/Github/flask_vue_pro/flask_vue_demo/flask_demo.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr 25 2019, 21:02:35)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+PEP 405 virtualenv detected: /root/Github/flask_vue_pro/venv
+Set PythonHome to /root/Github/flask_vue_pro/venv
+Python main interpreter initialized at 0x1c91d90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+Traceback (most recent call last):
+  File "/root/Github/flask_vue_pro/flask_vue_demo/wsgi.py", line 1, in <module>
+    from . import app
+ImportError: attempted relative import with no known parent package
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1946)
+spawned uWSGI worker 1 (pid: 1953, cores: 1)
+spawned uWSGI http 1 (pid: 1954)
+--- no python application found, check your startup logs for errors ---
+[pid: 1953|app: -1|req: -1/1] 127.0.0.1 () {38 vars in 763 bytes} [Mon Sep 16 15:15:25 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 1953|app: -1|req: -1/2] 127.0.0.1 () {36 vars in 750 bytes} [Mon Sep 16 15:15:25 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Sep 16 15:18:56 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 16 September 2019 04:49:39
+os: Linux-3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019
+nodename: centos-k8s018
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /root/Github/flask_vue_pro/flask_vue_demo
+writing pidfile to /root/Github/flask_vue_pro/flask_vue_demo/uwsgi.pid
+detected binary path: /root/Github/flask_vue_pro/venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/Github/flask_vue_pro/flask_vue_demo
+your processes number limit is 31162
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8074 fd 3
+uwsgi socket 0 bound to UNIX address /root/Github/flask_vue_pro/flask_vue_demo/flask_demo.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr 25 2019, 21:02:35)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+PEP 405 virtualenv detected: /root/Github/flask_vue_pro/venv
+Set PythonHome to /root/Github/flask_vue_pro/venv
+Python main interpreter initialized at 0x24b9d90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+Traceback (most recent call last):
+  File "/root/Github/flask_vue_pro/flask_vue_demo/wsgi.py", line 1, in <module>
+    from . import app
+ImportError: attempted relative import with no known parent package
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2017)
+spawned uWSGI worker 1 (pid: 2023, cores: 1)
+spawned uWSGI http 1 (pid: 2024)
+--- no python application found, check your startup logs for errors ---
+[pid: 2023|app: -1|req: -1/1] 127.0.0.1 () {38 vars in 763 bytes} [Mon Sep 16 15:19:08 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2023|app: -1|req: -1/2] 127.0.0.1 () {36 vars in 750 bytes} [Mon Sep 16 15:19:08 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Sep 16 15:38:37 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 16 September 2019 04:49:39
+os: Linux-3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019
+nodename: centos-k8s018
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /root/Github/flask_vue_pro/flask_vue_demo
+writing pidfile to /root/Github/flask_vue_pro/flask_vue_demo/uwsgi.pid
+detected binary path: /root/Github/flask_vue_pro/venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/Github/flask_vue_pro/flask_vue_demo
+your processes number limit is 31162
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8001 fd 3
+uwsgi socket 0 bound to UNIX address /root/Github/flask_vue_pro/flask_vue_demo/flask_demo.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr 25 2019, 21:02:35)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+PEP 405 virtualenv detected: /root/Github/flask_vue_pro/venv
+Set PythonHome to /root/Github/flask_vue_pro/venv
+Python main interpreter initialized at 0x1f1bd90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+failed to open python file /root/Github/flask_vue_pro/flask_vue_demo/app:app
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3349)
+spawned uWSGI worker 1 (pid: 3356, cores: 1)
+spawned uWSGI http 1 (pid: 3357)
+--- no python application found, check your startup logs for errors ---
+[pid: 3356|app: -1|req: -1/1] 127.0.0.1 () {40 vars in 794 bytes} [Mon Sep 16 15:38:40 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3356|app: -1|req: -1/2] 127.0.0.1 () {40 vars in 794 bytes} [Mon Sep 16 15:38:42 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Sep 16 15:38:54 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 16 September 2019 04:49:39
+os: Linux-3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019
+nodename: centos-k8s018
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /root/Github/flask_vue_pro/flask_vue_demo
+writing pidfile to /root/Github/flask_vue_pro/flask_vue_demo/uwsgi.pid
+detected binary path: /root/Github/flask_vue_pro/venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/Github/flask_vue_pro/flask_vue_demo
+your processes number limit is 31162
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8002 fd 3
+uwsgi socket 0 bound to UNIX address /root/Github/flask_vue_pro/flask_vue_demo/flask_demo.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr 25 2019, 21:02:35)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+PEP 405 virtualenv detected: /root/Github/flask_vue_pro/venv
+Set PythonHome to /root/Github/flask_vue_pro/venv
+Python main interpreter initialized at 0x1dcbd80
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+failed to open python file /root/Github/flask_vue_pro/flask_vue_demo/app
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3380)
+spawned uWSGI worker 1 (pid: 3388, cores: 1)
+spawned uWSGI http 1 (pid: 3389)
+--- no python application found, check your startup logs for errors ---
+[pid: 3388|app: -1|req: -1/1] 127.0.0.1 () {38 vars in 763 bytes} [Mon Sep 16 15:38:59 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3388|app: -1|req: -1/2] 127.0.0.1 () {36 vars in 750 bytes} [Mon Sep 16 15:38:59 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Sep 16 15:39:13 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 16 September 2019 04:49:39
+os: Linux-3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019
+nodename: centos-k8s018
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /root/Github/flask_vue_pro/flask_vue_demo
+writing pidfile to /root/Github/flask_vue_pro/flask_vue_demo/uwsgi.pid
+detected binary path: /root/Github/flask_vue_pro/venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/Github/flask_vue_pro/flask_vue_demo
+your processes number limit is 31162
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8003 fd 3
+uwsgi socket 0 bound to UNIX address /root/Github/flask_vue_pro/flask_vue_demo/flask_demo.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr 25 2019, 21:02:35)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+PEP 405 virtualenv detected: /root/Github/flask_vue_pro/venv
+Set PythonHome to /root/Github/flask_vue_pro/venv
+Python main interpreter initialized at 0x1fe1d90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1fe1d90 pid: 3404 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3404)
+spawned uWSGI worker 1 (pid: 3412, cores: 1)
+spawned uWSGI http 1 (pid: 3413)
+[pid: 3412|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 763 bytes} [Mon Sep 16 15:39:18 2019] GET / => generated 42 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+[pid: 3412|app: 0|req: 2/2] 127.0.0.1 () {36 vars in 750 bytes} [Mon Sep 16 15:39:18 2019] GET /favicon.ico => generated 233 bytes in 10 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)

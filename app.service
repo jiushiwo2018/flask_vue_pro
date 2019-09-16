@@ -1,0 +1,9 @@
+[Unit]
+Description=uWSGI instance to serve app
+After=network.target
+
+[Service]
+User=root
+Group=root
+WorkingDirectory=/root/Github/flask_vue_pro/flask_vue_demo
+ExecStart=/usr/bin/uwsgi --uid root --ini flask_demo.ini
