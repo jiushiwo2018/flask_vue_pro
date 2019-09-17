@@ -1,4 +1,4 @@
-from flask_vue_demo.app import app
+from flask_vue_uwsgi_service.app import app
 
 print(__name__)
 if __name__ == "__main__":
@@ -8,7 +8,7 @@ if __name__ == "__main__":
 
 # [uwsgi]
 # http=:5000
-# wsgi-file=/root/Github/flask_vue_pro/flask_vue_demo/wsgi.py
+# wsgi-file=/root/Github/flask_vue_pro/flask_vue_uwsgi_service/wsgi.py
 # callable=app
 # processes=4
 # threads=2

@@ -1,6 +1,6 @@
 
-from app import create_app, db
-from app.models import User, Role
+from flask_vue_jquery_deskapp.app import create_app, db
+from flask_vue_jquery_deskapp.app import User, Role
 from flask_script import Manager, Shell
 from flask_migrate import Migrate, MigrateCommand
 
